@@ -39,14 +39,14 @@ import fs from 'fs/promises';
             const findChunkByCode = (...codes) => {
                 for (let i = 0; i < chunks.length; i++) {
                     const [id, func] = chunks[i];
-                    const chunkCode = func.toString();
+                    const chunkCode = func?.toString?.();
 
                     if (codes.every((code) => chunkCode.includes(code)))
                         return [id, r(id)];
                 }
             };
             const httpUtils = findChunkByCode('HTTPUtils');
-            const codeH = r.m[httpUtils[0]].toString();
+            const codeH = r.m[httpUtils[0]]?.toString?.();
             const decodeHttpUtils = (module) => {
                 const mappings = {};
                 const requestHandler = codeH.match(
@@ -90,7 +90,7 @@ import fs from 'fs/promises';
             const getMappings = (exports) => {
                 const mappings = {};
                 for (let prop in exports) {
-                    const value = prop[exports].toString();
+                    const value = prop[exports]?.toString?.();
                     for (let test of data) {
                         if (
                             test.find_with.every((find) => value.includes(find))
@@ -127,7 +127,7 @@ import fs from 'fs/promises';
             const testAll = (val, finders) => {
                 for (let finder of finders) {
                     if (finder.type === 'toStringIncludes')
-                        if (val.toString().includes(finder.value))
+                        if (val.toString?.()?.includes?.(finder.value))
                             return finder;
                     if (finder.type === 'ByProps')
                         if (finder.value.every((prop) => val?.[prop]))
