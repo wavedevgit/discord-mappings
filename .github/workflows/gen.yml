@@ -1,0 +1,40 @@
+name: Generate mappings
+
+on:
+    schedule:
+        - cron: '*/5 * * * *' # every 5 minutes
+    workflow_dispatch:
+
+permissions:
+    contents: write # allows pushing changes
+    actions: read # default, just in case
+
+jobs:
+    puppeteer-task:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v3
+              with:
+                  persist-credentials: true # keeps the token for pushing
+
+            - name: Setup Node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 22
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run cleanData.js
+              run: node cleanData.js
+
+            - name: Run makeMappings.js
+              run: node makeMappings.js
+
+            - name: Commit and push changes
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git add .
+                  git diff --quiet || git commit -m "chore: generate mappings"
+                  git push
