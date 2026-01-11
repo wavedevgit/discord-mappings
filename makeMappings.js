@@ -31,8 +31,58 @@ import fs from 'fs/promises';
     const data = JSON.parse(await fs.readFile('./data/data.json', 'utf-8'));
     const result = await page.evaluate(
         (data) => {
-            let __mods = Object.values(r.c);
+            let _mods = Object.values(r.c);
+            const chunks = Object.entries(wreq.m);
+            const findChunkByCode = (...codes) => {
+                for (let i = 0; i < chunks.length; i++) {
+                    const [id, func] = chunks[i];
+                    const chunkCode = func.toString();
 
+                    if (codes.every((code) => chunkCode.includes(code)))
+                        return [id, wreq(id)];
+                }
+            };
+            const httpUtils = findChunkByCode('HTTPUtils');
+            const codeH = wreq.m[httpUtils[0]].toString();
+            const decodeHttpUtils = (module) => {
+                const mappings = {};
+                const requestHandler = codeH.match(
+                    /let (?<requestHandler>[\w_$]+)=null;function/,
+                ).groups.requestHandler;
+                const retryRequest = codeH.match(
+                    /let (?<retryRequest>[\w_$]+)=\(\)=>Promise\.resolve\(\);function/,
+                ).groups.retryRequest;
+                for (let k in module) {
+                    const v = module[k];
+                    if (v === 50035)
+                        mappings[k] = 'INVALID_FORM_BODY_ERROR_CODE';
+                    if (v?.get && v?.put && v?.patch && v?.del)
+                        mappings[k] = 'HTTP';
+                    if (v?.toString()?.includes('HTTPResponseError'))
+                        mappings[k] = 'HTTPResponseError';
+                    if (
+                        v
+                            ?.toString?.()
+                            ?.includes?.('+window.GLOBAL_ENV.API_ENDPOIN')
+                    )
+                        mappings[k] = 'getAPIBaseURL';
+                    if (
+                        v
+                            ?.toString?.()
+                            ?.includes?.('getAnyErrorMessageAndField')
+                    )
+                        mappings[k] = 'V8APIError';
+                    if (v?.toString?.()?.includes?.('getFieldMessage'))
+                        mappings[k] = 'V6OrEarlierAPIError';
+                    if (v?.toString()?.includes?.('Array.isArray('))
+                        mappings[k] = 'convertSkemaError';
+                    if (v?.toString().includes(retryRequest + '='))
+                        mappings[k] = 'setRetryHandler';
+                    if (v.toString().includes(requestHandler + '='))
+                        mappings[k] = 'setRequestHandlers';
+                }
+                return mappings;
+            };
             const tests = data.flat();
             const getMappings = (exports) => {
                 const mappings = {};
@@ -64,6 +114,11 @@ import fs from 'fs/promises';
                 };
                 output.push(result);
             }
+            output.push({
+                id: httpUtils[0],
+                path: '../discord_common/js/packages/http-utils/HTTPUtils.tsx',
+                mappings: decodeHttpUtils(httpUtils[1]),
+            });
             return output;
         },
         [data],
