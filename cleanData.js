@@ -50,8 +50,8 @@ export async function generateFindWith(code) {
     return results;
 }
 
-const currentData = JSON.parse(await fs.readFile('./data.json', 'utf-8'));
-const unDone = JSON.parse(await fs.readFile('./undone.json', 'utf-8'));
+const currentData = JSON.parse(await fs.readFile('./data/data.json', 'utf-8'));
+const unDone = JSON.parse(await fs.readFile('./data/undone.json', 'utf-8'));
 
 for (let chunk of currentData) {
     for (let match of chunk) {
@@ -85,7 +85,7 @@ for (let chunk of unDone) {
 console.log('done', k);
 console.log('total', i);
 await fs.writeFile(
-    './data.json',
+    './data/data.json',
     JSON.stringify(
         currentData.filter((item) => item.length > 0),
         null,
@@ -94,4 +94,8 @@ await fs.writeFile(
     'utf-8',
 );
 
-await fs.writeFile('./undone.json', JSON.stringify(unDone, null, 4), 'utf-8');
+await fs.writeFile(
+    './data/undone.json',
+    JSON.stringify(unDone, null, 4),
+    'utf-8',
+);

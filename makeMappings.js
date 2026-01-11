@@ -6,6 +6,7 @@ import fs from 'fs/promises';
         headless: true,
         timeout: 0,
         protocolTimeout: 0,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
     const page = await browser.newPage();
     await page.goto('https://canary.discord.com/login', {
@@ -23,7 +24,7 @@ import fs from 'fs/promises';
             }
         })();
     });
-    const data = JSON.parse(await fs.readFile('./data.json', 'utf-8'));
+    const data = JSON.parse(await fs.readFile('./data/data.json', 'utf-8'));
     const result = await page.evaluate(
         (data) => {
             let __mods = Object.values(r.c);
