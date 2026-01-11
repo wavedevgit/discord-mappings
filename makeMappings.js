@@ -3,7 +3,7 @@ import fs from 'fs/promises';
 
 (async () => {
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         timeout: 0,
         protocolTimeout: 0,
     });
