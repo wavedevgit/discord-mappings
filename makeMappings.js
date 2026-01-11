@@ -41,7 +41,7 @@ import fs from 'fs/promises';
                     const [id, func] = chunks[i];
                     const chunkCode = func?.toString?.();
 
-                    if (codes.every((code) => chunkCode.includes(code)))
+                    if (codes?.every?.((code) => chunkCode.includes(code)))
                         return [id, r(id)];
                 }
             };
@@ -93,7 +93,9 @@ import fs from 'fs/promises';
                     const value = prop[exports]?.toString?.();
                     for (let test of data) {
                         if (
-                            test.find_with.every((find) => value.includes(find))
+                            test.find_with?.every?.((find) =>
+                                value.includes(find),
+                            )
                         )
                             mappings[prop] = test.name;
                     }
