@@ -12,6 +12,10 @@ import fs from 'fs/promises';
     await page.goto('https://canary.discord.com/login', {
         waitUntil: 'domcontentloaded',
     });
+    page.on('console', (msg) => {
+        console.log('page log:', msg.text());
+    });
+
     await page.evaluate(async () => {
         await (async () => {
             window.r = webpackChunkdiscord_app.push([[Symbol()], {}, (e) => e]);
