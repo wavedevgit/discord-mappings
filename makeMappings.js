@@ -130,7 +130,7 @@ import fs from 'fs/promises';
                         if (val.toString?.()?.includes?.(finder.value))
                             return finder;
                     if (finder.type === 'ByProps')
-                        if (finder.value.every((prop) => val?.[prop]))
+                        if (finder.value?.every?.((prop) => val?.[prop]))
                             return finder;
                     if (finder.type === 'eq' && finder.value === val)
                         return finder;
