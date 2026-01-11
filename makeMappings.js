@@ -64,7 +64,7 @@ import fs from 'fs/promises';
         [data],
     );
     await fs.writeFile(
-        './result.json',
+        './data/result.json',
         JSON.stringify(result, null, 4),
         'utf-8',
     );
