@@ -1,7 +1,8 @@
 name: Generate mappings
 
 on:
-    
+    schedule:
+        - cron: '*/30 * * * *' # every 30 minutes
     workflow_dispatch:
 
 permissions:
