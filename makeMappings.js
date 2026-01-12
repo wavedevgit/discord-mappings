@@ -32,8 +32,18 @@ import fs from 'fs/promises';
         await fs.readFile('./data/constants.json', 'utf-8'),
     );
     const data = JSON.parse(await fs.readFile('./data/data.json', 'utf-8'));
+    process.on('unhandledRejection', (err) => {
+        console.error('UNHANDLED PROMISE:', err);
+    });
+
+    process.on('uncaughtException', (err) => {
+        console.error('UNCAUGHT EXCEPTION:', err);
+    });
+
+    console.log(constants);
     const result = await page.evaluate(
         (data, constants) => {
+            //# sourceURL=getMappings.eval.js
             let _mods = Object.values(r.c);
             const chunks = Object.entries(r.m);
             const findChunkByCode = (...codes) => {
@@ -90,11 +100,12 @@ import fs from 'fs/promises';
             const getMappings = (exports) => {
                 const mappings = {};
                 for (let prop in exports) {
-                    const value = prop[exports]?.toString?.();
-                    for (let test of data) {
+                    if (typeof exports[prop] !== 'function') continue;
+                    const value = exports[prop]?.toString?.();
+                    for (let test of tests) {
                         if (
                             test.find_with?.every?.((find) =>
-                                value.includes(find),
+                                value?.includes?.(find),
                             )
                         )
                             mappings[prop] = test.name;
@@ -108,7 +119,8 @@ import fs from 'fs/promises';
                 if (
                     typeof mod.exports !== 'object' &&
                     !mod.exports &&
-                    Object.prototype.toString.call(value) !== '[object Object]'
+                    Object.prototype.toString.call(mod.exports) !==
+                        '[object Object]'
                 )
                     continue;
                 const result = {
@@ -146,26 +158,25 @@ import fs from 'fs/promises';
             const map = (exports, finders) => {
                 const mappings = {};
                 for (let key in exports) {
-                    const val = exports;
+                    const val = exports[key];
                     const match = testAll(val, finders);
                     if (match) mappings[key] = match.name;
                 }
                 return mappings;
             };
-
-            output.push({
-                id: constantsModule[0],
-                path: '../discord_common/js/shared/Constants.tsx',
-                mappings: map(constantsModule[1], constants),
-            });
+            //output.push({
+            //    id: constantsModule[0],
+            //    path: '../discord_common/js/shared/Constants.tsx',
+            //    mappings: map(constantsModule[1], constants),
+            //});
+            window.output = output;
             return output;
         },
-        [data],
+        [data, constants],
     );
     await fs.writeFile(
         './data/result.json',
         JSON.stringify(result, null, 4),
         'utf-8',
     );
-    await browser.close();
 })();
