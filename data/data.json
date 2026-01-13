@@ -14110,6 +14110,12 @@
                 "type:\"CREATOR_MONETIZATION_PRICE_TIERS_FETCH_FAILURE\""
             ],
             "method": "findFunctionByCode"
+        },
+        {
+            "name": "setHasSeenCreatorMonetizationOnboarding",
+            "find_with": [
+                "type:\"CREATOR_MONETIZATION_SET_HAS_SEEN_ONBOARDING_FOR_GUILD\""
+            ]
         }
     ],
     [
