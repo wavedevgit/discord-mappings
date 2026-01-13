@@ -179,5 +179,8 @@ import fs from 'fs/promises';
         JSON.stringify(result, null, 4),
         'utf-8',
     );
+    page.removeAllListeners();
+    browser.removeAllListeners();
     await browser.close();
+    process.exit(0);
 })();
