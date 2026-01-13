@@ -175,7 +175,7 @@ import fs from 'fs/promises';
         [data, constants],
     );
     await fs.writeFile(
-        './data/result.json',
+        './mappings/result.json',
         JSON.stringify(result, null, 4),
         'utf-8',
     );
