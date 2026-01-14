@@ -40,7 +40,16 @@ import fs from 'fs/promises';
         console.error('UNCAUGHT EXCEPTION:', err);
     });
 
-    console.log(constants);
+    await page.exposeFunction('addNeedToDo', async (item, id) => {
+        const line = JSON.stringify(item)(
+            await fs.writeFile(
+                './mappings/need_to_do/' + id + '.json',
+                line,
+                'utf-8',
+            ),
+        );
+    });
+
     const result = await page.evaluate(
         (data, constants) => {
             //# sourceURL=getMappings.eval.js
@@ -96,24 +105,36 @@ import fs from 'fs/promises';
                 }
                 return mappings;
             };
+
             const tests = data.flat();
-            const getMappings = (exports) => {
+            const getMappings = (exports, id) => {
                 const mappings = {};
+                if (typeof exports !== 'object') return {};
+                const current = [];
                 for (let prop in exports) {
-                    if (typeof exports[prop] !== 'function') continue;
-                    const value = exports[prop]?.toString?.();
-                    for (let test of tests) {
-                        if (
-                            test.find_with?.every?.((find) =>
-                                value?.includes?.(find),
+                    if (exports === window) continue;
+                    try {
+                        const bound = Reflect.get(exports, prop, exports);
+
+                        if (typeof bound !== 'function') continue;
+                        const value = bound?.toString?.();
+                        for (let test of tests) {
+                            if (
+                                test.find_with?.every?.((find) =>
+                                    value?.includes?.(find),
+                                )
                             )
-                        )
-                            mappings[prop] = test.name;
+                                mappings[prop] = test.name;
+                        }
+                        if (!mappings[prop]) current.push({ code: value });
+                    } catch (err) {
+                        console.log(exports, err);
                     }
                 }
+                if (current.length > 0) addNeedToDo(current, id);
                 return mappings;
             };
-
+            window.addNeedToDo = addNeedToDo;
             const output = [];
             for (let mod of _mods) {
                 if (
@@ -123,21 +144,27 @@ import fs from 'fs/promises';
                         '[object Object]'
                 )
                     continue;
-                const result = {
-                    id: mod.id,
-                    path: '', // empty if unknown, only official paths frorm mobile app are allowed here
-                    // TODO: add path thingy
-                    mappings: getMappings(mod.exports),
-                };
-                output.push(result);
+                try {
+                    const result = {
+                        id: mod.id,
+                        path: '', // empty if unknown, only official paths frorm mobile app are allowed here
+                        // TODO: add path thingy
+                        mappings: getMappings(mod.exports, mod.id),
+                    };
+                    if (Object.keys(result.mappings).length !== 0)
+                        output.push(result);
+                } catch (err) {
+                    console.log(err);
+                }
             }
             output.push({
                 id: httpUtils[0],
                 path: '../discord_common/js/packages/http-utils/HTTPUtils.tsx',
                 mappings: decodeHttpUtils(httpUtils[1]),
             });
-            const constantsModule = findChunkByCode('/users/@me');
-
+            const constantsModule = findChunkByCode(
+                '"/users/@me/relationships/".concat',
+            );
             const testAll = (val, finders) => {
                 for (let finder of finders) {
                     if (finder.type === 'toStringIncludes')
@@ -164,21 +191,24 @@ import fs from 'fs/promises';
                 }
                 return mappings;
             };
-            //output.push({
-            //    id: constantsModule[0],
-            //    path: '../discord_common/js/shared/Constants.tsx',
-            //    mappings: map(constantsModule[1], constants),
-            //});
-            window.output = output;
-            return output;
+            output.push({
+                id: constantsModule[0],
+                path: '../discord_common/js/shared/Constants.tsx',
+                mappings: map(constantsModule[1], constants),
+            });
+
+            return [output];
         },
-        [data, constants],
+        data,
+        constants,
     );
     await fs.writeFile(
         './mappings/result.json',
-        JSON.stringify(result, null, 4),
+        JSON.stringify(result[0], null, 4),
         'utf-8',
     );
+
+    console.log('saved to result.json');
     page.removeAllListeners();
     browser.removeAllListeners();
     await browser.close();

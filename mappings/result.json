@@ -1,0 +1,1059 @@
+[
+    {
+        "id": 530,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 16084,
+        "path": "",
+        "mappings": {
+            "$N": "fetchStoreListingForApplication"
+        }
+    },
+    {
+        "id": 22095,
+        "path": "",
+        "mappings": {
+            "AH": "enrollInQuest",
+            "CS": "startConsoleHeartbeat",
+            "QB": "claimReward",
+            "gl": "dismissContent",
+            "is": "stopConsoleHeartbeat",
+            "m0": "sendHeartbeat",
+            "nE": "dismissProgressTrackingFailure",
+            "pf": "fetchRewardCode",
+            "xw": "fetchCurrentQuests"
+        }
+    },
+    {
+        "id": 37258,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 51062,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 51144,
+        "path": "",
+        "mappings": {
+            "u5": "useThreadMemberListSections"
+        }
+    },
+    {
+        "id": 51596,
+        "path": "",
+        "mappings": {
+            "$Z": "show",
+            "Se": "validateMultiAccountTokens",
+            "tF": "selectResult",
+            "yC": "search"
+        }
+    },
+    {
+        "id": 53114,
+        "path": "",
+        "mappings": {
+            "S": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 61115,
+        "path": "",
+        "mappings": {
+            "default": "default"
+        }
+    },
+    {
+        "id": 65090,
+        "path": "",
+        "mappings": {
+            "BL": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 69580,
+        "path": "",
+        "mappings": {
+            "useOAuth2AuthorizeForm": "default"
+        }
+    },
+    {
+        "id": 69626,
+        "path": "",
+        "mappings": {
+            "Wf": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 74538,
+        "path": "",
+        "mappings": {
+            "if": "formatPlanIntervalDuration"
+        }
+    },
+    {
+        "id": 89057,
+        "path": "",
+        "mappings": {
+            "oQ": "BlockedPaymentsWarning"
+        }
+    },
+    {
+        "id": 90712,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 91433,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 93127,
+        "path": "",
+        "mappings": {
+            "_": "fetchUserAffinities"
+        }
+    },
+    {
+        "id": 102172,
+        "path": "",
+        "mappings": {
+            "P9": "default",
+            "gR": "default"
+        }
+    },
+    {
+        "id": 107062,
+        "path": "",
+        "mappings": {
+            "ZP": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 110560,
+        "path": "",
+        "mappings": {
+            "enrollAndStartVideoQuestWithErrorHandling": "default"
+        }
+    },
+    {
+        "id": 137810,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 167080,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 172800,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 179118,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 188597,
+        "path": "",
+        "mappings": {
+            "tM": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 189432,
+        "path": "",
+        "mappings": {
+            "r": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 195387,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 209492,
+        "path": "",
+        "mappings": {
+            "S": "init"
+        }
+    },
+    {
+        "id": 220779,
+        "path": "",
+        "mappings": {
+            "dE": "default"
+        }
+    },
+    {
+        "id": 222677,
+        "path": "",
+        "mappings": {
+            "rU": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 225779,
+        "path": "",
+        "mappings": {
+            "Ry": "default"
+        }
+    },
+    {
+        "id": 227172,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 232567,
+        "path": "",
+        "mappings": {
+            "k": "validateMultiAccountTokens",
+            "mB": "submitDateOfBirth"
+        }
+    },
+    {
+        "id": 237872,
+        "path": "",
+        "mappings": {
+            "u": "default"
+        }
+    },
+    {
+        "id": 238607,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 241159,
+        "path": "",
+        "mappings": {
+            "k": "fetchStoreDirectoryLayout"
+        }
+    },
+    {
+        "id": 254109,
+        "path": "",
+        "mappings": {
+            "VO": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 273716,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 283756,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 287545,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 292419,
+        "path": "",
+        "mappings": {
+            "Wo": "default"
+        }
+    },
+    {
+        "id": 295141,
+        "path": "",
+        "mappings": {
+            "HT": "fetchDiscoverableGuilds",
+            "X": "getPriceTiers"
+        }
+    },
+    {
+        "id": 297781,
+        "path": "",
+        "mappings": {
+            "U9": "NewReleaseBadge",
+            "n8": "TrendingBadge",
+            "v1": "ResurrectedBadge",
+            "wO": "NewGameBadge"
+        }
+    },
+    {
+        "id": 300917,
+        "path": "",
+        "mappings": {
+            "QuestRewardModalUnverified": "default"
+        }
+    },
+    {
+        "id": 303694,
+        "path": "",
+        "mappings": {
+            "l": "default"
+        }
+    },
+    {
+        "id": 312097,
+        "path": "",
+        "mappings": {
+            "K": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 338305,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 350327,
+        "path": "",
+        "mappings": {
+            "Z": "submitDateOfBirth"
+        }
+    },
+    {
+        "id": 372123,
+        "path": "",
+        "mappings": {
+            "Z": "sync"
+        }
+    },
+    {
+        "id": 373370,
+        "path": "",
+        "mappings": {
+            "vf": "useQuestBarSubtitle"
+        }
+    },
+    {
+        "id": 397394,
+        "path": "",
+        "mappings": {
+            "jO": "default"
+        }
+    },
+    {
+        "id": 407699,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 411935,
+        "path": "",
+        "mappings": {
+            "YL": "fetchAllStoreListingsForApplication",
+            "y": "fetchStoreListingForApplication"
+        }
+    },
+    {
+        "id": 425493,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 444448,
+        "path": "",
+        "mappings": {
+            "d": "default"
+        }
+    },
+    {
+        "id": 446108,
+        "path": "",
+        "mappings": {
+            "d1": "default"
+        }
+    },
+    {
+        "id": 455813,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 466377,
+        "path": "",
+        "mappings": {
+            "ol": "default"
+        }
+    },
+    {
+        "id": 466590,
+        "path": "",
+        "mappings": {
+            "e": "TwoWayLinkSuccess"
+        }
+    },
+    {
+        "id": 481060,
+        "path": "",
+        "mappings": {
+            "BK9": "default",
+            "RyX": "default",
+            "kO8": "default",
+            "olH": "default"
+        }
+    },
+    {
+        "id": 485267,
+        "path": "",
+        "mappings": {
+            "lY": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 485341,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 488131,
+        "path": "",
+        "mappings": {
+            "ok": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 488977,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 512729,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 524444,
+        "path": "",
+        "mappings": {
+            "BO": "default",
+            "G5": "default",
+            "LE": "default"
+        }
+    },
+    {
+        "id": 526617,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 532425,
+        "path": "",
+        "mappings": {
+            "B": "default"
+        }
+    },
+    {
+        "id": 535322,
+        "path": "",
+        "mappings": {
+            "Z": "QuestUserSettingsBadge"
+        }
+    },
+    {
+        "id": 543651,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 548570,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 555573,
+        "path": "",
+        "mappings": {
+            "GV": "useModalState"
+        }
+    },
+    {
+        "id": 556505,
+        "path": "",
+        "mappings": {
+            "Z": "QuestUserSettingsBadge"
+        }
+    },
+    {
+        "id": 558381,
+        "path": "",
+        "mappings": {
+            "Hq": "fetchStoreListingForApplication",
+            "Oj": "joinPublishedStoreListingSkuGuild",
+            "cj": "matureAgree",
+            "km": "fetchStoreListingForSku",
+            "oJ": "fetchAllStoreListingsForApplication",
+            "rV": "fetchStoreListingForApplication"
+        }
+    },
+    {
+        "id": 561308,
+        "path": "",
+        "mappings": {
+            "ap": "EpisodeBadge",
+            "bT": "RichGameStateBadge"
+        }
+    },
+    {
+        "id": 576759,
+        "path": "",
+        "mappings": {
+            "Z": "QuestUserSettingsBadge"
+        }
+    },
+    {
+        "id": 583901,
+        "path": "",
+        "mappings": {
+            "bD": "default"
+        }
+    },
+    {
+        "id": 591853,
+        "path": "",
+        "mappings": {
+            "WT": "default"
+        }
+    },
+    {
+        "id": 598077,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 603721,
+        "path": "",
+        "mappings": {
+            "OG": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 606992,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 611500,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 612853,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 622724,
+        "path": "",
+        "mappings": {
+            "T": "validateMultiAccountTokens",
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 636411,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 649724,
+        "path": "",
+        "mappings": {
+            "k": "default"
+        }
+    },
+    {
+        "id": 656229,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 666984,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 667204,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 678869,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 689011,
+        "path": "",
+        "mappings": {
+            "t": "default"
+        }
+    },
+    {
+        "id": 697379,
+        "path": "",
+        "mappings": {
+            "W": "validateMultiAccountTokens",
+            "v": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 705556,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 710631,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 711617,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 713316,
+        "path": "",
+        "mappings": {
+            "w": "PaymentModalConfirmStep"
+        }
+    },
+    {
+        "id": 713583,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 717953,
+        "path": "",
+        "mappings": {
+            "Z": "QuestUserSettingsBadge"
+        }
+    },
+    {
+        "id": 718108,
+        "path": "",
+        "mappings": {
+            "W": "default"
+        }
+    },
+    {
+        "id": 736617,
+        "path": "",
+        "mappings": {
+            "Gy": "setCode",
+            "H7": "resetCode",
+            "en": "saveCode"
+        }
+    },
+    {
+        "id": 743426,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 754688,
+        "path": "",
+        "mappings": {
+            "VO": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 758119,
+        "path": "",
+        "mappings": {
+            "C8": "openFailureAgeGateModal",
+            "mN": "openAgeGateModal",
+            "qV": "closeAgeGateModal",
+            "qq": "openSuccessAgeGateModal"
+        }
+    },
+    {
+        "id": 769140,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 770812,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 779699,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 784384,
+        "path": "",
+        "mappings": {
+            "HY": "getDestinationIsUnavailable"
+        }
+    },
+    {
+        "id": 787014,
+        "path": "",
+        "mappings": {
+            "S1": "init",
+            "pW": "updateChannel",
+            "wk": "saveChannel",
+            "xv": "close",
+            "zc": "setSection",
+            "zz": "deleteChannel"
+        }
+    },
+    {
+        "id": 791785,
+        "path": "",
+        "mappings": {
+            "PaymentModal": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 803866,
+        "path": "",
+        "mappings": {
+            "N": "default"
+        }
+    },
+    {
+        "id": 809206,
+        "path": "",
+        "mappings": {
+            "S2": "submitDateOfBirth"
+        }
+    },
+    {
+        "id": 821864,
+        "path": "",
+        "mappings": {
+            "I4": "initIntegrationPermissions",
+            "Sn": "getApplicationCommands",
+            "U3": "updateApplicationCommandPermissions",
+            "Ui": "resetPermissions",
+            "W4": "editPermissions",
+            "gq": "updateApplicationCommandPermissions",
+            "kZ": "clearIntegrationPermissions"
+        }
+    },
+    {
+        "id": 827837,
+        "path": "",
+        "mappings": {
+            "N": "fetchActivityStatistics"
+        }
+    },
+    {
+        "id": 849027,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 849755,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 857658,
+        "path": "",
+        "mappings": {
+            "U": "default"
+        }
+    },
+    {
+        "id": 861687,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 868671,
+        "path": "",
+        "mappings": {
+            "H": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 871118,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 890876,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 896449,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 898463,
+        "path": "",
+        "mappings": {
+            "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 900849,
+        "path": "",
+        "mappings": {
+            "mT": "fetchDiscoverableGuilds"
+        }
+    },
+    {
+        "id": 907862,
+        "path": "",
+        "mappings": {
+            "e4": "TwoWayLinkSuccess"
+        }
+    },
+    {
+        "id": 913002,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 931261,
+        "path": "",
+        "mappings": {
+            "g": "validateMultiAccountTokens",
+            "s": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 952124,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
+        "id": 993860,
+        "path": "",
+        "mappings": {
+            "ZP": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": "544891",
+        "path": "../discord_common/js/packages/http-utils/HTTPUtils.tsx",
+        "mappings": {
+            "J9": "convertSkemaError",
+            "Jt": "setRetryHandler",
+            "K0": "getAPIBaseURL",
+            "Pd": "HTTPResponseError",
+            "f$": "INVALID_FORM_BODY_ERROR_CODE",
+            "lg": "setRequestHandlers",
+            "sX": "V8APIError",
+            "tn": "HTTP",
+            "yZ": "V6OrEarlierAPIError"
+        }
+    },
+    {
+        "id": "981631",
+        "path": "../discord_common/js/shared/Constants.tsx",
+        "mappings": {
+            "$R1": "PRIMARY_DOMAIN",
+            "$Y6": "DEFAULT_CHAT_SIDEBAR_WIDTH",
+            "$pe": "MAX_VOICE_USER_LIMIT",
+            "AQB": "MAX_MESSAGES_PER_CHANNEL",
+            "B1h": "TOKEN_KEY",
+            "B9o": "MAX_MESSAGES_PER_CHANNEL",
+            "BZL": "RPC_APPLICATION_LOGGING_CATEGORY",
+            "DJj": "MAX_MENTIONS_PER_FETCH",
+            "DZw": "MAX_USER_GUILDS",
+            "FD8": "MAX_MESSAGE_CACHE_SIZE",
+            "Fc": "BITRATE_MIN",
+            "FsG": "CACHE_STORE_KEY",
+            "GNZ": "MAX_REASON_LENGTH",
+            "HGf": "AllFriendSourceFlags",
+            "HN8": "MAX_USER_GUILDS",
+            "Hqc": "CHANNEL_NOTICE_SHOW_DELAY",
+            "IXf": "AVATAR_SIZE",
+            "I_8": "FAVORITES",
+            "J6R": "MAX_MESSAGE_LENGTH",
+            "JkL": "DEVICE_TOKEN",
+            "JuI": "USERNAME_MAX_LENGTH",
+            "L4X": "BITRATE_STEP",
+            "LAt": "LOCAL_BOT_ID",
+            "LYt": "PLACEHOLDER_TAG",
+            "ME": "ME",
+            "N_j": "MAX_VIDEO_WIDTH",
+            "O42": "CACHE_STORE_CHANNELS_LAZY_KEY",
+            "OL7": "RECAPTCHA_SITE_KEY",
+            "OMz": "FallbackCurrencyCountry",
+            "OSm": "IDLE_DURATION",
+            "PNu": "MAX_USER_GUILDS_PREMIUM",
+            "PRK": "MAX_STAFF_ATTACHMENT_SIZE",
+            "PrS": "CHANNEL_SIDEBAR_WIDTH",
+            "R7I": "DEFAULT_MESSAGE_REQUEST_SIDEBAR_WIDTH",
+            "RcX": "MAX_STAGE_VIDEO_USER_LIMIT_TIER3",
+            "Rg9": "MAX_MESSAGES_PER_CHANNEL",
+            "T23": "SERVER_MONETIZATION_OWNERSHIP_TRANSFER_URL",
+            "TU7": "MAX_STAGE_VOICE_USER_LIMIT",
+            "V6Z": "RPC_STARTING_PORT",
+            "V7H": "BITRATE_STEP",
+            "VKK": "MAX_USER_GUILDS",
+            "VqG": "NOOP_NULL",
+            "WND": "PREMIUM_TYPE_NONE",
+            "X6Q": "RPC_VERSION",
+            "XAJ": "COLLECTIBLES_APPLICATION_ID",
+            "XKF": "MAX_VIDEO_HEIGHT",
+            "XmY": "MARKDOWN_SPOILER_WRAPPER",
+            "Z8P": "MAX_MESSAGES_PER_CHANNEL",
+            "_8R": "WELCOME_OLD_GUILD_AGE_THRESHOLD",
+            "aZC": "MAX_MESSAGES_PER_CHANNEL",
+            "b2L": "SEARCH_DATE_FORMAT",
+            "b8q": "HELP_CENTER_CTA_ANALYTICS_NAME",
+            "dG4": "NOOP",
+            "dGM": "AVATAR_MAX_SIZE",
+            "dGm": "STATUS_PAGE_ENDPOINT",
+            "dN1": "MAX_UPLOAD_COUNT",
+            "dYL": "USERNAME_MAX_LENGTH",
+            "e3s": "CURRENT_APP_CONTEXT",
+            "eBq": "REQUEST_DATA_LIMIT_DAYS",
+            "eWB": "BITRATE_MAX",
+            "eez": "MAX_STAGE_VIDEO_USER_LIMIT_TIER2",
+            "en1": "MAX_MESSAGE_LENGTH_PREMIUM",
+            "epw": "BITRATE_DEFAULT",
+            "fo$": "NON_USER_BOT_DISCRIMINATOR",
+            "frH": "MAX_UPLOAD_COUNT",
+            "ihW": "CACHE_STORE_LAZY_KEY",
+            "ivE": "YOUTUBE_EMBED_URL",
+            "j3N": "MAX_USER_GUILDS",
+            "l$U": "USERNAME_MAX_LENGTH",
+            "n8r": "YOUTUBE_PREVIEW_URL",
+            "o3l": "GUILD_BOOST_APPLY_COOLDOWN_DAYS",
+            "p3w": "MAX_MENTIONS_PER_FETCH",
+            "p6O": "DEFAULT_ROLE_COLOR",
+            "pAY": "MAX_UPLOAD_COUNT",
+            "pTL": "MAX_USER_GUILDS",
+            "qWG": "MAX_MEMBERS_NOTIFY_ALL_MESSAGES",
+            "qhL": "MAX_MESSAGE_LENGTH",
+            "rnv": "MAX_UPLOAD_COUNT",
+            "rxP": "SUPPORT_DEV_DOMAIN",
+            "scU": "DEVICE_VOIP_TOKEN",
+            "tG9": "MAX_MESSAGE_CACHE_SIZE",
+            "tHP": "MAX_USER_GUILDS_PREMIUM",
+            "tPV": "BIO_MAX_LENGTH",
+            "vTt": "NEW_GROUP_DM_POPOUT_ID",
+            "vpv": "MAX_MENTIONS_PER_FETCH",
+            "vuo": "NOTE_MAX_LENGTH",
+            "wli": "DISCODO_STORAGE_KEY",
+            "x0X": "MOBILE_WEB_HANDOFF_DEEP_LINK",
+            "xAR": "PREMIUM_TYPE_NONE",
+            "xGv": "MAX_STAGE_VOICE_USER_LIMIT",
+            "xr4": "SUPPORT_DOMAIN",
+            "z7k": "FIRST_RUN_DATE_KEY"
+        }
+    }
+]

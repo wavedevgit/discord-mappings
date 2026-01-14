@@ -25,10 +25,10 @@ node makeMappings.js
 ## ♥️ How to contribute
 
 1. Contributions are welcome and appreciated
-2. You can contribute by adding more data to ./data/data.json
+2. You can contribute by adding more data to [./data/data.json](./data/data.json)
 3. Fork this repo to begin
-4. Make changes to ./data/data.json (you can add more named exports with finders)
-5. There is already existing unfinshed ones on ./data/undone.json or you can just use the latest client exports.
+4. Make changes to [./data/data.json](./data/data.json) (you can add more named exports with finders)
+5. There is already existing unfinshed ones on ./data/undone.json or you can just use the latest client exports or [../mappings/need_to_do](../mappings/need_to_do) folder
 
 ## Injection snippet (unminifer)
 
