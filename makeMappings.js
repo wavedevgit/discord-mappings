@@ -19,6 +19,7 @@ import fs from 'fs/promises';
     await page.evaluate(async () => {
         await (async () => {
             window.r = webpackChunkdiscord_app.push([[Symbol()], {}, (e) => e]);
+            return;
             for (let i = 0; i < 100000; i++) {
                 if (r.u(i) !== 'undefined.js')
                     try {
@@ -41,12 +42,12 @@ import fs from 'fs/promises';
     });
 
     await page.exposeFunction('addNeedToDo', async (item, id) => {
-        const line = JSON.stringify(item)(
-            await fs.writeFile(
-                './mappings/need_to_do/' + id + '.json',
-                line,
-                'utf-8',
-            ),
+        const line = JSON.stringify(item);
+
+        await fs.writeFile(
+            './mappings/need_to_do/' + id + '.json',
+            line,
+            'utf-8',
         );
     });
 
