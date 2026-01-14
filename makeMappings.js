@@ -19,7 +19,6 @@ import fs from 'fs/promises';
     await page.evaluate(async () => {
         await (async () => {
             window.r = webpackChunkdiscord_app.push([[Symbol()], {}, (e) => e]);
-            return;
             for (let i = 0; i < 100000; i++) {
                 if (r.u(i) !== 'undefined.js')
                     try {
