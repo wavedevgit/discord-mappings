@@ -1,0 +1,1 @@
+[{"code":"function s(e){return a.useExperiment(e,o())}"},{"code":"function l(e){let{backForwardButtons:t}=a.getCurrentConfig(e,o());return t}"}]

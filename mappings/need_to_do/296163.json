@@ -1,0 +1,1 @@
+[{"code":"function m(){let e=(0,a.e7)([u.Z],()=>u.Z.shouldShowWarning(),[]),t=i.useRef(null);function n(){null!==t.current&&((0,s.Mr3)(t.current),t.current=null)}return i.useEffect(()=>(e?t.current=(0,s.h7j)(e=>(0,r.jsx)(h,_({},e))):n(),()=>{n()}),[e]),null}"}]

@@ -1,0 +1,1 @@
+[{"code":"function p(e){var{variant:t=\"icon-only\",\"aria-label\":n}=e,s=d(e,[\"variant\",\"aria-label\"]);let{i18n:c}=(0,a.ZF)();return(0,r.jsx)(o.Y,u(l({},s),{\"aria-label\":null!=n?n:c.CLOSE_BUTTON_LABEL,icon:i.XLargeIcon,variant:t,text:void 0,fullWidth:!1}))}"}]

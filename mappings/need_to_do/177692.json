@@ -1,0 +1,1 @@
+[{"code":"async function d(){if(!u){try{await (0,i.e)();let e=(0,r.rs)(6,7);c.info(\"The answer for life the universe and everything is:\",e),f()}catch(e){_(e)}u=!0}}"}]

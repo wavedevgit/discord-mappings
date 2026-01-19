@@ -1,0 +1,1 @@
+[{"code":"async function y(e){return!!await g({currentEmbeddedApplication:e.currentEmbeddedApplication,shouldClosePopoutOnLeaveCurrentEmbeddedApplication:e.shouldClosePopoutOnLeaveCurrentEmbeddedApplication,onConfirmActivityLaunchChecksAlertOpen:e.onConfirmActivityLaunchChecksAlertOpen})&&!!await E(e)&&!!await b(e)}"}]

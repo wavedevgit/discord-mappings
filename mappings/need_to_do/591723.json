@@ -1,0 +1,1 @@
+[{"code":"function e(t){c(this,e),this.types=new Map,this.dragSources=new Map,this.dropTargets=new Map,this.pinnedSourceId=null,this.pinnedSource=null,this.store=t}"}]

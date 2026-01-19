@@ -1,0 +1,1 @@
+[{"code":"class a{constructor(e,t){r(this,\"reason\",void 0),r(this,\"detailCode\",void 0),this.reason=e,this.detailCode=t}}"}]

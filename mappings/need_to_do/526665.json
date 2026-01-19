@@ -1,0 +1,1 @@
+[{"code":"e=>i.useConfig({location:e}).showRedesignedVoiceAndVideo"},{"code":"e=>a.getConfig({location:e}).enabled"},{"code":"e=>i.getConfig({location:e}).showRedesignedNotifications"},{"code":"e=>i.getConfig({location:e}).showRedesignedVoiceAndVideo"},{"code":"e=>a.useConfig({location:e}).enabled"},{"code":"e=>i.useConfig({location:e}).showRedesignedNotifications"}]

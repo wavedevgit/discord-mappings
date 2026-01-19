@@ -1,0 +1,1 @@
+[{"code":"function R(e){let t=(0,c.e7)([h.Z],()=>h.Z.getTrendingCategories()),n=(0,g.gG)(),i=(0,y.PY)();return(0,r.jsx)(w,A(T({},e,i),{trendingCategories:t,favorites:n}))}"}]

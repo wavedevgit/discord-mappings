@@ -1,0 +1,1 @@
+[{"code":"function o(e){let{type:t,hidden:n,children:o}=e;return(0,r.jsx)(i.W,{messageType:a(t),hidden:n,children:o})}"}]

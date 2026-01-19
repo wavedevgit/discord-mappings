@@ -1,0 +1,1 @@
+[{"code":"function u(){let[e,t]=i.useState(!1),n=async()=>{t(!0),await (0,a.xA)()};return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(s.Z,{}),(0,r.jsx)(l.C3,{children:(0,r.jsx)(o.C,{className:c.body,isEmailResent:e,resendEmail:n})}),(0,r.jsx)(l.O3,{children:(0,r.jsx)(o.N,{})})]})}"}]

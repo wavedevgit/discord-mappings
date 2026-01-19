@@ -1,0 +1,1 @@
+[{"code":"function o(){let e=(0,i.e7)([a.default],()=>a.default.locale);return r.useMemo(()=>new Intl.NumberFormat(e,{notation:\"compact\",compactDisplay:\"short\",roundingMode:\"floor\"}),[e])}"}]

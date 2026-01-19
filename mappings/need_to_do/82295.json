@@ -1,0 +1,1 @@
+[{"code":"e=>{let{className:t,children:n,\"aria-label\":i,id:l}=e;return(0,r.jsx)(o.H,{className:a()(t,s.container,s.header),\"aria-label\":i,id:l,children:n})}"}]

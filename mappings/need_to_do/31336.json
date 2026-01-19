@@ -1,0 +1,1 @@
+[{"code":"function a(e){r.Z.dispatch({type:\"DEV_TOOLS_SETTINGS_UPDATE\",settings:e})}"},{"code":"function o(){a({displayTools:!i.Z.displayTools})}"},{"code":"function l(){r.Z.dispatch({type:\"ANALYTICS_LOG_CLEAR\"})}"},{"code":"function s(e){a({displayTools:!0,lastOpenTabId:e})}"}]

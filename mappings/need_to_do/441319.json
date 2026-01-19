@@ -1,0 +1,1 @@
+[{"code":"function D(e){let t=R().find(t=>t.id===e);return null!=t?t:P()}"},{"code":"function R(){return[P(),...w()]}"}]

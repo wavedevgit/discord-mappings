@@ -1,0 +1,1 @@
+[{"code":"function l(){let[e,t]=(0,i.Wu)([s.default],()=>[s.default.isAuthenticated(),null!=s.default.getAnalyticsToken()]),n=(0,o.Z)(e);r.useEffect(()=>{n||!e||t||a.k({withAnalyticsToken:!0})},[n,e,t])}"}]

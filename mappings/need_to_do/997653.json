@@ -1,0 +1,1 @@
+[{"code":"function E(e){let t=\"\".concat(null!=i().name&&\"\"!==i().name?i().name:\"unknown\",\" \").concat(null!=i().version&&\"\"!==i().version?i().version:\"unknown\"),n=new a.Yd(\"Connection(\".concat(e.context,\")\"));return _.WS?(n.info(\"Using Unified Plan (\".concat(t,\")\")),new f.Z(e)):(n.info(\"Using Plan B (\".concat(t,\")\")),new g(e))}"}]

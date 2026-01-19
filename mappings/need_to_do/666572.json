@@ -1,0 +1,1 @@
+[{"code":"function a(e){if(null==e)return null;let[t,n]=e.split(\"-\"),r=i(t);return null==r?null:{type:r,encodedLinkId:e,decodedLinkId:n}}"}]

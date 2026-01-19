@@ -1,0 +1,1 @@
+[{"code":"function l(e){let{location:t}=e,{isInHoldout:n}=o.L.getCurrentConfig({location:t},{autoTrackExposure:!0});return n?s.definition.defaultConfig:s.getConfig({location:t})}"},{"code":"function c(e){let{location:t}=e;return(0,r.e7)([a.Z],()=>l({location:t}))}"}]

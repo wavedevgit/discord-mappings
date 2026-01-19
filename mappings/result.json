@@ -222,6 +222,13 @@
         }
     },
     {
+        "id": 224841,
+        "path": "",
+        "mappings": {
+            "Z": "default"
+        }
+    },
+    {
         "id": 225779,
         "path": "",
         "mappings": {
@@ -269,6 +276,13 @@
         "path": "",
         "mappings": {
             "VO": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 254887,
+        "path": "",
+        "mappings": {
+            "Z": "default"
         }
     },
     {
@@ -343,6 +357,13 @@
         "path": "",
         "mappings": {
             "Z": "default"
+        }
+    },
+    {
+        "id": 346585,
+        "path": "",
+        "mappings": {
+            "ti": "formatUsernameLiveCheckValidation"
         }
     },
     {
@@ -428,6 +449,15 @@
         "path": "",
         "mappings": {
             "e": "TwoWayLinkSuccess"
+        }
+    },
+    {
+        "id": 480387,
+        "path": "",
+        "mappings": {
+            "HJ": "validateMultiAccountTokens",
+            "Zd": "removeAccount",
+            "yD": "switchAccount"
         }
     },
     {
@@ -568,6 +598,13 @@
         }
     },
     {
+        "id": 588705,
+        "path": "",
+        "mappings": {
+            "R": "default"
+        }
+    },
+    {
         "id": 591853,
         "path": "",
         "mappings": {
@@ -579,6 +616,13 @@
         "path": "",
         "mappings": {
             "Z": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 603237,
+        "path": "",
+        "mappings": {
+            "n": "validateMultiAccountTokens"
         }
     },
     {
@@ -672,6 +716,13 @@
         "mappings": {
             "W": "validateMultiAccountTokens",
             "v": "validateMultiAccountTokens"
+        }
+    },
+    {
+        "id": 698177,
+        "path": "",
+        "mappings": {
+            "Z": "TwoWayLinkSuccess"
         }
     },
     {
@@ -771,6 +822,15 @@
         }
     },
     {
+        "id": 771308,
+        "path": "",
+        "mappings": {
+            "Av": "submitDateOfBirth",
+            "hp": "logoutUnderageNewUser",
+            "wE": "preventUnderageRegistration"
+        }
+    },
+    {
         "id": 779699,
         "path": "",
         "mappings": {
@@ -804,6 +864,13 @@
         }
     },
     {
+        "id": 802408,
+        "path": "",
+        "mappings": {
+            "Z": "ClanUpsellButton"
+        }
+    },
+    {
         "id": 803866,
         "path": "",
         "mappings": {
@@ -815,6 +882,13 @@
         "path": "",
         "mappings": {
             "S2": "submitDateOfBirth"
+        }
+    },
+    {
+        "id": 820160,
+        "path": "",
+        "mappings": {
+            "Z": "default"
         }
     },
     {
@@ -919,6 +993,14 @@
         "path": "",
         "mappings": {
             "Z": "default"
+        }
+    },
+    {
+        "id": 929809,
+        "path": "",
+        "mappings": {
+            "H": "setNewUserFlowCompleted",
+            "c": "setNewUser"
         }
     },
     {

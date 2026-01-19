@@ -1,0 +1,1 @@
+[{"code":"function a(){return i}"},{"code":"function s(e){i===e&&(i=null)}"},{"code":"function o(e){i=e}"}]

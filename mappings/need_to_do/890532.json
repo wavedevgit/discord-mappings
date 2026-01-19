@@ -1,0 +1,1 @@
+[{"code":"function s(e){requestAnimationFrame(()=>{o(),0===r.size?e():i.add(e)})}"}]

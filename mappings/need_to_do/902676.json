@@ -1,0 +1,1 @@
+[{"code":"function i(e){let t=document.createElement(\"a\");return t.href=e,t.protocol}"},{"code":"function r(e){let t=document.createElement(\"a\");return t.href=e,t.hostname}"}]

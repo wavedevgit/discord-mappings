@@ -1,0 +1,1 @@
+[{"code":"class c extends a.Z{allowAbbreviations;constructor(e=!0){super(),this.allowAbbreviations=e}innerPattern(){return this.allowAbbreviations?s:l}innerExtract(e,t){let n=t[1].toLowerCase(),a=(0,r.RA)(t[2]);if(!a)return null;switch(n){case\"last\":case\"past\":case\"-\":a=(0,o.de)(a)}return i.L.createRelativeFromReference(e.reference,a)}}"}]

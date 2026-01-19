@@ -1,0 +1,1 @@
+[{"code":"function f(){(0,r.useEffect)(()=>{(0,s.e$)(a.dR.APP)},[]);let e=(0,i.e7)([l.Z],()=>l.Z.getExperimentsMetadata()),t=(0,i.e7)([l.Z],()=>l.Z.getRegisteredExperiments()),n=(0,r.useMemo)(()=>u(e,t),[e,t]),o=(0,i.e7)([l.Z],()=>l.Z.getClientOverrides());return{experiments:n,overridesInfo:(0,r.useMemo)(()=>d(o),[o])}}"}]

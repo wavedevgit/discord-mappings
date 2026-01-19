@@ -1,0 +1,1 @@
+[{"code":"function s(e,t){let{enabled:n}=o.useConfig({location:t});return null!=e&&!!(0,i.M5)(e,a.PremiumTypes.TIER_2)&&n}"}]

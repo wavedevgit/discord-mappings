@@ -1,0 +1,1 @@
+[{"code":"function H(e){let t=O.Z.getMutableBasicGuildChannelsForGuild(e),n=f().find(t,e=>e.type===A.d4z.GUILD_VOICE);return null==n?void 0:n.id}"}]

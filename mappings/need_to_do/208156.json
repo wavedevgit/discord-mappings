@@ -1,0 +1,1 @@
+[{"code":"function S(e){let{onLoad:t}=e,[n,a]=i.useState(!1),s=i.useCallback(e=>{a(!0),null==t||t(e)},[t]);return(0,r.jsxs)(\"div\",{className:g.fillParent,children:[!n&&(0,r.jsx)(\"div\",{className:o()(g.fillParent,g.iframePlaceholder)}),(0,r.jsx)(\"div\",{className:o()(g.fillParent,n?void 0:g.hiddenIframeContainer),children:(0,r.jsx)(v,O(b({},e),{onLoad:s}))})]})}"}]

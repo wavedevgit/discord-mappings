@@ -1,0 +1,1 @@
+[{"code":"e=>{var{channel:t}=e,n=F(e,[\"channel\"]);let i=T.ZP.getCurrentEmbeddedActivity();(0,A.Z)({connectedEmbeddedActivity:i});let{analyticsLocations:a}=(0,_.ZP)(p.Z.ACTIVITY_PIP),o=null==i;return(0,r.jsx)(_.Gt,{value:a,children:(0,r.jsx)(V,Z({channel:t,isLoading:o},n))})}"}]

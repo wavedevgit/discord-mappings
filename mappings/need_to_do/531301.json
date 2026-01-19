@@ -1,0 +1,1 @@
+[{"code":"function c(e){let t=(0,i.e7)([s.Z],()=>s.Z.getNote(e));return r.useEffect(()=>{null==t&&u(e)},[t,e]),null!=t?t:{loading:!0,note:null}}"}]

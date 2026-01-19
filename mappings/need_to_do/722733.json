@@ -1,0 +1,1 @@
+[{"code":"function s(e){return(0,r.Z)(e,o.Z,l)}"},{"code":"function l(e,t){switch(e){case\"guild\":return t.guildId;case\"user\":return i.default.getId();case\"installation\":var n;return null!=(n=i.default.getInstallationForTracking())?n:\"\";default:(0,a.vE)(e)}}"}]

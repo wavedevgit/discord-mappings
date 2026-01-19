@@ -1,0 +1,1 @@
+[{"code":"function s(e){let{location:t}=e,n=(0,i.cZ)({location:t}),r=a.useConfig({location:t}).guildActivitiesEnabled;return n&&r}"},{"code":"function o(e){let{location:t}=e,n=(0,i.cZ)({location:t}),r=a.useConfig({location:t}).voiceChannelActivitiesEnabled;return n&&r}"}]

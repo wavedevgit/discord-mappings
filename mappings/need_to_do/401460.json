@@ -1,0 +1,1 @@
+[{"code":"function O(e){let{icon:t,isSelected:n,disabled:i,tabIndex:a,onSelect:o,locked:s}=e;return(0,r.jsx)(y,{onSelect:i?void 0:o,isSelected:n,id:t.id,className:i?g.disabled:void 0,tabIndex:a,locked:s,children:(0,r.jsx)(p.Z,{id:t.id,width:_.M9})})}"}]

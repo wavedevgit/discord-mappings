@@ -1,0 +1,1 @@
+[{"code":"function s(e){return Object.values(i.Plq).some(t=>r.e$(e,t)&&!o.includes(t))}"},{"code":"function c(e){let t=l[e.toString()];if(null==t)throw Error(\"Unknown permission. Did you provide a _single_ bit flag? Perm: \".concat(e));return t()}"}]

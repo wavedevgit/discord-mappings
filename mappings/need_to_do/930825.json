@@ -1,0 +1,1 @@
+[{"code":"class i extends r._{primaryPrefix(){return\"(?:(?:ao?|\\xe0s?|das|da|de|do)\\\\s*)?\"}followingPhase(){return\"\\\\s*(?:\\\\-|\\\\–|\\\\~|\\\\〜|a(?:o)?|\\\\?)\\\\s*\"}}"}]

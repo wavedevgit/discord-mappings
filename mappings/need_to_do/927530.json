@@ -1,0 +1,1 @@
+[{"code":"function f(){return{withIsolationScope:d,withScope:c,withSetScope:u,withSetIsolationScope:(e,t)=>d(t),getCurrentScope:()=>l().getScope(),getIsolationScope:()=>l().getIsolationScope()}}"}]

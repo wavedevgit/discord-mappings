@@ -1,0 +1,1 @@
+[{"code":"()=>Promise.resolve()"},{"code":"()=>null"},{"code":"e=>\"||\".concat(e,\"||\")"},{"code":"function(){for(var e=arguments.length,t=Array(e),n=0;n<e;n++)t[n]=arguments[n]}"},{"code":"e=>\"https://www.youtube.com/embed/\".concat(e)"},{"code":"e=>\"https://img.youtube.com/vi/\".concat(e,\"/maxresdefault.jpg\")"}]

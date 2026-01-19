@@ -1,0 +1,1 @@
+[{"code":"function(e){let{match:t,location:n}=e,l=async e=>{await (0,i.s)(a.jE.GAME_SHOP,{guildId:e.params.guildId,pageIndex:e.params.pageIndex,skuId:e.params.skuId,slug:e.params.slug})};return(0,r.jsx)(s.Z,{match:t,location:n,attemptDeepLink:l})}"}]

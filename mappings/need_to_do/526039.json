@@ -1,0 +1,1 @@
+[{"code":"class d extends a.Z{innerPattern(){return s}innerExtract(e,t){let n=t[u].toLowerCase(),i=r.LN[n],a=t[l],s=t[c],d=a||s;d=(d=d||\"\").toLowerCase();let f=null;return d.match(/förra|senaste/)?f=\"last\":d.match(/nästa|kommande/)&&(f=\"next\"),(0,o.Rv)(e.reference,i,f)}}"}]

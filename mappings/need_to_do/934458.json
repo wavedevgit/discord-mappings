@@ -1,0 +1,1 @@
+[{"code":"function o(){let{fallback:e}=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{fallback:!0};return e?Promise.resolve(i.f):Promise.reject(\"Cannot get device state on web\")}"}]

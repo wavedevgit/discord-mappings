@@ -1,0 +1,1 @@
+[{"code":"function s(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:o.PremiumTypes.TIER_2;return(0,r.e7)([i.default],()=>{let t=i.default.getCurrentUser();return(0,a.M5)(t,e)})}"}]

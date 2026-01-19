@@ -1,0 +1,1 @@
+[{"code":"function p(e,t,n){let i=(0,l.Z)(),[o,s]=r.useState(!1),u=r.useMemo(()=>a().debounce(e=>{f(e,i,t,n)&&s(!0)},200,{maxWait:500}),[i,t,n]);r.useEffect(()=>{let r=c.ZP.getProps(t,n).groups;if(null!=t&&!d(r)&&!o)return e.addListener(\"text-changed\",u),()=>{e.removeListener(\"text-changed\",u),u.cancel()}},[o,u,e,t,n])}"}]

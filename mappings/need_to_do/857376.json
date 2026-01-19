@@ -1,0 +1,1 @@
+[{"code":"class l extends a.Z{innerPattern(e){return e.option.forwardDate?s:o}innerExtract(e,t){let n=(0,r.RA)(t[1]);return i.L.createRelativeFromReference(e.reference,n)}}"}]

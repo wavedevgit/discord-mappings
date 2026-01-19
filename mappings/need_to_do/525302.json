@@ -1,0 +1,1 @@
+[{"code":"function u(e){let{application:t}=e,n=null!=t?t.getIconURL(l.Si.SMALL):void 0;return null!=n?(0,r.jsx)(\"img\",{src:n,alt:null==t?void 0:t.name}):(0,r.jsx)(i.EOn,{color:\"currentColor\",size:\"xs\"})}"},{"code":"function c(e){return(0,r.jsx)(d,{wishlistItem:e})}"}]

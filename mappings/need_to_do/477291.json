@@ -1,0 +1,1 @@
+[{"code":"function p(e){let{summary:t,channel:a,rating:s}=e;null!=t&&(s===o.aZ.BAD?(0,i.ZDy)(async()=>{let{default:e}=await Promise.all([n.e(\"26860\"),n.e(\"47672\"),n.e(\"15222\")]).then(n.bind(n,580584));return n=>(0,r.jsx)(e,d(c({},n),{onSubmit:e=>f(t,a,e),startRating:s}))}):f(t,a,{rating:s,problem:null,feedback:\"\",dontShowAgain:!1}))}"}]

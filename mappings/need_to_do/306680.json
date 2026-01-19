@@ -1,0 +1,1 @@
+[{"code":"function eP(e,t){let n=B.Z.getChannel(e.channel_id);return!(null==n||q.Z.isBlockedOrIgnoredForMessage(e))&&!!((0,T.ZP)({message:e,userId:t.id,suppressEveryone:X.ZP.isSuppressEveryoneEnabled(n.guild_id),suppressRoles:X.ZP.isSuppressRolesEnabled(n.guild_id)})||ew(n))}"}]

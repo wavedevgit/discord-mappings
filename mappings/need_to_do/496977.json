@@ -1,0 +1,1 @@
+[{"code":"function l(){let e=(0,i.e7)([o.Z],()=>o.Z.initialState(),[]),t=(0,a.q)(null==e?void 0:e.applicationId);return r.useMemo(()=>{if(null==e)return;let n=[{type:s.gc.HOME}];return null!=e.applicationId&&null!=t&&n.push({type:s.gc.APPLICATION,application:t}),n},[e,t])}"}]

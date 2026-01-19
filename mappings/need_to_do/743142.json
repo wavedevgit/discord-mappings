@@ -1,0 +1,1 @@
+[{"code":"function o(e){let t=decodeURIComponent(e),n=(0,i.Qj)(t);return null!=n&&n.channelId===a.oC.ROLE_SUBSCRIPTIONS?\"role_subscription\":t===s.Z5c.SETTINGS(s.oAB.SUBSCRIPTIONS,\"role-subscriptions\")?\"role_subscription_setting\":void 0}"}]

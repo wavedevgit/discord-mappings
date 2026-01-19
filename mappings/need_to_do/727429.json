@@ -1,0 +1,1 @@
+[{"code":"function s(e){let t=(0,r.e7)([i.Z],()=>i.Z.getGuildId());return null!=t?t:e.getGuildId()}"},{"code":"function l(e){return i.Z.getGuildId()!==o.I_8?e.getGuildId():a.Z.isFavorite(e.id)||e.isThread()&&a.Z.isFavorite(e.parent_id)?o.I_8:e.getGuildId()}"}]

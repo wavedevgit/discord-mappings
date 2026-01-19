@@ -1,0 +1,1 @@
+[{"code":"function a(){let e=r.useContext(i);if(null==e)throw Error(\"useSettingsV2Context must be used within a SettingsV2Provider\");return e}"}]

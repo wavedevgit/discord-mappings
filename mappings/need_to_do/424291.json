@@ -1,0 +1,1 @@
+[{"code":"function d(e){let{application:t,channelId:o,onAgree:l,onDisagree:d}=e,f=null!=(0,a.ZP)({application:t,channelId:o})?i.u1M:i.z1l;return(0,i.ZDy)(async()=>{let{ActivityAgeGateModal:e}=await n.e(\"57951\").then(n.bind(n,252528));return n=>(0,r.jsx)(e,c(s({},n),{channelId:o,application:t,onAgree:l,onDisagree:d}))},{modalKey:u,contextKey:f}),Promise.resolve()}"}]

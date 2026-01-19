@@ -1,0 +1,1 @@
+[{"code":"function h(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:c.IlC.APP,t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=null!=e?e:(0,l.GB)();if(n!==c.IlC.APP&&null!=n){if(a.Z.isFocused())return;t?o.isPlatformEmbedded?s.ZP.focus():window.focus():_(e)}}"}]

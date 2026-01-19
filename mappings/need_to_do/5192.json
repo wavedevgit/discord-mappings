@@ -1,0 +1,1 @@
+[{"code":"function u(e,t,n){var r;return null==n?l.intl.string(l.t.sKdZ6U):null!=(r=c(e,t,n))?r:s.ZP.getName(n)}"},{"code":"function c(e,t,n){if(null==n)return null;if(null!=e)return a.ZP.getNick(e,n.id);if(null!=t){let e=i.Z.getChannel(t);if(null==e?void 0:e.isPrivate())return o.Z.getNickname(n.id)}return null}"}]

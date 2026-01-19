@@ -1,0 +1,1 @@
+[{"code":"function C(e){let{actionText:t,onAction:n}=e,{isLoading:r,multiAccountUsers:a}=(0,b.L)();return(0,i.jsx)(\"div\",{className:N.list,children:r?(0,i.jsx)(c.$jN,{className:N.spinner}):a.map((e,r)=>(0,i.jsxs)(s.Fragment,{children:[(0,i.jsx)(S,{user:e,actionText:t,onAction:n},e.id),a.length-1!==r&&(0,i.jsx)(\"div\",{role:\"separator\",className:N.separator})]},e.id))})}"}]

@@ -1,0 +1,1 @@
+[{"code":"function h(e){var t;let n=null==e||null==(t=e.parentElement)?void 0:t.getBoundingClientRect();return null==n?{width:0,height:0}:{width:n.width,height:n.height}}"}]

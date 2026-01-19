@@ -1,0 +1,1 @@
+[{"code":"function u(e,t){e.unobserve(t)}"},{"code":"function c(e,t){e.observe(t)}"},{"code":"function d(e,t){a.delete(e),null!=t&&i.delete(t)}"},{"code":"function l(e,t,n){var r,l;i.set(t,e),a.set(e,n);let c=null!=(l=null==(r=t.ownerDocument)?void 0:r.defaultView)?l:window,u=o.get(c);return null==u&&(u=s(c),o.set(c,u)),u}"}]

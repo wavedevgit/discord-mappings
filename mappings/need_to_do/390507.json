@@ -1,0 +1,1 @@
+[{"code":"function i(e){if(\"custom\"===e)return null;let t=r.Z[e];return{width:t,height:t}}"}]

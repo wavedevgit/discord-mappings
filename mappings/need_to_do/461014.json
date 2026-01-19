@@ -1,0 +1,1 @@
+[{"code":"e=>{let t=a.Z.getRequest(e);null!=t&&t.applicationStatus!==i.wB.STARTED?(0,o.uL)(s.Z5c.GUILD_MEMBER_VERIFICATION(e)):(0,r.hk)(e)}"},{"code":"e=>{var t,n;return(null==(t=e.features)?void 0:t.includes(s.GuildFeatures.MEMBER_VERIFICATION_GATE_ENABLED))&&(null==(n=e.features)?void 0:n.includes(s.GuildFeatures.MEMBER_VERIFICATION_MANUAL_APPROVAL))}"}]

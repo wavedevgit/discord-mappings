@@ -1,0 +1,1 @@
+[{"code":"e=>e instanceof d"},{"code":"class d extends i.Z{static fromServer(e){let t=r.Z.createFromServer(e.sku);if(null==t)throw Error(\"SKU not found\");return new d(c(s({},e),{sku:t}))}constructor(e){super(e),o(this,\"sku\",void 0),this.skuProductLine=a.POd.SOCIAL_LAYER_GAME_ITEM,this.sku=e.sku}}"}]

@@ -1,0 +1,1 @@
+[{"code":"function u(e){let t,{applicationId:n,storeListingBenefits:i,skuBenefits:a,className:o}=e;return null!=i?t=i.map(e=>(0,r.jsx)(f,{applicationId:n,benefit:e,className:o},e.id)):null!=a&&(t=a.map((e,t)=>(0,r.jsx)(d,{benefit:e,className:o},t))),t}"}]

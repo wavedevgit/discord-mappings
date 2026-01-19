@@ -1,0 +1,1 @@
+[{"code":"class u extends r.EventEmitter{get orientations(){return Object.values(o)}get state(){return s}check(){let e=l()>i,t=c()>i,n=e?\"vertical\":\"horizontal\";if(!(t&&e)&&(e||t)){let e=s.open;s={open:!0,orientation:n},e&&s.orientation===n||this.emit(\"changed\",s)}else s.open&&(s.open=!1,this.emit(\"changed\",s))}constructor(){super(),setInterval(()=>this.check(),a)}}"}]

@@ -1,0 +1,1 @@
+[{"code":"e=>{let{className:t,onDismiss:n,\"aria-label\":i}=e;return(0,r.jsx)(o.P3F,{role:\"button\",onClick:n,className:a()(s.dismissButton,t),\"aria-label\":i,children:(0,r.jsx)(o.Dio,{size:\"xs\",color:\"currentColor\",colorClass:s.dismissIcon})})}"}]

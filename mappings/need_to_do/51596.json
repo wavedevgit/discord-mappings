@@ -1,0 +1,1 @@
+[{"code":"function F(){U(A.rMx.QUICKSWITCHER_CLOSED),G()}"},{"code":"function M(e){let[t,n]=j(e);return{query:t,queryMode:n}}"},{"code":"function B(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:\"KEYBIND\";C.Z.isOpen()?F():Z(e)}"}]

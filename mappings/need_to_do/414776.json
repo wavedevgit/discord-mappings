@@ -1,0 +1,1 @@
+[{"code":"function(){s(this,this)}"},{"code":"function s(e,t){Object.defineProperty(e,r,{value:t,configurable:!0})}"},{"code":"function o(e){if(e)return e[r]}"},{"code":"function l(e,t){var n=o(e);if(n)return n.addChild(t),function(){return n.removeChild(t)}}"},{"code":"function(e){return!!o(e)}"},{"code":"function a(e){var t=o(e);return t?t.get():e}"}]

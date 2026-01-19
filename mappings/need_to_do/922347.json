@@ -1,0 +1,1 @@
+[{"code":"e=>e instanceof l"},{"code":"class l extends i.Z{static fromServer(e){return new l(o({},super.fromServer(e),e))}constructor(e){super(e),a(this,\"asset\",void 0),a(this,\"label\",void 0),this.type=r.Z.AVATAR_DECORATION,this.asset=e.asset,this.label=e.label}}"}]

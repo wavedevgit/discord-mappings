@@ -1,0 +1,1 @@
+[{"code":"function c(e){return null!=e&&l(i.Z.getBasicChannel(e))}"},{"code":"function l(e){return null!=e&&(e.type===o.d4z.DM||e.type===o.d4z.GROUP_DM||(0,r.Qm)(e.type)&&a.Z.canBasicChannel(s,e))}"}]

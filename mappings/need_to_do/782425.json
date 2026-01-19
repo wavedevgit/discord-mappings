@@ -1,0 +1,1 @@
+[{"code":"function s(e,t){return!!Object.is(e,t)||\"object\"==typeof e&&null!==e&&\"object\"==typeof t&&null!==t&&Object.getPrototypeOf(e)===Object.getPrototypeOf(t)&&(r(e)&&r(t)?i(e)&&i(t)?a(e,t):o(e,t):a({entries:()=>Object.entries(e)},{entries:()=>Object.entries(t)}))}"}]

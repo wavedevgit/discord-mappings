@@ -1,0 +1,1 @@
+[{"code":"function o(){let[e,t]=r.useState(null);return r.useEffect(()=>{(0,a.d2)().then(e=>t(e)).catch(e=>{(0,i.q2)(e)})},[]),e}"}]

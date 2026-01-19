@@ -1,0 +1,1 @@
+[{"code":"function h(e){let{guildId:t,location:n,scrollToPowerupCards:i}=e;(0,s.q4)(e=>{let{closeLayer:a}=e;return(0,r.jsx)(_,{close:a,guildId:t,location:n,scrollToPowerupCards:i})},{layerKey:p})}"}]

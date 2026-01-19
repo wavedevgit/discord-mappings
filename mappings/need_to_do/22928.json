@@ -1,0 +1,1 @@
+[{"code":"e=>{let{application:t,iconSize:n=s}=e,l=i.useMemo(()=>a.ZP.getApplicationIconURL({id:t.id,icon:t.icon,size:n}),[t,n]);return(0,r.jsx)(\"img\",{className:o.applicationIcon,src:l,alt:\"\",height:n,width:n})}"}]

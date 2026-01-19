@@ -1,0 +1,1 @@
+[{"code":"function i(e){let{location:t}=e,{enabled:n}=r.useConfig({location:t});return n}"}]

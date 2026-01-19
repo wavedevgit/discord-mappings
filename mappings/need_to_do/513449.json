@@ -1,0 +1,1 @@
+[{"code":"function p(e){(0,a.j)(()=>d.setState({isOnStartStageScreen:e}))}"},{"code":"function _(e){let t=(0,o.e7)([l.Z],()=>l.Z.getVoiceChannelId()===e.id),n=(0,o.e7)([s.Z],()=>s.Z.can(c.yP,e),[e]),i=(0,u.Z)(e.id),a=n&&!i;r.useEffect(()=>{t?a||p(!1):p(a)},[t,a])}"},{"code":"e=>o(t,e)"}]

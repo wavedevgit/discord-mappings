@@ -1,0 +1,1 @@
+[{"code":"()=>(0,r.e7)([i.default],()=>{var e;let t=i.default.getCurrentUser();return null!=(e=null==t?void 0:t.nsfwAllowed)?e:null})"}]

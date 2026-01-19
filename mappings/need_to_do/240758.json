@@ -1,0 +1,1 @@
+[{"code":"e=>r.useConfig({location:e}).enabled"},{"code":"e=>r.getConfig({location:e}).enabled"}]

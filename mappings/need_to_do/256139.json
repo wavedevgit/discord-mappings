@@ -1,0 +1,1 @@
+[{"code":"function _(e){var{className:t,onClick:n}=e,i=f(e,[\"className\",\"onClick\"]);let l=(0,r.jsx)(o.P3F,d(c({},i),{className:a()(null!=n&&s.clickable,t),onClick:n}));return null==n?(0,r.jsx)(o.nuw,{children:l}):l}"}]

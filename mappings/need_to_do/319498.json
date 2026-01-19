@@ -1,0 +1,1 @@
+[{"code":"function t(){for(var t,n=arguments.length,r=Array(n),i=0;i<n;i++)r[i]=arguments[i];return(t=e.call.apply(e,[this].concat(r))||this).history=(0,o.lX)(t.props),t}"}]

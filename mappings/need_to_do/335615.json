@@ -1,0 +1,1 @@
+[{"code":"function ed(e){let{channel:t,className:n}=e,a=i.useDeferredValue(t);return i.useMemo(()=>(0,r.jsx)(eu,{channel:a,className:n}),[a,n])}"}]

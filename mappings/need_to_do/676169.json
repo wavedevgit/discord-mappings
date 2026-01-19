@@ -1,0 +1,1 @@
+[{"code":"function n(){var e;o(this,n);for(var r=arguments.length,i=Array(r),a=0;a<r;a++)i[a]=arguments[a];return m(p(e=t.call.apply(t,[this].concat(i))),\"priority\",80),m(p(e),\"incompatibleTokens\",[\"a\",\"b\",\"t\",\"T\"]),e}"}]

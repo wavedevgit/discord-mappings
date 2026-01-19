@@ -1,0 +1,1 @@
+[{"code":"function p(e){var{shouldAnimate:t=\"respect-motion-settings\"}=e,n=d(e,[\"shouldAnimate\"]);let s=i.useContext(o.Sfi).reducedMotion.enabled,c=\"animate-always\"===t||\"respect-motion-settings\"===t&&!s;return(0,r.jsx)(a.Spring,u(l({},n),{immediate:!c}))}"}]

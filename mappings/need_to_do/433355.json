@@ -1,0 +1,1 @@
+[{"code":"function L(e){return[c.tI.VIEW_CHANNEL,c.tI.VIEW_THREAD,c.tI.VIEW_MESSAGE_REQUEST,c.tI.VIEW_MOD_REPORT].includes(e.type)}"}]

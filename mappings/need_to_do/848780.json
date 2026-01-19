@@ -1,0 +1,1 @@
+[{"code":"function c(e){let{userId:t,onClick:n}=e;if(!(0,i.e7)([s.Z],()=>s.Z.isIgnored(t)))return null;let c=()=>{o.Rt.updateSetting(!0),n()};return(0,r.jsx)(a.Avr,{onClick:c,variant:\"primary\",size:\"sm\",textVariant:\"text-sm/medium\",text:l.intl.string(l.t.QbcRCJ)})}"}]

@@ -1,0 +1,1 @@
+[{"code":"e=>{let{location:t,autoTrackExposure:n=!0}=e;return r.useExperiment({location:t},{autoTrackExposure:n})}"},{"code":"e=>{let{location:t,autoTrackExposure:n=!0}=e;return r.getCurrentConfig({location:t},{autoTrackExposure:n})}"}]

@@ -1,0 +1,1 @@
+[{"code":"function v(e,t){let{shouldWrap:n=!1,fontOpacity:i=1}=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{},a={};switch(e){case r.m.GRADIENT:case r.m.GLOW:a=O(t);break;case r.m.NEON:case r.m.POP:case r.m.TOON:case r.m.SOLID:default:t.length>0&&(a=y(t[0]))}return l(o({},a),{[E]:n?\"wrap\":\"nowrap\",[b]:i})}"}]

@@ -1,0 +1,1 @@
+[{"code":"()=>{let e=(0,i.e7)([s.Z],()=>s.Z.assets);return r.useEffect(()=>{let t=async()=>{let e=await o.ZP.getAssets();null!=e&&a.Z.dispatch({type:\"HAVEN_GOT_ASSETS\",assets:e.body})};null==e&&t()},[e]),e}"}]

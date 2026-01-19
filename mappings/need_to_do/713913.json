@@ -1,0 +1,1 @@
+[{"code":"function i(e){let t=e.binds[0],{tooltipsWithKeybinds:n}=r.useConfig({location:\"useKeybindIfInIaExperiment-\".concat(t)});return n?t:void 0}"}]

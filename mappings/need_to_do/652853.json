@@ -1,0 +1,1 @@
+[{"code":"function l(e){let{theme:t,themeType:n,primaryColor:a,secondaryColor:o,userId:l,children:c}=e,u=i.useMemo(()=>({theme:t,themeType:n,primaryColor:a,secondaryColor:o,userId:l}),[t,n,a,o,l]);return(0,r.jsx)(s.Provider,{value:u,children:c})}"},{"code":"()=>i.useContext(s)"}]

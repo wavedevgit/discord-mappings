@@ -1,0 +1,1 @@
+[{"code":"async function _(e){let t;if(null==e.targetApplicationId)return!1;let n=!1;try{t=await (0,l.Z)(e.targetApplicationId,e.channelId),n=(0,a.R)()}catch(e){return!1}return(0,a.C)(n,()=>h(p(d({},e),{targetApplication:t})))}"}]

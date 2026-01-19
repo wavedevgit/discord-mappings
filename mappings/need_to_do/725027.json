@@ -1,0 +1,1 @@
+[{"code":"function l(){return i.useContext(o)}"},{"code":"function s(e){let{children:t,isRichTooltip:n=!1}=e,a=i.useMemo(()=>({isRichTooltip:n}),[n]);return(0,r.jsx)(o.Provider,{value:a,children:t})}"}]

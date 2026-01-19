@@ -1,0 +1,1 @@
+[{"code":"function f(e,t,n){let r=[];n((e,t)=>{p(r,e,t)}),g(e,t,r),b(e,r)}"}]

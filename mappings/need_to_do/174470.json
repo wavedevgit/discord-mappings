@@ -1,0 +1,1 @@
+[{"code":"function c(){return s(a.Z.getGuildIds(),o.Z.getSounds())}"},{"code":"function l(){let e=(0,i.Wu)([a.Z],()=>a.Z.getGuildIds()),t=(0,i.e7)([o.Z],()=>o.Z.getSounds());return(0,r.useMemo)(()=>s(e,t),[e,t])}"}]

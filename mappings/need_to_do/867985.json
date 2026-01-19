@@ -1,0 +1,1 @@
+[{"code":"class a{async acquire(e,t){let n=await r.Z.get(e,t,this);return this.pool[n.id]=n,n}get(e){let t=this.pool[e];return delete this.pool[e],t}release(e){if(e.pool!==this)throw Error(\"DesktopInputPool: Input not from this pool\");this.pool[e.id]=e}constructor(){i(this,\"pool\",{})}}"}]

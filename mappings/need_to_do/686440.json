@@ -1,0 +1,1 @@
+[{"code":"function d(e){let t=(0,o.WA)(\"canLaunchFrame\");return r.useMemo(()=>c(e,t),[e,t])}"},{"code":"function u(e){return c(e,(0,o.sd)(\"canLaunchFrame\"))}"}]

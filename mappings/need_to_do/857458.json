@@ -1,0 +1,1 @@
+[{"code":"function u(){let e=location.pathname+location.search;return i.aA?c.Z5c.REGISTER:(0,l.Ui)(e,!1)}"},{"code":"function(){return(0,n.jsx)(o.l_,{to:u()})}"}]

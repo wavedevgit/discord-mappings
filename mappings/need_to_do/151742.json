@@ -1,0 +1,1 @@
+[{"code":"function o(e){let t=\"\";for(let n=0;n<e.length;n++)t+=r[e[n]];return parseInt(t)}"},{"code":"function a(e){let t=0;for(let n=0;n<e.length;n++){let i=e[n];\"十\"===i?t=0===t?r[i]:t*r[i]:t+=r[i]}return t}"}]

@@ -1,0 +1,1 @@
+[{"code":"function l(e){let{emojiId:t,emojiName:n,defaultComponent:o,size:l=s.MEDIUM}=e,{customEmoji:c,unicodeEmoji:u}=(0,a.Z)(t,n);return null==c&&null==u?o:(0,r.jsx)(i.Z,{emojiName:null!=c?null==c?void 0:c.name:n,animated:null!=c&&c.animated,emojiId:null==c?void 0:c.id,autoplay:!0,className:l})}"}]

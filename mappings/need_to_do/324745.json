@@ -1,0 +1,1 @@
+[{"code":"function l(){let{shouldMergeGameSettings:e}=i.b.getCurrentConfig({location:\"useOpenGameSettings\"}),{analyticsLocations:t}=(0,r.ZP)();if((0,a.Jw)())return()=>{(0,o.Z)(e?s.Z.MY_GAMES:s.Z.ACTIVITY_PRIVACY,{analyticsLocations:t})}}"}]

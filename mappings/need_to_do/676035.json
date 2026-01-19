@@ -1,0 +1,1 @@
+[{"code":"function u(e){let{emojiId:t}=e;return c(e,null!=t&&\"0\"!==t?a.ZP.getUsableCustomEmojiById(t):null)}"},{"code":"function d(){let e=s.Ok.useSetting(),t=null==e?void 0:e.emojiId,n=(0,i.e7)([a.ZP],()=>null!=t&&\"0\"!==t?a.ZP.getUsableCustomEmojiById(t):null,[t]);return(0,r.useMemo)(()=>null!=e?c(e,n):null,[e,n])}"}]

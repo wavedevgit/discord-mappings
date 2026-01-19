@@ -1,0 +1,1 @@
+[{"code":"e=>r.useMemo(()=>{let t=(0,i.clamp)(e.avatar,0,a.eJ.length-1),n=a.x3[a.eJ[t]];return null==n&&(n=a.x3[a.oc.IMP]),n},[e.avatar])"}]

@@ -1,0 +1,1 @@
+[{"code":"function u(e){return\"recently_used_by_user\"===o(e).sortingStrategy}"},{"code":"function l(e){return\"top_sounds\"===o(e).sortingStrategy}"},{"code":"function s(e){return a.useConfig({location:e})}"},{"code":"function c(e){return\"metrics_capture\"===o(e).sortingStrategy}"}]

@@ -1,0 +1,1 @@
+[{"code":"function m(e){let t=E(e);return t+=g(e.pathname),t+=g(e.search),t+=g(e.hash)}"},{"code":"function u(e){return e.replace(l,\"\")}"},{"code":"function c(e){return e.replace(s,\"\")}"},{"code":"function p(e){let t=e;return d.forEach(e=>{t=t.replace(e.matcher,e.character)}),t}"}]

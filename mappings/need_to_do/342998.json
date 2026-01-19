@@ -1,0 +1,1 @@
+[{"code":"e=>{let{entry:t,isFirstApplicationOccurrence:n,targetElementRef:i}=e;return(0,r.jsx)(O,{entry:t,targetElementRef:i,isFirstApplicationOccurrence:n})}"}]

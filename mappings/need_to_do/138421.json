@@ -1,0 +1,1 @@
+[{"code":"e=>r.ZP.queryStickers([e],!0).map(e=>{let{sticker:t}=e;return t})"}]

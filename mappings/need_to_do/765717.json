@@ -1,0 +1,1 @@
+[{"code":"function d(e){var t,{impressionName:n,impressionProperties:s,disableTrack:u}=e,d=c(e,[\"impressionName\",\"impressionProperties\",\"disableTrack\"]);let f=s;return\"function\"==typeof f&&(f=f(d)),(0,o.Z)({type:a.ImpressionTypes.PAGE,name:n,properties:f},{disableTrack:u},[null==(t=d.location)?void 0:t.pathname]),(0,r.jsx)(i.AW,l({},d))}"}]

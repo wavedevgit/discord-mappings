@@ -1,0 +1,1 @@
+[{"code":"function u(e){let t=(0,i.e7)([o.Z,s.Z],()=>{let e=s.Z.getDebugImpressionCappingDisabled();return!(0,a.wm)(\"useFilterImpressionCappedContent\")||e?c:o.Z.getImpressionCappedItemIds()},[e]);return r.useMemo(()=>{if(null==e)return{entries:e,filteredIds:c};let n=new Set;return{entries:e.filter(e=>!!(0,l.kr)(e)||!t.has(e.id)||(n.add(e.id),!1)),filteredIds:n}},[e,t])}"}]

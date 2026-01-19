@@ -1,0 +1,1 @@
+[{"code":"function u(e){let t=(0,a.e7)([s.Z],()=>{var t,n;return null==(n=s.Z.getStateForGuild(e))||null==(t=n.powerupCatalog)?void 0:t[l.Us.PERK]}),n=(0,o.Z)(e);return r.useMemo(()=>{let e=[...null!=t?t:[]];return null!=n&&e.push(n),e.filter(e=>!c.has(e.skuId))},[t,n])}"}]

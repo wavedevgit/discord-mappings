@@ -1,0 +1,1 @@
+[{"code":"function a(e){return i(e)}"},{"code":"function i(e){return r.t.XBOX_APPLICATION_ID===e||r.M.PLAYSTATION_APPLICATION_IDS.has(e)}"}]

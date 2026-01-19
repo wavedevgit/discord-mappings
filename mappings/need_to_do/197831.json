@@ -1,0 +1,1 @@
+[{"code":"e=>{let{className:t,options:n}=e,i=(0,o.e7)([c.Z],()=>(0,s.wj)(c.Z.theme));return null==n?null:null!=n?n.animated?(0,r.jsx)(l.Z,{src:n.getSrc(i),className:a()(u.customConfetti,t),style:n.style,loop:!1,muted:!0,autoPlay:!0}):(0,r.jsx)(\"img\",{src:n.getSrc(i),className:a()(u.customConfetti,t),style:n.style,alt:\"\",\"aria-hidden\":\"true\"}):null}"}]

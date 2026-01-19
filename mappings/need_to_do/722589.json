@@ -1,0 +1,1 @@
+[{"code":"function d(e,t){let[,,n,a]=e.split(\"/\"),o=c(n),s=c(a),l=u(o),d=\"\"===s||u(s);return l&&d?{params:(0,r.parse)(null!=t?t:location.search),section:i.oAB[o],subsection:s}:null}"}]

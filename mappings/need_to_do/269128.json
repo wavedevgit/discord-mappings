@@ -1,0 +1,1 @@
+[{"code":"e=>{var{open:t,className:n}=e,a=s(e,[\"open\",\"className\"]);let l=t?i.Dio:i.CJ0;return(0,r.jsx)(l,o({className:n,size:\"sm\",color:\"currentColor\"},a))}"}]

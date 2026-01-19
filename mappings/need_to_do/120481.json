@@ -1,0 +1,1 @@
+[{"code":"function f(e,t){let{attributes:n,children:i,element:a}=t;return\"timestampMentionInput\"===a.type?(0,r.jsx)(p,{attributes:n,element:a,children:i}):null}"}]

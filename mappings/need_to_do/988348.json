@@ -1,0 +1,1 @@
+[{"code":"function s(){if(!a())return;let{createContext:e}=r.ZP.requireModule(\"discord_zstd\");return e()}"},{"code":"function a(){return null==i&&(i=o()),i}"}]

@@ -1,0 +1,1 @@
+[{"code":"function o(){for(let e of[a.AW.HOME,a.AW.ORBS,a.AW.CATALOG]){let t=i.Z.getShopBlocks(e).find(e=>e.type===r.z.WIDE_BANNER);if((null==t?void 0:t.dismissibleContentVersion)!=null)return t.dismissibleContentVersion}return 0}"}]

@@ -1,0 +1,1 @@
+[{"code":"function l(){let e={className:\"ansi-control-sequence\",begin:o,starts:{end:s,endsParent:!0}},t=[...u(\"foreground\",i,[\"38\",\"39\"],!0),...u(\"background\",a,[\"48\",\"49\"],!0),...u(\"style\",r,[],!1),e];return d(t),{contains:[{begin:s,contains:t}]}}"}]

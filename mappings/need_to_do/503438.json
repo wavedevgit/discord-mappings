@@ -1,0 +1,1 @@
+[{"code":"function o(e){return null!=e&&e.type===i.IIU.LISTENING&&e.name===r.Z.get(i.ABu.SPOTIFY).name&&null!=e.party&&null!=e.party.id&&(0,a.Ps)(e.party.id)}"}]

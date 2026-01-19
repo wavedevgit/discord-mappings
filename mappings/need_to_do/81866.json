@@ -1,0 +1,1 @@
+[{"code":"function o(e){let t=(0,r.e7)([a.Z],()=>{let t=a.Z.getGameRelationshipsForUser(e);if(0!==t.length)return t[0].applicationId});return(0,i.q)(t)}"}]

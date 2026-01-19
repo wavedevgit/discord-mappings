@@ -1,0 +1,1 @@
+[{"code":"function c(e,t){(0,i.ZDy)(async()=>{let{default:i}=await n.e(\"57539\").then(n.bind(n,924188));return n=>(0,r.jsx)(i,l(o({},n),{channelId:e,messageId:t}))})}"}]

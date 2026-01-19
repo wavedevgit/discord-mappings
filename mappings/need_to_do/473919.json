@@ -1,0 +1,1 @@
+[{"code":"function u(e){let{icon:t,tooltipText:n,tooltipAriaLabel:i,className:u,onTooltipShow:d}=e,f=(0,s.vjg)(s.Skl.ONLINE);return null==n?(0,r.jsx)(t,{size:\"custom\",color:f,className:a()(c.icon,u)}):(0,r.jsx)(o.u,{ariaHidden:!0,text:n,delay:l.X,onTooltipShow:d,children:(0,r.jsx)(t,{size:\"custom\",color:f,className:a()(c.icon,u),\"aria-label\":i})})}"}]

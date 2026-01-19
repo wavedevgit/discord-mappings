@@ -1,0 +1,1 @@
+[{"code":"function u(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:\"vertical\",n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:\"scroll\",r=\"vertical\"===t?\"auto\"===n?o:a:\"horizontal\"===t?\"auto\"===n?l:s:c;return null!=e?i({},r,e):r}"}]

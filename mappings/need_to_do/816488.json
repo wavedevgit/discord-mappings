@@ -1,0 +1,1 @@
+[{"code":"function o(e,t,n){let o=(0,i.Z)(e),s=(0,r.useRef)(a);return s.current===a?s.current=t:n(s.current,t)||(o.current=e(),s.current=t),o.current}"}]

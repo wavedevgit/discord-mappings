@@ -1,0 +1,1 @@
+[{"code":"function p(e){var{children:t}=e,n=d(e,[\"children\"]);let{spacing:s}=i.useContext(o.q);return(0,r.jsx)(\"form\",u(l({},n),{children:(0,r.jsx)(a.K,{direction:\"vertical\",gap:s,children:t})}))}"}]

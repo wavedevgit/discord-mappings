@@ -1,0 +1,1 @@
+[{"code":"function a(e){let{children:t,confettiLocation:n}=e;return(0,r.e7)([i.Z],()=>i.Z.isEnabled({confettiLocation:n}))?t:null}"}]

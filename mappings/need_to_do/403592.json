@@ -1,0 +1,1 @@
+[{"code":"function N(e){return e.upload.item.platform!==d.ow.WEB?null:(0,r.jsx)(A,v(y({},e),{file:e.upload.item.file}))}"}]

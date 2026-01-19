@@ -1,0 +1,1 @@
+[{"code":"function e(e,t){if(0===t)throw Error(\"Can't create weekday with n == 0\");this.weekday=e,this.n=t}"}]

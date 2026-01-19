@@ -1,0 +1,1 @@
+[{"code":"function d(e){let{className:t}=e,{goBack:n}=(0,l.hH)(),a=i.useCallback(()=>{n()},[n]);return(0,r.jsx)(s.P3F,{onClick:a,className:o()(u.clickable,t),\"aria-label\":c.intl.string(c.t.ybUZql),children:(0,r.jsx)(s.j9r,{size:\"sm\",color:s.TVs.colors.INTERACTIVE_TEXT_ACTIVE})})}"}]

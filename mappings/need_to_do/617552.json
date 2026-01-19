@@ -1,0 +1,1 @@
+[{"code":"function g(e){let{onConfirm:t,onCancel:n,usesPopoutContext:i=!1}=e;l.ZP.disableEmbeddedActivityPopOutAlert?t():(0,o.h7j)(e=>(0,r.jsx)(m,p(d({},e),{onConfirm:t,onCancel:n})),{},i?o.u1M:void 0)}"}]

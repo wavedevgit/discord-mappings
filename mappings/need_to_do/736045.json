@@ -1,0 +1,1 @@
+[{"code":"function o(){let e=a.Z.getVoiceStateForSession(r.default.getId(),r.default.getSessionId()),t=null==e?void 0:e.channelId;return i.Z.getChannel(t)}"}]

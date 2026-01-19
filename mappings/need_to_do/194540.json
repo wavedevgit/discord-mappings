@@ -1,0 +1,1 @@
+[{"code":"function n(e,t){return\"string\"==typeof(null==t?void 0:t.format)?Object.assign(Object.assign({},e[t.format]),t):t}"}]

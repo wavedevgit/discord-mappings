@@ -1,0 +1,1 @@
+[{"code":"function(e){this.nodes={},this.outgoingEdges={},this.incomingEdges={},this.circular=e&&!!e.circular}"}]

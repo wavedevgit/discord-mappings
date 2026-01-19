@@ -1,0 +1,1 @@
+[{"code":"function(e,t){var n;return P(n=(t=t||{}).getShadowRoot?u([e],t.includeContainer,{filter:A.bind(null,t),flatten:!1,getShadowRoot:t.getShadowRoot,shadowRootFilter:N}):c(e,t.includeContainer,A.bind(null,t)))}"}]

@@ -1,0 +1,1 @@
+[{"code":"function c(e){var{src:t,dynamicDataBinding:n}=e,a=s(e,[\"src\",\"dynamicDataBinding\"]);let{status:l,buffer:c}=(0,i.VG8)(t);return l===i.JtY.Loading?null:(0,r.jsx)(i.vS4,o({buffer:c,artboardProperties:{},dynamicDataBinding:n},a),t)}"}]

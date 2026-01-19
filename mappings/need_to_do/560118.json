@@ -1,0 +1,1 @@
+[{"code":"class i extends r.Z{patternBetween(){return/^\\s*(bis(?:\\s*(?:am|zum))?|-)\\s*$/i}}"}]

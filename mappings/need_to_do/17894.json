@@ -1,0 +1,1 @@
+[{"code":"async function m(e){let t=await h(e),n=(0,o.zS)(t);null!=n&&f.default.track(_.rMx.DEEP_LINK_CLICKED,{fingerprint:(0,s.K)(n.fingerprint),attempt_id:n.attemptId,source:n.utmSource}),p.Z.launch(t,e=>{e||(0,c.dL)(d.Z.fallbackRoute)})}"}]

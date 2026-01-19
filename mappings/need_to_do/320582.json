@@ -1,0 +1,1 @@
+[{"code":"function l(e){return s(e,o.OGo.FRIEND)}"},{"code":"function u(e,t){let[n]=(0,r.e7)([a.Z],()=>{let n=a.Z.getGameRelationshipsForUserByType(e,t),r=a.Z.getGameRelationshipsVersion();return[n.length>0,r]},[t,e],i.Q);return n}"},{"code":"function c(e){return s(e,o.OGo.PENDING_INCOMING)}"}]

@@ -1,0 +1,1 @@
+[{"code":"function I(e){let t=p.Z.toURLSafe(e);return null==t?null:(t.searchParams.append(\"format\",\"webp\"),t.toString())}"},{"code":"function S(e,t){return y(E({},e),{type:(0,o.hg)(e),original:e.url,srcIsAnimated:(0,a.yE)(e.flags,o.hR.IS_ANIMATED),sourceMetadata:{message:t}})}"}]

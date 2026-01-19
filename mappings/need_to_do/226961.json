@@ -1,0 +1,1 @@
+[{"code":"function C(e,t,n){return\"\".concat(e,\":\").concat(t,\":\").concat(n)}"},{"code":"function A(e){let[t,n]=e.split(\":\");return{context:t,section:n}}"}]

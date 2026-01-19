@@ -1,0 +1,1 @@
+[{"code":"function l(e){return{roomId:e.room_id,participants:e.participants.map(o),seats:e.seats.map(s)}}"},{"code":"function c(e){switch(e){case r.Yg.RADIO:return a.intl.string(i.default.AjiGKB);case r.Yg.ENVIRONMENT:return a.intl.string(i.default.YEYIbI);case r.Yg.CAMPFIRE:return a.intl.string(i.default[\"Vk9+Ez\"]);default:return\"\"}}"}]

@@ -1,0 +1,1 @@
+[{"code":"function q(e){let{withTitleBar:t,isFullScreen:n}=e;return t&&k.isPlatformEmbedded&&!n}"}]

@@ -1,0 +1,1 @@
+[{"code":"function o(e){let[t,n]=r.useState(a.A.WAITING);return r.useEffect(()=>{null!=e&&e!==i.h8.REVIEW&&t!==a.A.WAITING&&t!==a.A.COMPLETED&&n(a.A.WAITING)},[e,t,n]),[t,n]}"}]

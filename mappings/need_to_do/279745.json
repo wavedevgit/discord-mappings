@@ -1,0 +1,1 @@
+[{"code":"function d(e){var{className:t}=e,n=c(e,[\"className\"]);return(0,r.jsx)(\"div\",l({className:a()(o.gifTag,t)},n))}"}]

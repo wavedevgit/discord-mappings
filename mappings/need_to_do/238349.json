@@ -1,0 +1,1 @@
+[{"code":"function F(e){let t=h.Z.getChannel(e);return null==t?[]:Object.values(f.Z.getThreadsForParent(t.guild_id,t.id)).map(e=>{let{id:t}=e;return t}).sort(k(T))}"}]

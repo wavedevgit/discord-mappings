@@ -1,0 +1,1 @@
+[{"code":"async function s(e,t,n){let{hasSpotifyAccount:s,activity:l,user:c}=e;(0,o.Z)(s)&&null!=l&&null!=l.sync_id&&(await (0,i.KV)(),r.hY(l,c.id),(0,a.Z)(t,c,l,n))}"}]

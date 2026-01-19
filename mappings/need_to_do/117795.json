@@ -1,0 +1,1 @@
+[{"code":"function d(e){var{width:t=12,height:n=12,color:a=\"currentColor\",foreground:s}=e,u=c(e,[\"width\",\"height\",\"color\",\"foreground\"]);return(0,r.jsx)(\"svg\",l(o({},(0,i.Z)(u)),{width:t,height:n,viewBox:\"0 0 12 12\",children:(0,r.jsx)(\"rect\",{fill:a,className:s,width:\"8\",height:\"2\",x:\"2\",y:\"5\",fillRule:\"evenodd\"})}))}"}]

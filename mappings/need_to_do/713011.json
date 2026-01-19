@@ -1,0 +1,1 @@
+[{"code":"function a(e){return function(){var t=e.getMonitor(),n=e.getRegistry();o(t);var r=t.getSourceId();return null!=r&&(n.getSource(r,!0).endDrag(t,r),n.unpinSource()),{type:i.Bs}}}"}]

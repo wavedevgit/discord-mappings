@@ -1,0 +1,1 @@
+[{"code":"function d(e){var{width:t=24,height:n=24,color:a=\"currentColor\"}=e,s=c(e,[\"width\",\"height\",\"color\"]);return(0,r.jsx)(\"svg\",l(o({},(0,i.Z)(s)),{width:t,height:n,viewBox:\"0 0 4 4\",children:(0,r.jsx)(\"circle\",{cx:\"2\",cy:\"2\",r:\"2\",fill:a})}))}"}]

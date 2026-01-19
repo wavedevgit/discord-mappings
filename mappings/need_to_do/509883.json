@@ -1,0 +1,1 @@
+[{"code":"function c(e){return function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},n=e.getMonitor(),r=e.getRegistry();u(n),p(n).forEach(function(a,o){var l=d(a,o,r,n),c={type:i.rp,payload:{dropResult:s(s({},t),l)}};e.dispatch(c)})}}"}]

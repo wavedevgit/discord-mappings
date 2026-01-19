@@ -1,0 +1,1 @@
+[{"code":"e=>{var{handleLearnMore:t}=e,n=m(e,[\"handleLearnMore\"]);let _=(0,i.e7)([a.Z],()=>a.Z.getGuildId()),g=(0,s.iL)({guildId:_,onClick:()=>{window.open(l.Z.getArticleURL(u.BhN.NITRO_FAQ),\"_blank\")}}),b=(0,o.rO)()?f.Z:p.Z;return(0,r.jsx)(c.Z,h({gradientColor:\"nitro-pink\",title:d.intl.string(d.t[\"9C+41g\"]),subtitle:g,videoSrc:b,loopAt:E,onSecondaryClick:t},n))}"}]

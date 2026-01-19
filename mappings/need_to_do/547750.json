@@ -1,0 +1,1 @@
+[{"code":"class c extends a.Z{strictMode;constructor(e){super(),this.strictMode=e}innerPattern(e){return this.strictMode?l:e.option.forwardDate?o:s}innerExtract(e,t){if(t[0].match(/^for\\s*the\\s*\\w+/))return null;let n=(0,r.RA)(t[1]);return n?i.L.createRelativeFromReference(e.reference,n):null}}"}]

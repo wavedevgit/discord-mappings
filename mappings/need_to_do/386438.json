@@ -1,0 +1,1 @@
+[{"code":"class a{static has(e,t){return(e&t)!=0}static asBasicFlag(e){let t=20;return r.ug(t,e)}static asBigFlag(e){return Object.hasOwn(this.cache,e)||(this.cache[e]=r.vB(e)),this.cache[e]}}"}]

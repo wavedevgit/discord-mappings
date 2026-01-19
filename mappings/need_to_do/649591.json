@@ -1,0 +1,1 @@
+[{"code":"function s(e){let{application:t,onConfirm:a,onCancel:s}=e;return(0,i.ZDy)(async()=>{let{default:e}=await n.e(\"18367\").then(n.bind(n,557751));return n=>(0,r.jsx)(e,o({application:t,onConfirm:a,onCancel:s},n))}),Promise.resolve()}"}]

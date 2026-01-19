@@ -1,0 +1,1 @@
+[{"code":"function c(e){let t=e.gameActivity,n=l(e),i=r.useMemo(()=>{let e=s(t);return n.sort(e),n},[n,t]),a=r.useMemo(()=>i.slice(0,o),[i]);return{gamesToDisplay:a,lastGameToDisplay:r.useMemo(()=>{var e;return null!=(e=i[o])?e:null},[i]),remainingGames:r.useMemo(()=>i.slice(o),[i])}}"}]

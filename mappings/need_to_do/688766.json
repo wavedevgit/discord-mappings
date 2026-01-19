@@ -1,0 +1,1 @@
+[{"code":"function s(e,t){let n=(0,a.ZP)(),s=(0,r.e7)([o.Z],()=>o.Z.useReducedMotion);return null==e?null:(0,i.w)(n)||t?s?e.darkStaticUrl:e.darkUrl:s?e.lightStaticUrl:e.lightUrl}"}]

@@ -1,0 +1,1 @@
+[{"code":"function a(e){return s()?i.Z.getState().activityUrlOverride:r.Z.inTestModeForEmbeddedApplication(e)?r.Z.testModeOriginURL:o(e)}"},{"code":"function s(){let e=i.Z.getState();return e.useActivityUrlOverride&&null!=e.activityUrlOverride&&\"\"!==e.activityUrlOverride}"}]

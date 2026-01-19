@@ -1,0 +1,1 @@
+[{"code":"function l(e){r.useEffect(()=>{a.DZ.loadIfUncached(s.yP.FRECENCY_AND_FAVORITES_SETTINGS)},[]);let t=(0,i.e7)([o.ZP],()=>o.ZP.getTopCommandsWithoutLoadingLatest());return r.useMemo(()=>(0,o.LU)(t,e),[t,e])}"}]

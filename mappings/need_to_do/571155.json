@@ -1,0 +1,1 @@
+[{"code":"function s(e){let{checked:t,disabled:n,size:s}=e;return(0,i.A)(\"CheckboxIndicator\")?(0,r.jsx)(a.C,{checked:t,disabled:n,displayOnly:!0,usageVariant:\"indicator\",\"aria-hidden\":!0}):(0,r.jsx)(o.Ik,{value:t,disabled:n,size:null!=s?s:20})}"}]

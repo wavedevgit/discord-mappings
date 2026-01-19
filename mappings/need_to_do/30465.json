@@ -1,0 +1,1 @@
+[{"code":"function l(e,t,n){(0,r.useEffect)(()=>{(0,a.j)(()=>{t?s.setState({id:e,activeDescendant:n}):s.setState({id:null,activeDescendant:null})})},[e,t,n])}"},{"code":"e=>o(t,e)"},{"code":"function c(){(0,a.j)(()=>s.setState(()=>o))}"}]

@@ -1,0 +1,1 @@
+[{"code":"function c(){let e=(0,l.q3)(\"useFetchSoundboardData\");return{fetching:(0,i.e7)([s.Z],()=>s.Z.isFetchingAnySounds()),maybeFetchData:r.useCallback(()=>{o.w(),a.DZ.loadIfNecessary()},[e.sortingStrategy])}}"}]

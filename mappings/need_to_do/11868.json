@@ -1,0 +1,1 @@
+[{"code":"(e,t)=>{switch(null==e?void 0:e.entity_type){case N.WX.STAGE_INSTANCE:return D(e,t);case N.WX.VOICE:return R(e,t)}return()=>{}}"}]

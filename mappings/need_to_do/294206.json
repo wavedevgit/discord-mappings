@@ -1,0 +1,1 @@
+[{"code":"function W(e){let{disabled:t=!1,onClick:n,text:i,children:a,tooltipPosition:s=\"top\",ref:l}=e;return(0,r.jsx)(d.u,{text:i,position:s,children:(0,r.jsx)(f.P3F,{innerRef:l,\"aria-label\":i,className:o()(L.secondaryButton,{[L.buttonDisabled]:t}),onClick:n,children:a})})}"}]

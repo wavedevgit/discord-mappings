@@ -1,0 +1,1 @@
+[{"code":"function(e,t,n){let r=arguments.length>3&&void 0!==arguments[3]?arguments[3]:{};if(t===a.pK.DISCORD_ORB)return e.toString();let{convertToMajorUnits:i=!0}=r,o=l(r,[\"convertToMajorUnits\"]);return Intl.NumberFormat(n,s({style:\"currency\",currency:t},o)).format(i?f(e,t):e)}"}]

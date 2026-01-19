@@ -1,0 +1,1 @@
+[{"code":"function Z(e){return new Promise(t=>b.Z.addConditionalChangeListener(()=>{let n=b.Z.getGuild(e);return null==n||(t(n),!1)}))}"}]
