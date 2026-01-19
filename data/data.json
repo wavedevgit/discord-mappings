@@ -27496,5 +27496,552 @@
                 ".APPLICATION_RPC("
             ]
         }
+    ],
+    [
+        {
+            "name": "fetchPremiumMarketingContentWithUserOffer",
+            "code": "async function i(e){let{userTrialOffer:t,userDiscount:n,userDiscountOffer:i}=e;try{let e=await a.HTTP.post({url:l.Endpoints.PREMIUM_MARKETING,body:{user_trial_offer:t,user_discount:n,user_discount_offer:i}});if(e.ok)return e.body;return s.default.captureMessage(\"fetchPremiumMarketingContentWithUserOffer failed\"),[]}catch(e){return s.default.captureException(e),[]}}",
+            "find_with": [
+                ".post",
+                ".PREMIUM_MARKETING"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "createAutomodRule",
+            "code": "async function M(e){let t=O(e);return delete t.id,I((await o.HTTP.post({url:T.Endpoints.GUILD_AUTOMOD_RULES(e.guildId),body:t})).body)}",
+            "find_with": [
+                ".post",
+                ".GUILD_AUTOMOD_RULES("
+            ]
+        },
+        {
+            "name": "deleteAutomodRule",
+            "code": "async function m(e,t){return await o.HTTP.del({url:T.Endpoints.GUILD_AUTOMOD_RULE(t,e)}),!0}",
+            "find_with": [
+                ".del",
+                ".GUILD_AUTOMOD_RULE("
+            ]
+        },
+        {
+            "name": "executeAlertAction",
+            "code": "async function f(e,t,n){r.default.can(T.Permissions.MANAGE_MESSAGES,t)&&await o.HTTP.post({url:T.Endpoints.GUILD_AUTOMOD_ALERT_ACTION(t.guild_id),body:{message_id:e,channel_id:t.id,alert_action_type:n}})}",
+            "find_with": [
+                ".post",
+                ".GUILD_AUTOMOD_ALERT_ACTION("
+            ]
+        },
+        {
+            "name": "fetchAutomodRules",
+            "code": "async function R(e){let t=await o.HTTP.get({url:T.Endpoints.GUILD_AUTOMOD_RULES(e)});return Array.isArray(t.body)?t.body.map(I):[]}",
+            "find_with": [
+                ".get",
+                ".GUILD_AUTOMOD_RULES("
+            ]
+        },
+        {
+            "name": "removeMentionRaidRestrictionWithFeedback",
+            "code": "function L(e,t,n){let _=a.default.getGuild(e);if(null!=_&&!!r.default.can(T.Permissions.MANAGE_GUILD,_))(0,d.openConfirmRemoveMentionRaid)(()=>{(0,u.trackWithMetadata)(T.AnalyticEvents.GUILD_AUTOMOD_FEEDBACK,{feedback_type:A.Feedback.MENTION_RAID_REMOVE_RESTRICTION,decision_id:t}),o.HTTP.post({url:T.Endpoints.GUILD_AUTOMOD_CLEAR_MENTION_RAID(e)}),n()})}",
+            "find_with": [
+                ".post",
+                ".GUILD_AUTOMOD_CLEAR_MENTION_RAID("
+            ]
+        },
+        {
+            "name": "updateAutomodRule",
+            "code": "async function D(e){let t=O(e);return I((await o.HTTP.patch({url:T.Endpoints.GUILD_AUTOMOD_RULE(e.guildId,e.id),body:t})).body)}",
+            "find_with": [
+                ".patch",
+                ".GUILD_AUTOMOD_RULE("
+            ]
+        },
+        {
+            "name": "validateAutomodRule",
+            "code": "async function c(e){let t=O(e),n=await o.HTTP.post({url:T.Endpoints.GUILD_AUTOMOD_VALIDATE_RULE(e.guildId),body:t});return(0,s._transformMetadataToCamelCase)(n.body)}",
+            "find_with": [
+                ".post",
+                ".GUILD_AUTOMOD_VALIDATE_RULE("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "default",
+            "code": "async function f(e,t){let n=u.default.getCurrentUser();if(null==n)return;let f=r.default.getMessages(e),E=f.toArray().filter(e=>0>d.default.compare(e.id,t)).sort((e,t)=>d.default.compare(e.id,t.id)).reverse()[0],_=null==E?d.default.atPreviousMillisecond(t):E.id,m=0;f.forAll(e=>{d.default.compare(e.id,_)>0&&(0,o.shouldBadgeMessage)(e,n)&&m++});let T=i.default.getChannel(e);null!=T&&T.isThread()&&(T.isArchivedThread()&&await l.default.unarchiveThread(T,!1),!a.default.hasJoined(e)&&await l.default.joinThread(T,\"Mark Unread\")),s.HTTP.post({url:c.Endpoints.MESSAGE_ACK(e,_),body:{manual:!0,mention_count:m},oldFormErrors:!0})}",
+            "find_with": [
+                ".post",
+                ".MESSAGE_ACK("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "acceptCreatorMonetizationTerms",
+            "code": "async function c(e,t){await n.HTTP.post({url:s.Endpoints.CREATOR_MONETIZATION_ACCEPT_TERMS(e,t)})}",
+            "find_with": [
+                ".post",
+                ".CREATOR_MONETIZATION_ACCEPT_TERMS("
+            ]
+        },
+        {
+            "name": "acceptCreatorMonetizationTermsV2",
+            "code": "async function u(e){await n.HTTP.post({url:s.Endpoints.CREATOR_MONETIZATION_ACCEPT_TERMS_V2(e)})}",
+            "find_with": [
+                ".post",
+                ".CREATOR_MONETIZATION_ACCEPT_TERMS_V2("
+            ]
+        },
+        {
+            "name": "acceptNewTerms",
+            "code": "function h(e){return n.HTTP.post({url:s.Endpoints.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS(e)})}",
+            "find_with": [
+                ".post",
+                ".CREATOR_MONETIZATION_ACCEPT_NEW_TERMS("
+            ]
+        },
+        {
+            "name": "acceptNewTermsDemonetized",
+            "code": "function T(e){return n.HTTP.post({url:s.Endpoints.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS_DEMONETIZED(e)})}",
+            "find_with": [
+                ".post",
+                ".CREATOR_MONETIZATION_ACCEPT_NEW_TERMS_DEMONETIZED("
+            ]
+        },
+        {
+            "name": "createCreatorMonetizationEnableRequest",
+            "code": "async function o(e){await n.HTTP.post({url:s.Endpoints.CREATOR_MONETIZATION_ENABLE_REQUESTS(e)})}",
+            "find_with": [
+                ".post",
+                ".CREATOR_MONETIZATION_ENABLE_REQUESTS("
+            ]
+        },
+        {
+            "name": "getCreatorMonetizationEligibility",
+            "code": "async function d(e){return(await n.HTTP.get({url:s.Endpoints.CREATOR_MONETIZATION_ELIGIBILITY(e)})).body}",
+            "find_with": [
+                ".get",
+                ".CREATOR_MONETIZATION_ELIGIBILITY("
+            ]
+        },
+        {
+            "name": "getCreatorMonetizationOnboardingMarketing",
+            "code": "async function f(e){return(await n.HTTP.get({url:s.Endpoints.CREATOR_MONETIZATION_MARKETING_ONBOARDING(e)})).body}",
+            "find_with": [
+                ".get",
+                ".CREATOR_MONETIZATION_MARKETING_ONBOARDING("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "addLinePoints",
+            "code": "function u(e,t,n,a){return l.HTTP.post({url:r.Endpoints.SHARED_CANVAS_LINES(e,n),body:{line_id:t,points:a}})}",
+            "find_with": [
+                ".post",
+                ".SHARED_CANVAS_LINES("
+            ]
+        },
+        {
+            "name": "startEmojiHose",
+            "code": "function c(e,t,n){return l.HTTP.post({url:r.Endpoints.SHARED_CANVAS_EMOJI_HOSES(e,t),body:{emoji_hose:n}})}",
+            "find_with": [
+                ".post",
+                ".SHARED_CANVAS_EMOJI_HOSES("
+            ]
+        },
+        {
+            "name": "stopEmojiHose",
+            "code": "function f(e,t,n){l.HTTP.del({url:r.Endpoints.SHARED_CANVAS_EMOJI_HOSE(e,t,n),backoff:new a.default})}",
+            "find_with": [
+                ".del",
+                ".SHARED_CANVAS_EMOJI_HOSE("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "getPriceTiers",
+            "code": "async(e,t)=>{try{return(await r.HTTP.get({url:l.Endpoints.PRICE_TIERS,query:{price_tier_type:t,guild_id:e}})).body}catch(e){throw new i.APIError(e)}}",
+            "find_with": [
+                ".get",
+                ".PRICE_TIERS"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "unfurlEmbedUrl",
+            "code": "async function u(e){try{return(await s.HTTP.post({url:i.Endpoints.UNFURL_EMBED_URLS,body:{urls:e}})).body}catch(e){throw new l.APIError(e)}}",
+            "find_with": [
+                ".post",
+                ".UNFURL_EMBED_URLS"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "deleteAllInvites",
+            "code": "async function E(){await s.HTTP.del({url:r.Endpoints.GAME_INVITES})}",
+            "find_with": [
+                ".del",
+                ".GAME_INVITES"
+            ]
+        },
+        {
+            "name": "deleteInvite",
+            "code": "async function f(e){await s.HTTP.del({url:r.Endpoints.GAME_INVITE(e.invite_id)})}",
+            "find_with": [
+                ".del",
+                ".GAME_INVITE("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "fetchBugReportConfig",
+            "code": "async function u(){return(await l.HTTP.get({url:r.Endpoints.BUG_REPORTS})).body}",
+            "find_with": [
+                ".get",
+                ".BUG_REPORTS"
+            ]
+        },
+        {
+            "name": "submitReport",
+            "code": "async function m(e,t,a){var l,o;let u=[{name:\"name\",value:e.name},{name:\"priority\",value:\"\".concat(e.priority)},{name:\"override_platform_information\",value:\"\".concat(t.overridePlatformInformation)}];\"\"!==e.description&&u.push({name:\"description\",value:e.description}),\"\"!==e.url&&u.push({name:\"external_url\",value:e.url});let d=null===(l=e.feature)||void 0===l?void 0:l.asana_inbox_id;null!=d&&\"\"!==d&&u.push({name:\"asana_inbox_id\",value:\"\".concat(d)});let c=null===(o=e.feature)||void 0===o?void 0:o.name;null!=c&&\"\"!==c&&u.push({name:\"feature_name\",value:c}),t.overridePlatformInformation&&(u.push({name:\"device\",value:t.device}),u.push({name:\"os\",value:t.operatingSystem}),u.push({name:\"os_version\",value:t.operatingSystemVersion}),u.push({name:\"client_version\",value:t.clientVersion}),u.push({name:\"client_build_number\",value:t.clientBuildNumber}),u.push({name:\"release_channel\",value:window.GLOBAL_ENV.RELEASE_CHANNEL}),u.push({name:\"locale\",value:t.locale})),(0,s.uploadDebugLogFiles)(r.DebugLogCategory.WEB_APP);try{return await i.default.post({url:r.Endpoints.BUG_REPORTS,attachments:a,fields:u,trackedActionData:{event:n.NetworkActionNames.BUG_REPORT_SUBMIT,properties:{priority:e.priority,asana_inbox_id:d}}})}catch(e){return e}}",
+            "find_with": [
+                ".post",
+                ".BUG_REPORTS"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "fetchUserApplicationRoleConnections",
+            "code": "async function d(){return(await n.HTTP.get({url:i.Endpoints.APPLICATION_USER_ROLE_CONNECTIONS})).body}",
+            "find_with": [
+                ".get",
+                ".APPLICATION_USER_ROLE_CONNECTIONS"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "getPaymentPayoutGroups",
+            "code": "async(e,t)=>(await a.HTTP.get({url:l.Endpoints.PAYMENT_PAYOUT_GROUPS(e),query:t})).body",
+            "find_with": [
+                ".get",
+                ".PAYMENT_PAYOUT_GROUPS("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "getDirectoryEntryBroadcastInfo",
+            "code": "async function s(e,t,l){return(await a.HTTP.get({url:n.Endpoints.DIRECTORY_ENTRIES_BROADCAST_INFO(e),query:{type:t,entity_id:l}})).body}",
+            "find_with": [
+                ".get",
+                ".DIRECTORY_ENTRIES_BROADCAST_INFO("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "handleReportRaid",
+            "code": "async function E(e){let{showAlertMode:t}=(0,u.getGuildAlertModeEnabled)(e),l=o.default.getGuild(e),n=null==l?void 0:l.getSafetyAlertsChannelId();return t&&null!=n?await s.HTTP.post({url:c.Endpoints.GUILD_INCIDENT_REPORT_RAID(e)}):null}",
+            "find_with": [
+                ".post",
+                ".GUILD_INCIDENT_REPORT_RAID("
+            ]
+        },
+        {
+            "name": "handleResolveRaid",
+            "code": "async function T(e,t,l){let{showAlertMode:n}=(0,u.getGuildAlertModeEnabled)(e),a=o.default.getGuild(e),i=null==a?void 0:a.getSafetyAlertsChannelId();return n&&null!=i?await s.HTTP.post({url:c.Endpoints.GUILD_INCIDENT_REPORT_FALSE_ALARM(e),body:{alert_message_id:t,reason:l}}):null}",
+            "find_with": [
+                ".post",
+                ".GUILD_INCIDENT_REPORT_FALSE_ALARM("
+            ]
+        },
+        {
+            "name": "setGuildIncidentActions",
+            "code": "async function m(e,t,l,n){let i=a()().add(n,\"hours\").toISOString();return await s.HTTP.put({url:c.Endpoints.GUILD_INCIDENT_ACTIONS(e),body:{invites_disabled_until:t?i:null,dms_disabled_until:l?i:null}})}",
+            "find_with": [
+                ".put",
+                ".GUILD_INCIDENT_ACTIONS("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "confirmEmailChange",
+            "code": "async function i(e){return(await l.default.post({url:n.Endpoints.USER_EMAIL_VERIFY_CODE,body:{code:e},trackedActionData:{event:a.NetworkActionNames.USER_ACCOUNT_EMAIL_CHANGE_VERIFY_CODE}})).body}",
+            "find_with": [
+                ".post",
+                ".USER_EMAIL_VERIFY_CODE"
+            ]
+        },
+        {
+            "name": "sendConfirmationCode",
+            "code": "function o(){let e=arguments.length>0&&void 0!==arguments[0]&&arguments[0];return l.default.put({url:n.Endpoints.USER_EMAIL,trackedActionData:{event:a.NetworkActionNames.USER_ACCOUNT_EMAIL_CHANGE_SEND_CODE,properties:{is_resend:e}}})}",
+            "find_with": [
+                ".put",
+                ".USER_EMAIL"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "fetchConsents",
+            "code": "function u(){return n.HTTP.get({url:l.Endpoints.SETTINGS_CONSENT,oldFormErrors:!0}).then(r,e=>Promise.reject(Error(e.body.message)))}",
+            "find_with": [
+                ".get",
+                ".SETTINGS_CONSENT"
+            ]
+        },
+        {
+            "name": "setConsents",
+            "code": "function d(e,t){return n.HTTP.post({url:l.Endpoints.SETTINGS_CONSENT,body:{grant:e,revoke:t},oldFormErrors:!0}).then(r,o)}",
+            "find_with": [
+                ".post",
+                ".SETTINGS_CONSENT"
+            ]
+        }
+    ],
+    [
+        {
+            "name": "endPollEarly",
+            "code": "async function r(e){let{channelId:t,messageId:n}=e;try{await s.HTTP.post({url:l.Endpoints.POLL_EXPIRE(t,n)})}catch(e){throw new a.APIError(e)}}",
+            "find_with": [
+                ".post",
+                ".POLL_EXPIRE("
+            ]
+        },
+        {
+            "name": "submitPollVote",
+            "code": "async function i(e){let{channelId:t,messageId:n,answerIds:i}=e;try{await s.HTTP.put({url:l.Endpoints.POLL_ANSWERS(t,n),body:{answer_ids:i}})}catch(e){throw new a.APIError(e)}}",
+            "find_with": [
+                ".put",
+                ".POLL_ANSWERS("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "audienceAckRequestToSpeak",
+            "code": "function h(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],a=null==e?void 0:e.getGuildId();s()(null!=a,\"This channel cannot be guildless.\");let i=d.default.getVoiceStateForChannel(e.id);return(0,S.getAudienceRequestToSpeakState)(i)===S.RequestToSpeakStates.REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK&&!t&&(0,u.trackWithMetadata)(p.AnalyticEvents.PROMOTED_TO_SPEAKER,{...(0,_.getStageChannelMetadata)(e)}),l.HTTP.patch({url:p.Endpoints.UPDATE_VOICE_STATE(a),body:{suppress:t,request_to_speak_timestamp:null,channel_id:e.id,...n?{silent:n}:{}}})}",
+            "find_with": [
+                ".patch",
+                ".UPDATE_VOICE_STATE("
+            ]
+        },
+        {
+            "name": "inviteUserToStage",
+            "code": "function g(e,t){let n=e.getGuildId();return s()(null!=n,\"This channel cannot be guildless.\"),l.HTTP.patch({url:p.Endpoints.UPDATE_VOICE_STATE(n,t),body:{suppress:!1,request_to_speak_timestamp:new Date().toISOString(),channel_id:e.id}})}",
+            "find_with": [
+                ".patch",
+                ".UPDATE_VOICE_STATE("
+            ]
+        },
+        {
+            "name": "moveSelfToAudience",
+            "code": "function C(e){let t=null==e?void 0:e.getGuildId();return s()(null!=t,\"This channel cannot be guildless.\"),l.HTTP.patch({url:p.Endpoints.UPDATE_VOICE_STATE(t),body:{suppress:!0,channel_id:e.id,self_video:!1,self_stream:!1}})}",
+            "find_with": [
+                ".patch",
+                ".UPDATE_VOICE_STATE("
+            ]
+        },
+        {
+            "name": "moveUserToAudience",
+            "code": "function A(e,t){if(null==t||null==e)return;let n=t.getGuildId();return s()(null!=n,\"This channel cannot be guildless.\"),N(t,e.id,!0),l.HTTP.patch({url:p.Endpoints.UPDATE_VOICE_STATE(n,e.id),body:{suppress:!0,channel_id:t.id,self_video:!1,self_stream:!1}})}",
+            "find_with": [
+                ".patch",
+                ".UPDATE_VOICE_STATE("
+            ]
+        },
+        {
+            "name": "setUserSuppress",
+            "code": "function N(e,t,n){let a=e.getGuildId();return s()(null!=a,\"This channel cannot be guildless.\"),l.HTTP.patch({url:p.Endpoints.UPDATE_VOICE_STATE(a,t),body:{suppress:n,channel_id:e.id}})}",
+            "find_with": [
+                ".patch",
+                ".UPDATE_VOICE_STATE("
+            ]
+        },
+        {
+            "name": "toggleRequestToSpeak",
+            "code": "function I(e,t){let n=e.getGuildId();return s()(null!=n,\"This channel cannot be guildless.\"),t&&(0,u.trackWithMetadata)(p.AnalyticEvents.REQUEST_TO_SPEAK_INITIATED,{...(0,_.getStageChannelMetadata)(e)}),l.HTTP.patch({url:p.Endpoints.UPDATE_VOICE_STATE(n),body:{request_to_speak_timestamp:t?new Date().toISOString():null,channel_id:e.id}})}",
+            "find_with": [
+                ".patch",
+                ".UPDATE_VOICE_STATE("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "joinPublishedStoreListingSkuGuild",
+            "code": "function T(t){return i.HTTP.post({url:d.Endpoints.STORE_PUBLISHED_LISTINGS_SKU_JOIN_GUILD(t),oldFormErrors:!0})}",
+            "find_with": [
+                ".post",
+                ".STORE_PUBLISHED_LISTINGS_SKU_JOIN_GUILD("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "editOnboarding",
+            "code": "async function A(e,t){await a.HTTP.put({url:_.Endpoints.GUILD_ONBOARDING(e),body:t})}",
+            "find_with": [
+                ".put",
+                ".GUILD_ONBOARDING("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "recordBannerRender",
+            "code": "function s(e,t){a.default.dispatch({guildId:e,channelId:t,type:\"UNREAD_SETTING_NOTICE_RENDERED\"})}",
+            "find_with": [
+                "type:\"UNREAD_SETTING_NOTICE_RENDERED\""
+            ]
+        },
+        {
+            "name": "recordChannelVisit",
+            "code": "function l(e,t){a.default.dispatch({guildId:e,channelId:t,type:\"UNREAD_SETTING_NOTICE_CHANNEL_VISIT\"})}",
+            "find_with": [
+                "type:\"UNREAD_SETTING_NOTICE_CHANNEL_VISIT\""
+            ]
+        }
+    ],
+    [
+        {
+            "name": "default",
+            "code": "e=>s.HTTP.get({url:l.Endpoints.STICKER_GUILD_DATA(e),oldFormErrors:!0}).then(e=>(null==e?void 0:e.body)!=null?(0,a.makeDiscoverableGuild)(e.body):null).catch(()=>null)",
+            "find_with": [
+                ".get",
+                ".STICKER_GUILD_DATA("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "default",
+            "code": "function R(e,t){return{[T.RPCCommands.AUTHENTICATE]:(0,o.createRPCCommand)(T.RPCCommands.AUTHENTICATE,{handler(n){let{socket:s,args:{access_token:i}}=n;if(null==i&&s.transport===g.TransportTypes.IPC){let n=s.application.id;if(null==n)throw new I.default({errorCode:T.RPCErrors.INVALID_COMMAND},\"No application.\");let r=l.OAuth2Scopes.IDENTIFY,o=()=>N({client_id:n,scope:r,response_type:\"token\"},e,t).then(e=>{if(null==e)throw new I.default({errorCode:T.RPCErrors.UNKNOWN_ERROR},\"Unknown error occurred\");let t=e.split(/#|\\?/),l=a.parse(t[t.length-1]);if(null!=l.error){var i;throw new I.default({errorCode:T.RPCErrors.OAUTH2_ERROR},\"OAuth2 Error: \".concat(l.error,\": \").concat(null!==(i=l.error_description)&&void 0!==i?i:\"unknown error\"))}return!function(e,t,n,a){var s;let l=null!==(s=u.Storage.get(A))&&void 0!==s?s:{};l[e]={accessToken:t,scope:n,expires:Date.now()+a},u.Storage.set(A,l)}(n,l.access_token,l.scope,l.expires_in),v(s,l.access_token)});return null!=(i=function(e,t){let n=u.Storage.get(A);if(null!=n&&null!=n[e]){let a=n[e];if(!(a.scope!==t||a.expires<=Date.now()))return a.accessToken;delete n[e],u.Storage.set(A,n)}}(n,r))?v(s,i).catch(()=>(!function(e){var t;let n=null!==(t=u.Storage.get(A))&&void 0!==t?t:{};delete n[e],u.Storage.set(A,n)}(n),o())):o()}if(null==i)throw new I.default({errorCode:T.RPCErrors.INVALID_TOKEN},\"No access token provided\");return v(s,i)}}),[T.RPCCommands.AUTHORIZE]:{handler(n){let{socket:s,args:l}=n,i=l.client_id;if(!i)throw new I.default({errorCode:T.RPCErrors.INVALID_CLIENTID},\"No client id provided\");if(null!=s.authorization.accessToken)throw new I.default({errorCode:T.RPCErrors.INVALID_COMMAND},\"Already authenticated\");if(s.authorization.authing)throw new I.default({errorCode:T.RPCErrors.INVALID_COMMAND},\"Already authing\");return s.authorization.authing=!0,r.HTTP.get({url:T.Endpoints.APPLICATION_RPC(i),oldFormErrors:!0}).then(n=>{let a=n.body;if(s.application.id!==a.id)throw new I.default({errorCode:T.RPCErrors.INVALID_CLIENTID},\"Application does not match the connection's\");let i=l.scopes||l.scope;return delete l.scopes,N({...l,scope:i},e,t)},()=>{throw new I.default({errorCode:T.RPCErrors.INVALID_CLIENTID},\"Invalid client id: \".concat(i))}).then(e=>{if(s.authorization.authing=!1,null==e)throw new I.default({errorCode:T.RPCErrors.UNKNOWN_ERROR},\"Unknown error occurred\");let t=a.parse(e.split(\"?\")[1].split(\"#\")[0]);if(null!=t.error){var n;throw new I.default({errorCode:T.RPCErrors.OAUTH2_ERROR},\"OAuth2 Error: \".concat(t.error,\": \").concat(null!==(n=t.error_description)&&void 0!==n?n:\"unknown error\"))}return{code:t.code}}).catch(e=>{throw s.authorization.authing=!1,e})}}}}",
+            "find_with": [
+                ".get",
+                ".APPLICATION_RPC("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "startStageInstance",
+            "code": "async function i(e,t,n,i,l){return(await a.HTTP.post({url:s.Endpoints.STAGE_INSTANCES,body:{channel_id:e,topic:t,privacy_level:n,guild_scheduled_event_id:l,send_start_notification:i}})).body}",
+            "find_with": [
+                ".post",
+                ".STAGE_INSTANCES"
+            ]
+        },
+        {
+            "name": "updateStageInstance",
+            "code": "async function l(e,t,n){return(await a.HTTP.patch({url:s.Endpoints.STAGE_INSTANCE(e),body:{topic:t,privacy_level:n}})).body}",
+            "find_with": [
+                ".patch",
+                ".STAGE_INSTANCE("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "deleteChannel",
+            "code": "function N(e){let t=r.default.getChannel(e);l.HTTP.del({url:s.Endpoints.CHANNEL(e),oldFormErrors:!0}).then(()=>{let e=null==t?void 0:t.getGuildId();null!=e&&!(null==t?void 0:t.isThread())&&i.default.checkGuildTemplateDirty(e),c()})}",
+            "find_with": [
+                ".del",
+                ".CHANNEL("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "editPermissions",
+            "code": "function s(t,e,n){a.default.dispatch({applicationId:t,commandId:e,permissions:n,type:\"INTEGRATION_PERMISSION_SETTINGS_EDIT\"})}",
+            "find_with": [
+                "type:\"INTEGRATION_PERMISSION_SETTINGS_EDIT\""
+            ]
+        },
+        {
+            "name": "initIntegrationPermissions",
+            "code": "function l(t){a.default.dispatch({applicationId:t,type:\"INTEGRATION_PERMISSION_SETTINGS_INIT\"})}",
+            "find_with": [
+                "type:\"INTEGRATION_PERMISSION_SETTINGS_INIT\""
+            ]
+        },
+        {
+            "name": "resetPermissions",
+            "code": "function I(t){a.default.dispatch({commandId:t,type:\"INTEGRATION_PERMISSION_SETTINGS_RESET\"})}",
+            "find_with": [
+                "type:\"INTEGRATION_PERMISSION_SETTINGS_RESET\""
+            ]
+        }
+    ],
+    [
+        {
+            "name": "clearMessageRequestState",
+            "code": "function l(e){return i.HTTP.put({url:a.Endpoints.CHANNEL_RECIPIENT_CONSENT(e),body:{consent_status:d.MessageRequestConsentStatusTypes.UNSPECIFIED}})}",
+            "find_with": [
+                ".put",
+                ".CHANNEL_RECIPIENT_CONSENT("
+            ]
+        },
+        {
+            "name": "markAsMessageRequest",
+            "code": "function c(e){return i.HTTP.put({url:a.Endpoints.CHANNEL_RECIPIENT_CONSENT(e),body:{consent_status:d.MessageRequestConsentStatusTypes.PENDING}})}",
+            "find_with": [
+                ".put",
+                ".CHANNEL_RECIPIENT_CONSENT("
+            ]
+        },
+        {
+            "name": "rejectMessageRequest",
+            "code": "function S(e){return i.HTTP.del({url:a.Endpoints.CHANNEL_RECIPIENT_CONSENT(e)})}",
+            "find_with": [
+                ".del",
+                ".CHANNEL_RECIPIENT_CONSENT("
+            ]
+        },
+        {
+            "name": "rejectMessageRequestBatch",
+            "code": "function E(e){return i.HTTP.put({url:a.Endpoints.CHANNEL_RECIPIENT_REJECT_BATCH(),body:{channel_ids:e}})}",
+            "find_with": [
+                ".put",
+                ".CHANNEL_RECIPIENT_REJECT_BATCH("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "deleteAllSafetyWarnings",
+            "code": "function c(t){return i.HTTP.del({url:a.Endpoints.DELETE_SAFETY_WARNINGS(t)})}",
+            "find_with": [
+                ".del",
+                ".DELETE_SAFETY_WARNINGS("
+            ]
+        },
+        {
+            "name": "markAsInappropriateConversation",
+            "code": "function l(t,n){return i.HTTP.post({url:a.Endpoints.ADD_SAFETY_WARNING(t),body:{safety_warning_type:n}})}",
+            "find_with": [
+                ".post",
+                ".ADD_SAFETY_WARNING("
+            ]
+        }
+    ],
+    [
+        {
+            "name": "fetchApplicationsRPC",
+            "code": "function z(e,t,n){return i.HTTP.get({url:P.Endpoints.APPLICATION_RPC(t),oldFormErrors:!0,retries:3}).then(a=>{let{body:{rpc_origins:s,id:l,name:i,icon:r,cover_image:o,flags:u}}=a;if(\"string\"==typeof n){if(e.transport===L.TransportTypes.POST_MESSAGE){let e=(0,d.default)(t);if(null==e||!G(n,[e]))throw new R.default({closeCode:P.RPCCloseCodes.INVALID_ORIGIN},\"Invalid Origin\")}else if(!G(n,s))throw new R.default({closeCode:P.RPCCloseCodes.INVALID_ORIGIN},\"Invalid Origin\")}e.application={id:l,name:i,icon:r,coverImage:o,flags:u}},()=>{throw new R.default({closeCode:P.RPCCloseCodes.INVALID_CLIENTID},\"Invalid Client ID\")})}",
+            "find_with": [
+                ".get",
+                ".APPLICATION_RPC("
+            ]
+        }
     ]
 ]
