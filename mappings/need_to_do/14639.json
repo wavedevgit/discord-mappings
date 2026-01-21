@@ -1,1 +1,1 @@
-[{"code":"function i(){return r}"}]
+[{"code":"function a(e){let{useChannelObfuscation:t}=e;return t?i|r:i}"}]
