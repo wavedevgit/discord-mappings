@@ -1,0 +1,1 @@
+[{"code":"function i(e,t){let{enabled:n}=r.Y.getConfig({location:\"getUpdatedAgeVerificationString\"});return n?t:e}"},{"code":"function a(e,t){let{enabled:n}=r.Y.useConfig({location:\"useUpdatedAgeVerificationString\"});return n?t:e}"}]
