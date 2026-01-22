@@ -1,0 +1,1 @@
+[{"code":"function a(e){return i(e,\"Object\")}"},{"code":"function s(e){return!!(e&&e.then&&\"function\"==typeof e.then)}"}]

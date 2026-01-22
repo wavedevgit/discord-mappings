@@ -1,0 +1,1 @@
+[{"code":"class l extends i.Component{activateUploadDialogue(){if(null!=this._ref)return this._ref.activateUploadDialogue()}setRef(e){this._ref=e}render(){return(0,r.jsx)(a.z,o({ref:this.setRef},this.props))}constructor(e){super(e),s(this,\"_ref\",i.createRef()),this.setRef=this.setRef.bind(this)}}"}]

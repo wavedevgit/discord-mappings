@@ -1,0 +1,1 @@
+[{"code":"function s(e){return e.applicationStatus===r.B5.APPROVED&&null!=e.lastSeen}"},{"code":"function o(e){return i(e.applicationStatus)&&null==e.lastSeen}"},{"code":"function a(e){return e===r.B5.SUBMITTED}"},{"code":"function i(e){return e===r.B5.APPROVED||e===r.B5.REJECTED}"}]

@@ -1,0 +1,1 @@
+[{"code":"function(e){let{match:t,location:n}=e,a=async(e,t)=>{await (0,i.W)(l.XK.PICK_GUILD_SETTINGS,{section:e.params.section,subsection:e.params.subsection,search:t.search})};return(0,r.jsx)(s.A,{match:t,location:n,attemptDeepLink:a})}"}]

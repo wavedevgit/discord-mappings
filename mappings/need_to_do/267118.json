@@ -1,0 +1,1 @@
+[{"code":"class s{pattern(){return a}extract(e,t){let n=t.groups.weekday,a=r.tS[n];if(void 0===a)return null;let s=t.groups.prefix||\"\",o=null;return s.match(/前の/)?o=\"last\":s.match(/次の/)?o=\"next\":s.match(/今週/)&&(o=\"this\"),(0,i.Y5)(e.reference,a,o)}}"}]

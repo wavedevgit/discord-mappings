@@ -1,0 +1,1 @@
+[{"code":"function f(e){let{premiumTier:t,iconBackgroundClassName:n,iconClassName:i,size:l}=e;return(0,r.jsx)(s.A,{className:a()(n,u[t]),size:l,children:(0,r.jsx)(o.A,{tier:t,color:\"currentColor\",className:a()(i,c.AH,d[t])})})}"}]

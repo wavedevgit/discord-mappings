@@ -1,0 +1,1 @@
+[{"code":"function(e,t){var n=e.isConnected||e.ownerDocument.documentElement.contains(e);if(i(t)&&\"function\"==typeof t.behavior)return t.behavior(n?(0,r.A)(e,t):[]);if(n){var o=s(t);return a((0,r.A)(e,o),o.behavior)}}"}]

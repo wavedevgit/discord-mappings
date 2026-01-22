@@ -1,0 +1,1 @@
+[{"code":"class l extends a.c{innerPattern(){return o}innerExtract(e,t){let n=t[1].toLowerCase(),a=(0,r.E9)(t[2]);switch(n){case\"last\":case\"past\":case\"-\":a=(0,s.x4)(a)}return i.BP.createRelativeFromReference(e.reference,a)}}"}]

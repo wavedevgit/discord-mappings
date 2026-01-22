@@ -1,0 +1,1 @@
+[{"code":"function f(e){var t=(0,i.u)().getMonitor(),n=s((0,a.F)(t,e),2),o=n[0],l=n[1];return(0,r.useEffect)(function(){return t.subscribeToOffsetChange(l)}),(0,r.useEffect)(function(){return t.subscribeToStateChange(l)}),o}"}]

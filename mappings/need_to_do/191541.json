@@ -1,0 +1,1 @@
+[{"code":"function a(e){return r.getConfig({location:e}).enabled}"},{"code":"e=>r.useConfig({location:e}).enabled"}]

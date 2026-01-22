@@ -1,0 +1,1 @@
+[{"code":"function u(e,t){let[n]=(0,r.bG)([a.A],()=>{let n=a.A.getGameRelationshipsForUserByType(e,t),r=a.A.getGameRelationshipsVersion();return[n.length>0,r]},[t,e],i.D);return n}"},{"code":"function l(e){return o(e,s.eA$.FRIEND)}"},{"code":"function c(e){return o(e,s.eA$.PENDING_INCOMING)}"}]

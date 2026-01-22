@@ -1,0 +1,1 @@
+[{"code":"function _(e,t){return i.useCallback(n=>{n.stopPropagation();let r=s.A.getGuild(e.guildId),i=o.default.getCurrentUser();(null!=r||l.Ay.canUseCustomCallSounds(i))&&p(n,r,e,t)},[e,t])}"}]

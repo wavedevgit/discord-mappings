@@ -1,0 +1,1 @@
+[{"code":"function u(e){var t;let n=l.A.getChannelId(e),u=null==(t=o.Ay.getDefaultChannel(e))?void 0:t.id;return(n!==c.VV.GUILD_ONBOARDING||r.Ay.shouldShowOnboarding(e))&&(n!==c.VV.GUILD_HOME||(0,i.K)(e))?n===c.VV.GAME_SHOP&&(0,a.Ye)(e,\"getChannelIdForGuildTransition\")?n:null==s.A.getChannel(n)?u:n:u}"}]

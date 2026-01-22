@@ -1,0 +1,1 @@
+[{"code":"function s(e){return{src:e.asset,imgAlt:e.label,palette:(0,r.H6)(e.palette)}}"},{"code":"function i(e){return\"object\"==typeof e&&null!=e&&\"nameplate\"in e&&\"object\"==typeof e.nameplate?{nameplate:a(e.nameplate)}:null}"}]

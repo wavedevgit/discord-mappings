@@ -1,0 +1,1 @@
+[{"code":"()=>{r.h.dispatch({type:\"UPDATE_BACKGROUND_GRADIENT_PRESET\",presetId:null})}"},{"code":"()=>{r.h.dispatch({type:\"RESET_PREVIEW_CLIENT_THEME\"})}"},{"code":"e=>{r.h.dispatch({type:\"UPDATE_BACKGROUND_GRADIENT_PRESET\",presetId:e})}"}]

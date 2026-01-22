@@ -1,0 +1,1 @@
+[{"code":"function(e){}"},{"code":"function(e,t,n){var r=e.style;for(var i in t)if(t.hasOwnProperty(i)){var s=0===i.indexOf(\"--\"),o=c(i,t[i],s);if(\"float\"===i&&(i=\"cssFloat\"),s)r.setProperty(i,o);else if(o)r[i]=o;else{var l=f&&a[i];if(l)for(var u in l)r[u]=\"\";else r[i]=\"\"}}}"}]

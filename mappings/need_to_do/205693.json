@@ -1,0 +1,1 @@
+[{"code":"function u(){var e;return null!=(e=[a.Ku.NATIVE,a.Ku.WEBRTC].find(e=>c(e).supported()))?e:a.Ku.DUMMY}"},{"code":"function d(e){return new(c(e))}"}]

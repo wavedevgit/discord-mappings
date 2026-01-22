@@ -1,0 +1,1 @@
+[{"code":"function d(){try{return i.q.getConfig({location:\"gif_picker\"}).provider}catch(e){return c.warn(\"Error getting provider for API request:\",e),u}}"}]

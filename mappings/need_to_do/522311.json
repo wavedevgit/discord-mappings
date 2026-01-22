@@ -1,0 +1,1 @@
+[{"code":"function a(e){var t=e.clientOffset,n=e.initialClientOffset,a=e.initialSourceClientOffset;return t&&n&&a?i(r(t,a),n):null}"},{"code":"function s(e){var t=e.clientOffset,n=e.initialClientOffset;return t&&n?i(t,n):null}"}]

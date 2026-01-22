@@ -1,0 +1,1 @@
+[{"code":"e=>{let{enabled:t,variant:n}=a.getConfig({location:e});return 0===n?{enabled:t,minutes:20}:1===n?{enabled:t,minutes:75}:{enabled:t,minutes:0}}"}]

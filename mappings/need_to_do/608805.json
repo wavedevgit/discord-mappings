@@ -1,0 +1,1 @@
+[{"code":"e=>{let{location:t}=e,n=o.useConfig({location:t});return s(i({},n),{isTreatment:1===n.variation})}"}]

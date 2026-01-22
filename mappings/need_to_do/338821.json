@@ -1,0 +1,1 @@
+[{"code":"function ec(e,t,n){return null==n&&e.type===j.Cx.GUILD&&!t||e.type===j.Cx.GUILD&&e.guild.id!==n&&!t}"}]

@@ -1,0 +1,1 @@
+[{"code":"function b(e,t,n,i){let a=d.A.getVoiceChannelId(),o=l.A.getChannel(a);if(null==t&&null!=a&&null!=o){let t=g(o,i);if(e(),s.A.hasUsedBackgroundInCall){let e=_({},t,E());r.h.dispatch({type:\"VIDEO_BACKGROUND_SHOW_FEEDBACK\",analyticsData:e})}else r.h.dispatch({type:\"VOICE_CHANNEL_SHOW_FEEDBACK\",analyticsData:t})}else e()}"}]

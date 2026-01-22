@@ -1,0 +1,1 @@
+[{"code":"class o extends r.c{innerPattern(){return i}innerExtract(e,t){let n=parseInt(t[s]),r=parseInt(t[a]);return e.createParsingComponents().imply(\"day\",1).assign(\"month\",r).assign(\"year\",n)}}"}]

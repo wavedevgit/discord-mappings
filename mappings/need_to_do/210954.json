@@ -1,0 +1,1 @@
+[{"code":"()=>{let{analyticsLocations:e}=(0,d.Ay)(u.A.FRAME_PIP),t=(0,s.bG)([E.A],()=>E.A.isFrameActive());return(0,r.jsx)(d.f5,{value:e,children:(0,r.jsx)(T,{isLoading:!t})})}"}]

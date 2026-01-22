@@ -1,0 +1,1 @@
+[{"code":"function a(e,t){return r.useExperiment({guildId:e,location:t},{autoTrackExposure:!1}).enabled}"},{"code":"function i(e,t){return r.getCurrentConfig({guildId:e,location:t},{autoTrackExposure:!1}).enabled}"}]

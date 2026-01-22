@@ -1,0 +1,1 @@
+[{"code":"function i(){return Object.keys(r).map(e=>\"\".concat(e,\":\").concat(r[e]))}"}]

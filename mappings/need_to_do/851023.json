@@ -1,0 +1,1 @@
+[{"code":"function u(e){let{onClick:t,children:n,tooltip:a,dangerous:u=!1,className:d,\"aria-label\":f}=e;return(0,r.jsx)(o.m,{text:a,children:(0,r.jsx)(l.$n,{onClick:e=>{e.stopPropagation(),t(e)},dangerous:u,\"aria-label\":null!=f?f:a,className:d,children:i.Children.map(n,e=>i.isValidElement(e)?i.cloneElement(e,{className:s()(e.props.className,c.l)}):e)})})}"}]

@@ -1,0 +1,1 @@
+[{"code":"function h(e){let{shouldShow:t,caretPosition:n,onExitComplete:o}=e,{reducedMotion:c}=r.useContext(i.CZY),f=_(n,c.enabled),{config:p}=f,h=d(f,[\"config\"]);return(0,a.pnh)(t,u(l({},h),{config:null!=p?p:(e,n)=>t?s.n:s.t,onRest:()=>{t||null==o||o()}}),\"animate-always\")}"}]

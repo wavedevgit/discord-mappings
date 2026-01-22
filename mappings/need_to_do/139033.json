@@ -1,0 +1,1 @@
+[{"code":"function d(e){let{title:t,subtitle:n,confirmText:o=s.intl.string(s.t.BddRzS)}=e;return(0,a.qfG)(e=>(0,r.jsx)(i.aFV,u(l({},e),{title:t,subtitle:n,actions:[{text:o,onClick:e.onClose}]})))}"}]

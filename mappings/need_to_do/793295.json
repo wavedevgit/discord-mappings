@@ -1,0 +1,1 @@
+[{"code":"class a{static fromServer(e){return new a(e)}constructor(e){i(this,\"rankedSkuIds\",void 0),i(this,\"sortedSkuIds\",void 0),this.type=r.g.FEED,this.rankedSkuIds=e.ranked_sku_ids,this.sortedSkuIds=e.sorted_sku_ids}}"}]

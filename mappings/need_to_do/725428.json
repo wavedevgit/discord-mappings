@@ -1,0 +1,1 @@
+[{"code":"function e(t,n){var r=this;i(this,e),this.isSetUp=!1,this.handleRefCountChange=function(){var e=r.store.getState().refCount>0;r.backend&&(e&&!r.isSetUp?(r.backend.setup(),r.isSetUp=!0):!e&&r.isSetUp&&(r.backend.teardown(),r.isSetUp=!1))},this.store=t,this.monitor=n,t.subscribe(this.handleRefCountChange)}"}]

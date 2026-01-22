@@ -1,0 +1,1 @@
+[{"code":"function o(e){let{children:t,href:n}=e;return null==n?t:(0,r.jsx)(i.MzZ,{className:s.n,href:n,onClick:e=>{e.stopPropagation(),a.h({href:n},e)},target:\"_blank\",rel:\"noopener noreferrer\",children:t})}"}]

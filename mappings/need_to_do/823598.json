@@ -1,0 +1,1 @@
+[{"code":"function l(e){return a(),r.supportsFeature(e)}"},{"code":"function o(){return a(),r.supported()}"},{"code":"function s(e){r=e}"},{"code":"function c(e){a(),r.setProcessPriority(e)}"},{"code":"function u(){return a(),null!=i?i:i=r.getVoiceEngine()}"}]

@@ -1,0 +1,1 @@
+[{"code":"()=>{let e=(0,a.A)(),t=i.useMemo(()=>null==e?[]:Object.values(null==e?void 0:e.clouds),[e]);return(0,r.jsx)(\"div\",{className:s.P,children:t.map((e,t)=>{let n=t>o.length-1?0:t;return(0,r.jsx)(\"img\",{className:s.g,style:{top:l[n],animationDelay:\"\".concat(o[n],\"s\")},src:e,alt:\"Cloud\"},e)})})}"}]

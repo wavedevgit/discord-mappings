@@ -1,0 +1,1 @@
+[{"code":"function _(e){if(a.P.isDiscordGatewayPlaintextSet())return new p(e);for(var t of d)if(t.canUse())return new t(e);return new p(e)}"}]

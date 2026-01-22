@@ -1,0 +1,1 @@
+[{"code":"function i(e){var t=(0,r.A)(e),n=t.overflow,i=t.overflowX,a=t.overflowY;return/auto|scroll|overlay|hidden/.test(n+a+i)}"}]

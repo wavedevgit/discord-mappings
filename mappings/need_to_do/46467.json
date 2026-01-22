@@ -1,0 +1,1 @@
+[{"code":"function u(e){if(!(0,i.isIOS)())return!1;let t=(0,a.O)();if(null==t||-1===c(t,o))return!1;let n=r.A.getGuild(e);return null!=n&&!!l.every(e=>n.features.has(e))}"}]

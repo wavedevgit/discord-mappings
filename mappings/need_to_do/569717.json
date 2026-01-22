@@ -1,0 +1,1 @@
+[{"code":"function a(e,t){s.default.track(l.HAw.AGE_GATE_SUBMITTED,{dob:18>i()().diff(e,\"years\")?e.format(\"YYYY-MM-DD\"):null,dob_day:e.date(),dob_month:e.month()+1,dob_year:e.year(),source:{section:t}})}"}]

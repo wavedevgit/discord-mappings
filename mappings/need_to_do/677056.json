@@ -1,0 +1,1 @@
+[{"code":"function s(e){let{id:t,width:n=i.Kl}=e,s=(0,i.gG)(t);return null==s?null:(0,r.jsx)(\"img\",{src:s.iconSource,width:n,alt:a.intl.string(a.t.N4YDao),draggable:!1})}"}]

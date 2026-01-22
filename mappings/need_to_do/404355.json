@@ -1,0 +1,1 @@
+[{"code":"function(e){let{iconComponent:t}=e,n=l(e,[\"iconComponent\"]),{Component:s,events:c}=(0,i.O)();return(0,r.jsx)(a.l,o({isTrayButton:!1,color:\"disconnect\",iconComponent:null!=t?t:s},c,n))}"}]

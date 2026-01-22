@@ -1,0 +1,1 @@
+[{"code":"function c(e,t){let n=(0,r.bG)([o.A],()=>o.A.getVoiceChannelId()),c=(0,r.bG)([s.A],()=>null!=n?s.A.getMode(n):null),u=(0,a.Ay)();return null!=e?e:c===l._Of.VOICE&&(0,i.qB)(u)?t?\"activeLight\":\"primaryLight\":t?\"white\":\"primaryDark\"}"}]

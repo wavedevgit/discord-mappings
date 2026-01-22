@@ -1,0 +1,1 @@
+[{"code":"function o(e){return[\"html\",\"body\",\"#document\"].indexOf((0,a.A)(e))>=0?e.ownerDocument.body:(0,s.sb)(e)&&(0,i.A)(e)?e:o((0,r.A)(e))}"}]

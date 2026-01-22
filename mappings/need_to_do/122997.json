@@ -1,0 +1,1 @@
+[{"code":"function i(e){return r.getCurrentConfig({location:e},{autoTrackExposure:!0}).hideActivities}"}]

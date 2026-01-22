@@ -1,0 +1,1 @@
+[{"code":"function o(){let e=(0,i.bG)([s.A],()=>s.A.hasFetchedSubscriptions());return r.useEffect(()=>{e||(0,a.hP)()},[e]),e}"}]

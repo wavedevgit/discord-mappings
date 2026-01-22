@@ -1,0 +1,1 @@
+[{"code":"function f(e){let{guildId:t,name:n,position:s=\"right\",onClose:l,targetElementRef:d}=e,f=u(e,[\"guildId\",\"name\",\"position\",\"onClose\",\"targetElementRef\"]);return(0,r.jsx)(i.YNO,o({targetElementRef:d,position:s,clickTrap:!0,renderPopout:e=>(0,r.jsx)(a.A,c(o({},e),{onClose:()=>{e.closePopout(),null==l||l()},guildId:t,name:n}))},f))}"}]

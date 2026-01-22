@@ -1,0 +1,1 @@
+[{"code":"class a{static create(e){let t=null,n=i(new Uint8Array(e,0,Math.min(64,e.byteLength)));return\"image/png\"===(null==n?void 0:n.mimeType)&&(t=r.B.create(e)),t}}"}]

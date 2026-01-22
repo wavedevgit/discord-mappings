@@ -1,0 +1,1 @@
+[{"code":"function Z(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};return e instanceof Array?a().keyBy(e,\"channel_id\"):e}"},{"code":"function X(e){let t=h.A.getGuild(e);return x[null!=t?t.defaultMessageNotifications:g.orn.ALL_MESSAGES]}"}]

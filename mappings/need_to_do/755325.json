@@ -1,0 +1,1 @@
+[{"code":"class f{constructor(){i(this,d,{writable:!0,value:void 0}),r(this,\"register\",e=>{s(this,d).push(e)}),r(this,\"unregister\",e=>{let t;for(;-1!==(t=s(this,d).indexOf(e));)s(this,d).splice(t,1)}),r(this,\"backendChanged\",e=>{for(let t of s(this,d))t.backendChanged(e)}),l(this,d,[])}}"}]

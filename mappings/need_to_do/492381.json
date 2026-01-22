@@ -1,0 +1,1 @@
+[{"code":"class d extends a.c{innerPattern(){return o}innerExtract(e,t){let n=t[c].toLowerCase(),i=r.CV[n];if(void 0===i)return null;let a=t[l],o=t[u],d=a||o||\"\";d=d.toLowerCase();let f=null;return\"passado\"==d?f=\"this\":\"pr\\xf3ximo\"==d||\"proximo\"==d?f=\"next\":\"este\"==d&&(f=\"this\"),(0,s.Y5)(e.reference,i,f)}}"}]

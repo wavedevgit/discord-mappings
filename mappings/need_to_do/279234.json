@@ -1,0 +1,1 @@
+[{"code":"function f(){return null==a&&(a=(async()=>{await i.Bf();let e=i.vZ();e.installLogCallback(o,l,c,u,d),await e.initLibdiscore(),window._libdiscoreInitialized=!0})()),a}"},{"code":"function p(){return!0===window._libdiscoreInitialized}"}]

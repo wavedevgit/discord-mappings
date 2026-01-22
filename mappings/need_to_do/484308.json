@@ -1,0 +1,1 @@
+[{"code":"function(e){if(!r){var t=0,n=document.createTextNode(\"\"),s={characterData:!0};new MutationObserver(function(){return a()}).observe(n,s),r=function(){n.textContent=\"\"+(t?t--:t++)}}i.push(e),r()}"}]

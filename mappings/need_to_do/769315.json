@@ -1,0 +1,1 @@
+[{"code":"e=>{let{location:t}=e,n=o.getConfig({location:t});return s(i({},n),{isNoopTreatment:1===n.variation})}"}]

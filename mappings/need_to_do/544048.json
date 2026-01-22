@@ -1,0 +1,1 @@
+[{"code":"e=>{var t;let{componentRef:n,ignoreReducedMotion:r=!1}=e,s=m(e,[\"componentRef\",\"ignoreReducedMotion\"]),{isWindowFocused:o}=(0,u.G9)(),d=(0,l.R)(),{reducedMotion:f}=a.useContext(c.C),_=f.enabled&&!r,g=h(p({},s),{isWindowFocused:null!=(t=null==o?void 0:o())?t:d,useReducedMotion:_});return(0,i.jsx)(E,h(p({},g),{ref:n}))}"}]

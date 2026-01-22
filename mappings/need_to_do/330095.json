@@ -1,0 +1,1 @@
+[{"code":"function d(e){let{attributes:t,children:n,leaf:i,text:o}=e;if(i.commandName){let e=a()(s.p6,{[s.BI]:\"\"===o.text});return(0,r.jsx)(\"span\",u(l({},t),{className:e,spellCheck:!1,children:n}))}return null}"}]

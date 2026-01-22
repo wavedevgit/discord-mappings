@@ -1,0 +1,1 @@
+[{"code":"function(e){return null==e.quest||e.applications.length<=1?null:(0,r.jsx)(I.R,{questOrQuests:e.quest,questContent:v.uF.SPONSORED_QUEST_SHEET,sourceQuestContent:e.sourceQuestContent,children:t=>(0,r.jsx)(z,L(D({},e),{impressionRef:t}))})}"}]

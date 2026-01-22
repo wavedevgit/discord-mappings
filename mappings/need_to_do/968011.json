@@ -1,0 +1,1 @@
+[{"code":"function i(e,t){return r.getCurrentConfig({location:e},t)}"},{"code":"function a(e,t){return r.useExperiment({location:e},t)}"}]

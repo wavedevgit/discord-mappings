@@ -1,1 +1,1 @@
-[{"code":"function s(e,t){return!!Object.is(e,t)||\"object\"==typeof e&&null!==e&&\"object\"==typeof t&&null!==t&&Object.getPrototypeOf(e)===Object.getPrototypeOf(t)&&(r(e)&&r(t)?i(e)&&i(t)?a(e,t):o(e,t):a({entries:()=>Object.entries(e)},{entries:()=>Object.entries(t)}))}"}]
+[{"code":"function o(e){i=null!=e?e:null}"},{"code":"function a(e){var t;let n=null!=(t=r[e])?t:0;0===n&&(null==i||i(e,!0)),r[e]=n+1}"},{"code":"function s(e){r[e]--,0===r[e]&&(null==i||i(e,!1))}"}]

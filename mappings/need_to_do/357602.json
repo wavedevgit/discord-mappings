@@ -1,0 +1,1 @@
+[{"code":"function(){var e=a((0,r.useState)(!1),2),t=e[0],n=e[1],s=(0,r.useContext)(i.M);return(0,r.useEffect)(function(){var e,t=null==s||null==(e=s.dragDropManager)?void 0:e.getBackend(),r={backendChanged:function(e){n(e.previewEnabled())}};return n(t.previewEnabled()),t.previewsList().register(r),function(){t.previewsList().unregister(r)}},[s,s.dragDropManager]),t}"}]

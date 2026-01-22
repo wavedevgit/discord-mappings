@@ -1,0 +1,1 @@
+[{"code":"async e=>{let{analyticsLocation:t=null}=e,c=d(e,[\"analyticsLocation\"]);a.default.track(l.HAw.OPEN_MODAL,{type:\"Emoji Studio\",source:t}),await (0,i.mMO)(async()=>{let{EmojiStudioModal:e}=await Promise.all([n.e(\"35929\"),n.e(\"76443\")]).then(n.bind(n,849846));return t=>(0,r.jsx)(e,u({},t,c))},{modalKey:s.y,onCloseRequest:()=>{(0,o.p)()}})}"}]

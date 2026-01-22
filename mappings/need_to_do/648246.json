@@ -1,0 +1,1 @@
+[{"code":"function f(e){let{activity:t,onAction:n,variant:l=\"secondary\",size:d=\"sm\"}=e,f=u(e,[\"activity\",\"onAction\",\"variant\",\"size\"]);if(!(0,s.A)(t))return null;let p=()=>{null==n||n();let e=(0,a.A)(t);return window.open(null!=e?e:void 0)};return(0,r.jsx)(i.Button,c({variant:l,size:d,text:o.intl.string(o.t.I6JG46),onClick:p,fullWidth:!0},f))}"}]

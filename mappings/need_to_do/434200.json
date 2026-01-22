@@ -1,0 +1,1 @@
+[{"code":"function o(e){let t=(0,i.bG)([s.A],()=>s.A.getAccounts().some(t=>t.type===e)),n=r.useCallback(()=>{if(null==e)return null;(0,a.A)({platformType:e,location:\"Member List Content Popout\"})},[e]);if(null!=e)return t?void 0:n}"}]

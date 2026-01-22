@@ -1,0 +1,1 @@
+[{"code":"function u(){r.h.dispatch({type:\"GAME_PROFILE_OPEN\"})}"},{"code":"function d(){r.h.dispatch({type:\"CONTENT_INVENTORY_CLEAR_DELETE_HISTORY_ERROR\"})}"}]

@@ -1,0 +1,1 @@
+[{"code":"function l(e){return a.bW.loadIfNecessary(),r.useMemo(()=>{let t=[];e.forEach(e=>t.push(e.application.id));let n=[...t];return n.sort((e,n)=>t.findIndex(t=>t===e)<t.findIndex(e=>e===n)?-1:1),c(e,n)},[e])}"}]

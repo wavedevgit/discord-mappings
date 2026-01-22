@@ -1,0 +1,1 @@
+[{"code":"class a{getCreateAttachmentURL(e){return i.Rsh.GRAVITY_ATTACHMENTS}getDeleteUploadURL(e){return i.Rsh.MESSAGE_DELETE_UPLOAD(e)}getMaxFileSize(e){return i.TbF}getMaxAttachmentsCount(){return i.XgB}getMaxTotalAttachmentSize(){return r.eM}get shouldReactNativeCompressUploads(){return!0}}"}]

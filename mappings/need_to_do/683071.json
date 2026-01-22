@@ -1,0 +1,1 @@
+[{"code":"function s(e){let{type:t,hidden:n,children:s}=e;return(0,r.jsx)(i.p,{messageType:a(t),hidden:n,children:s})}"}]

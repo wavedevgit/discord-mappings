@@ -1,0 +1,1 @@
+[{"code":"function i(e){var t=(0,r.A)(e);return{scrollLeft:t.pageXOffset,scrollTop:t.pageYOffset}}"}]

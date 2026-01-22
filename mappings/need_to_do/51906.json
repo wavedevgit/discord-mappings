@@ -1,0 +1,1 @@
+[{"code":"function i(e){let t=null,n=null;return function(){for(var i=arguments.length,a=Array(i),s=0;s<i;s++)a[s]=arguments[s];return r(t,a)||(n=e(...a)),t=a,n}}"}]

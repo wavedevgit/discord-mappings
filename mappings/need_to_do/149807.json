@@ -1,0 +1,1 @@
+[{"code":"class u extends r.A{static fromServer(e){let{sku_id:t}=e;return new u(o(a({},l(e,[\"sku_id\"])),{skuId:t}))}constructor(e){super(),i(this,\"skuId\",void 0),this.skuId=e.skuId}}"}]

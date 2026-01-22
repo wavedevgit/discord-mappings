@@ -1,0 +1,1 @@
+[{"code":"e=>{let{guildId:t,channelName:n,guildName:r,channelId:i,muted:a,deafened:s,nonce:o}=e,l={channelid:i,guildid:t,channelname:n,guildname:r,muted:String(a),deafened:String(s)};return null!=o&&(l.nonce=o),new URLSearchParams(l)}"}]

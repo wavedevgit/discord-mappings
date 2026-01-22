@@ -1,0 +1,1 @@
+[{"code":"function i(){return window.matchMedia(\"(prefers-color-scheme: dark)\").matches?r.Fc.DARK:r.Fc.LIGHT}"}]

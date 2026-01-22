@@ -1,0 +1,1 @@
+[{"code":"function g(e){let{type:t=_.DEFAULT,className:n,disabled:i,children:l,style:u}=e,p=f(e,[\"type\",\"className\",\"disabled\",\"children\",\"style\"]),g=h;return i&&(g=m),(0,r.jsx)(s.Text,d(c({variant:\"text-sm/normal\",className:a()(o[t],n,o[g]),style:u},p),{children:l}))}"}]

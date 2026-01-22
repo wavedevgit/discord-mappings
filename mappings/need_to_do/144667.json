@@ -1,0 +1,1 @@
+[{"code":"function i(e){let t,n=[],r=/\\\\|```/g;for(;null!=(t=r.exec(e));){if(\"\\\\\"===t[0]){r.lastIndex+=1;continue}n.push(t.index)}return n}"}]

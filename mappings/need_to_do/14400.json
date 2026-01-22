@@ -1,0 +1,1 @@
+[{"code":"function s(){let[e,t]=r.useState(i.HO.getSetting());return{volume:e,onVolumeChange:r.useCallback(e=>{let n=(0,a.w)(e);t(n),i.HO.updateSetting(n)},[])}}"}]

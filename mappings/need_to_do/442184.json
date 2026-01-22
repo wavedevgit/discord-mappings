@@ -1,0 +1,1 @@
+[{"code":"function o(){let{required:e,checked:t}=(0,s.mZ)();return e?(0,r.jsx)(\"div\",{className:a.Ot,children:(0,r.jsx)(i.JuY,{label:l.intl.string(l.t[\"0p3R0+\"]),checked:t,onChange:s.Bw,labelType:\"secondary\"})}):null}"}]

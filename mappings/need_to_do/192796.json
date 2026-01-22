@@ -1,0 +1,1 @@
+[{"code":"function _(e,t){let{attributes:n,children:i,element:a}=t;return\"gameMentionInput\"===a.type?(0,r.jsx)(h,{attributes:n,element:a,children:i}):null}"}]

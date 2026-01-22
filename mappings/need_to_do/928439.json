@@ -1,0 +1,1 @@
+[{"code":"function s(e){for(let t in e){let n=e[t];o(t,n),l(n)}r.h.addInterceptor(c)}"}]

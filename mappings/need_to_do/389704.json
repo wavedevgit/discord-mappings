@@ -1,0 +1,1 @@
+[{"code":"function o(e,t){void 0===t&&(t=[]);var n,l=(0,r.A)(e),c=l===(null==(n=e.ownerDocument)?void 0:n.body),u=(0,a.A)(l),d=c?[u].concat(u.visualViewport||[],(0,s.A)(l)?l:[]):l,f=t.concat(d);return c?f:f.concat(o((0,i.A)(d)))}"}]

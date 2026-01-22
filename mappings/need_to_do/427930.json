@@ -1,0 +1,1 @@
+[{"code":"function i(e){var t;return(null==(t=e.messageReference)?void 0:t.type)===r.SH7.FORWARD}"},{"code":"function a(e){var t;return(null==(t=e.message_reference)?void 0:t.type)===r.SH7.FORWARD}"}]

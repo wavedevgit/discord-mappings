@@ -1,0 +1,1 @@
+[{"code":"function f(e){var t;let n=i.A.getGuild(e);return null!=n&&(null!=(t=null==n?void 0:n.maxStageVideoChannelUsers)?t:0)>0}"},{"code":"function l(e){let t=c(e);return(0,r.bG)([a.A],()=>a.A.hasVideo(e),[e])||t}"},{"code":"function u(e){return d(e)||a.A.hasVideo(e)}"}]

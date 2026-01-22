@@ -1,0 +1,1 @@
+[{"code":"e=>{let t,{application:n,size:i,asset:c,className:d}=e;return t=null!=c?(0,o.YE)(n.id,c,i):s.Ay.getApplicationIconURL({id:n.id,icon:n.icon,size:i}),(0,r.jsx)(\"img\",{alt:\"\",src:t,className:a()(l.Kk,u[i],d)})}"}]

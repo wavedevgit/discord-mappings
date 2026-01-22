@@ -1,0 +1,1 @@
+[{"code":"class i extends r.A{patternBetween(){return RegExp(\"^\\\\s*(om|na|voor|in de|,|-)?\\\\s*$\")}}"}]

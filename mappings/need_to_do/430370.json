@@ -1,0 +1,1 @@
+[{"code":"async function g(e){let t=await navigator.credentials.get(e);return t.toJSON=()=>l(s,y,t),t}"},{"code":"function m(e){return l(n,f,e)}"}]

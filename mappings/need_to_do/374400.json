@@ -1,0 +1,1 @@
+[{"code":"e=>{let t=(0,r.parse)(e);return{desktop:a(t.desktop_link),mobile:a(t.mobile_link)}}"}]

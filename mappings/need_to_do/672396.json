@@ -1,0 +1,1 @@
+[{"code":"function o(e){switch(e){case\"News Nudge\":case\"Welcome Nudge\":case\"Go Live Nudge\":case\"Go Live Non Voice Nudge\":return 0;case\"Text Chat\":return 1;case\"Activity User Join\":case\"Activity Invite\":return 3;case\"Incoming Call\":return 2;case\"Clips Reminder Notification\":case\"Clips Notification\":return 4;default:return 5}}"}]

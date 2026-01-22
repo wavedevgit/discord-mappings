@@ -1,0 +1,1 @@
+[{"code":"function u(e){let{giftMessage:t=l.intl.string(l.t[\"DrgnS+\"])}=e,{isGift:n,giftRecipient:u}=(0,o.Pv)();return!n||(0,s.Ik)(u)?null:(0,r.jsx)(a.A,{className:c.z,iconSize:a.A.Sizes.SMALL,icon:i.okO,color:null==t?a.A.Colors.PRIMARY:a.A.Colors.SECONDARY,children:t})}"}]

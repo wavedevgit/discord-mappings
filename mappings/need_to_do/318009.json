@@ -1,0 +1,1 @@
+[{"code":"function I(){let{contextMenu:e,version:t,isOpen:n}=(0,o.cf)([h.A],()=>({contextMenu:h.A.getContextMenu(),version:h.A.version,isOpen:h.A.isOpen()})),a=(0,o.bG)([_.A],()=>_.A.theme),{appContext:s,renderWindow:l}=i.useContext(p.Ay);return(0,r.jsx)(S,O(b({appContext:s,renderWindow:l},e),{isOpen:n,theme:a,closeContextMenu:u.Z_}),t)}"}]

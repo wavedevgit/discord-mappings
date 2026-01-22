@@ -1,0 +1,1 @@
+[{"code":"function i(e){return e.__DISCORD_WINDOW_ID}"},{"code":"function s(){return i(window)}"},{"code":"function a(e){let t=(0,r.uniqueId)(\"window-\");return e.__DISCORD_WINDOW_ID=t,t}"}]

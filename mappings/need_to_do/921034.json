@@ -1,0 +1,1 @@
+[{"code":"class i{constructor(e,t){this.locale=t,this.ast=(0,r.isCompressedAst)(e)?e:(0,r.compressFormatJsToAst)(e)}reserialize(){if(\"string\"==typeof this.ast)return this.ast;let e={value:\"\"};return a(this.ast,e),e.value}}"}]

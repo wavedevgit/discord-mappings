@@ -1,0 +1,1 @@
+[{"code":"function _(e){let{artboard:t=\"Base\"}=e,n=d(e,[\"artboard\"]),{status:o,buffer:c}=(0,s.CE)(i.A),f=(0,s.m2)(i.A);return o===s.BW.Loading?null:(0,r.jsx)(a.w,l(u(l({},f?{key:\"override\"}:{}),{buffer:c,artboard:t,artboardProperties:p}),n))}"}]

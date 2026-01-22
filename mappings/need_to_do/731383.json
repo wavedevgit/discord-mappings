@@ -1,0 +1,1 @@
+[{"code":"e=>{let{emojiId:t,currentGuildId:n,popoutData:f,nonce:_,demoMode:h}=e,{current:m}=r.useRef(p({guild_id:n,emoji_id:t},(0,a.dI)(s.A.getChannel(o.A.getChannelId(n)))));return(0,i.Ay)(()=>{var e;(0,c.K)(u.Vl.TrackOpenPopoutUsed),h||l.default.track(d.HAw.OPEN_POPOUT,p({type:null!=(e=null==f?void 0:f.analyticsType)?e:\"Standard Emoji Popout\",nonce:_},m))}),m}"}]

@@ -1,0 +1,1 @@
+[{"code":"function q(e){return e.split(\"-\")[0]}"},{"code":"function z(e){return e.split(\"-\")[1]}"}]

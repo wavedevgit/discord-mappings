@@ -1,0 +1,1 @@
+[{"code":"function g(e,t){let n=window.innerWidth-(e?_:f)*2,r=window.innerHeight-2*h;if(!(0,l.eJ)(t))return{width:n,height:r};let{width:i,height:a}=t,s=window.innerWidth-2*m,o=window.innerHeight-(e?h:p)*2,c=(0,l.Uj)({width:i,height:a,maxWidth:n,maxHeight:r}),u=(0,l.Uj)({width:i,height:a,maxWidth:s,maxHeight:o});return c.width>=u.width?c:u}"}]

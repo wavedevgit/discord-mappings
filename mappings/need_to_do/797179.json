@@ -1,0 +1,1 @@
+[{"code":"function d(e){a.A.open(e,s.BEX.SOUNDBOARD),(0,i.mMO)(async()=>{let{default:t}=await Promise.all([n.e(\"40556\"),n.e(\"61274\")]).then(n.bind(n,6503));return n=>(0,r.jsx)(t,u(l({},n),{guildId:e}))})}"}]

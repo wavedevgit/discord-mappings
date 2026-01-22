@@ -1,0 +1,1 @@
+[{"code":"function a(){r.h.dispatch({type:\"DOMAIN_MIGRATION_FAILURE\"})}"},{"code":"function s(){window.location.reload()}"},{"code":"function i(){r.h.wait(()=>r.h.dispatch({type:\"DOMAIN_MIGRATION_START\"}))}"}]

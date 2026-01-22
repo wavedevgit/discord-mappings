@@ -1,0 +1,1 @@
+[{"code":"function g(e,t,n,r){let i=m(e,t,n,r);return null==i?null:(0,h.QR)(i)}"},{"code":"function m(e,t,n,r){let{allowUsers:i=!0,allowRoles:a=!0}=null!=r?r:{};switch(e[0]){case\"@\":return E(e,t,n,i,a);case\":\":return O(e,t);case\"#\":return y(e,t)}return null}"}]

@@ -1,0 +1,1 @@
+[{"code":"e=>1===e.type"},{"code":"e=>N(e)?e.message.nonce:R(e)?e.message.messageId:e.message.data.id"}]

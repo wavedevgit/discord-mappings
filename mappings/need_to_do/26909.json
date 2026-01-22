@@ -1,0 +1,1 @@
+[{"code":"function E(e,t){return e.filter(e=>{if(e.includes(\":\"))if((null==t?void 0:t.guild)!=null)return t.guild.id===e.split(\":\")[1];else return!1;return!0}).map(e=>e.split(\":\")[0])}"}]

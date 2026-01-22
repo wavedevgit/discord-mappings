@@ -1,0 +1,1 @@
+[{"code":"class i{static setPermission(e,t){r.h.dispatch({type:\"SET_NATIVE_PERMISSION\",permissionType:e,state:t})}}"}]

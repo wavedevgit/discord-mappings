@@ -1,0 +1,1 @@
+[{"code":"e=>{let t=new Date().toLocaleTimeString(\"en-US\",{hour12:!1}),n=\"[\".concat(t,\"] \").concat(e);r.getState().addLog(n)}"}]

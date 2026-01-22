@@ -1,0 +1,1 @@
+[{"code":"e=>{let{application:t,iconSize:n=o}=e,l=i.useMemo(()=>a.Ay.getApplicationIconURL({id:t.id,icon:t.icon,size:n}),[t,n]);return(0,r.jsx)(\"img\",{className:s.I,src:l,alt:\"\",height:n,width:n})}"}]

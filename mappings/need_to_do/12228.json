@@ -1,0 +1,1 @@
+[{"code":"function s(e,t){var n;let s=(0,r.bG)([a.A],()=>a.A.isFocused()),o=(0,r.bG)([i.A],()=>i.A.useReducedMotion);return!!s&&!o&&null!=(n=e||t)&&n}"}]

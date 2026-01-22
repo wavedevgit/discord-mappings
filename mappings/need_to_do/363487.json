@@ -1,0 +1,1 @@
+[{"code":"function l(e){return(0,r.bG)([a.A,i.A],()=>o(a.A,i.A.getGuild(e)))}"},{"code":"function o(e,t){return null==t||null==e.getGuildPermissions(t)?null:e.can(s.xB.ADMINISTRATOR,t)}"}]

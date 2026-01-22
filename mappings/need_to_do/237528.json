@@ -1,0 +1,1 @@
+[{"code":"function c(e){let{text:t,variant:n=\"grayLight\"}=e,i=l[n];return(0,r.jsx)(s.E,{variant:\"eyebrow\",className:a()(o.chip,o[i]),children:t})}"}]

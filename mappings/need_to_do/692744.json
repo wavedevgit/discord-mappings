@@ -1,0 +1,1 @@
+[{"code":"function c(e){switch(e){case r.wS.RADIO:return a.intl.string(i.default.AjiGKB);case r.wS.ENVIRONMENT:return a.intl.string(i.default.YEYIbI);case r.wS.CAMPFIRE:return a.intl.string(i.default[\"Vk9+Ez\"]);default:return\"\"}}"},{"code":"function l(e){return{roomId:e.room_id,participants:e.participants.map(s),seats:e.seats.map(o)}}"}]

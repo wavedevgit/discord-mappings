@@ -1,0 +1,1 @@
+[{"code":"function p(e){var t,n;let c=i.useContext(s.VO),d=null==c||null==(n=c.experiments)||null==(t=n.enabledExperiments)?void 0:t.includes(\"mana-toggle-inputs\"),{switchIconsEnabled:p}=i.useContext(a.C);if(d){let t=void 0!==e.hasIcon?e.hasIcon:p;return(0,r.jsx)(o.A,f(u({},e),{hasIcon:t}))}return(0,r.jsx)(l.T,u({},e))}"}]

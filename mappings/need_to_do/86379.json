@@ -1,0 +1,1 @@
+[{"code":"function o(){let{paymentsBlocked:e}=a.useExperiment({location:\"c519a9_1\"},{autoTrackExposure:!1}),{checkPaymentSource:t}=s.useExperiment({location:\"c519a9_2\"},{autoTrackExposure:!1}),{defaultBillingCountryCode:n}=(0,i.A)();return e||t&&\"RU\"===n}"}]

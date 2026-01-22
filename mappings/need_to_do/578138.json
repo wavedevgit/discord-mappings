@@ -1,0 +1,1 @@
+[{"code":"function o(e,t){(0,i.mMO)(async()=>{let{default:i}=await Promise.all([n.e(\"89479\"),n.e(\"80360\")]).then(n.bind(n,782107));return n=>(0,r.jsx)(i,s({analyticsLocation:e,platformType:t},n))})}"}]

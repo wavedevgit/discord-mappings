@@ -1,0 +1,1 @@
+[{"code":"function c(e,t){return l(e,(e,t)=>{t.searchParams.append(\"handoff_token\",e.body.handoff_token),window.open(t.href)},t)}"}]

@@ -1,0 +1,1 @@
+[{"code":"function a(e){let[t,n]=(0,i.P)(e.isExpanded,e.defaultExpanded||!1,e.onExpandedChange),a=(0,r.useCallback)(()=>{n(!0)},[n]),s=(0,r.useCallback)(()=>{n(!1)},[n]),o=(0,r.useCallback)(()=>{n(!t)},[n,t]);return{isExpanded:t,setExpanded:n,expand:a,collapse:s,toggle:o}}"}]

@@ -1,0 +1,1 @@
+[{"code":"function s(e,t){var n,r,i,s,o,l;if(e.score!==t.score)return t.score-e.score;let c=a(e.record),u=a(t.record);if(c!==u)return c-u;let d=null!=(n=null!=(r=e.sortable)?r:null==(o=e.comparator)?void 0:o.toLocaleLowerCase())?n:\"\",f=null!=(i=null!=(s=e.sortable)?s:null==(l=t.comparator)?void 0:l.toLocaleLowerCase())?i:\"\";return d<f?-1:+(d>f)}"}]

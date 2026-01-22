@@ -1,0 +1,1 @@
+[{"code":"function s(e){let t=i.A.useCanUIRequestGatewaySocket();r.useEffect(()=>{if(t)return a.uG(e),()=>{a.qr(e)}},[e,t])}"}]

@@ -1,0 +1,1 @@
+[{"code":"function o(e){let t=decodeURIComponent(e),n=(0,i.vu)(t);return null!=n&&n.channelId===l.VV.ROLE_SUBSCRIPTIONS?\"role_subscription\":t===s.BVt.SETTINGS(s.nc_.SUBSCRIPTIONS,\"role-subscriptions\")?\"role_subscription_setting\":void 0}"}]

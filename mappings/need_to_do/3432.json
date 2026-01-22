@@ -1,0 +1,1 @@
+[{"code":"function o(e,t){if(null!=t)switch(t.type){case i.A.STORE_ASSET:let n=(0,s.YE)(e,t.store_asset_id);return(0,r.jsx)(\"img\",{src:n,alt:\"\",className:\"emoji\"});case i.A.EMOJI:return(0,r.jsx)(a.A,{emojiName:t.emoji})}}"}]

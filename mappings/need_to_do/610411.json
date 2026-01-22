@@ -1,0 +1,1 @@
+[{"code":"e=>{let{gameName:t,applicationId:n,label:a,source:s}=e;return r.default.track(i.HAw.GAME_MENTIONS_NOTIFICATION_SETTING_UPDATED,{game_name:t,application_id:n,label:a,source:s})}"}]

@@ -1,0 +1,1 @@
+[{"code":"function c(e){return null==e.guilds?e:o(a({},e),{guilds:l(e.guilds)})}"}]

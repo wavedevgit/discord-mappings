@@ -1,0 +1,1 @@
+[{"code":"function p(e){r.useEffect(()=>{_(e)},[e]);let t=(0,i.yK)([d.A,f.A,u.A],()=>{let t=d.A.getStoreLayout(e);return(0,l.oC)(t.subscriptions,f.A,u.A)},[e]),n=(0,i.yK)([d.A],()=>d.A.getStoreLayout(e).otps,[e]);return r.useMemo(()=>({subscriptions:t,otps:n}),[t,n])}"},{"code":"function _(e){(0,a.V)(e),(0,o.JI)(e),c.default.isAuthenticated()&&(0,s.LM)(e,!1)}"}]

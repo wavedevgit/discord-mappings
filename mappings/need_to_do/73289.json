@@ -1,0 +1,1 @@
+[{"code":"(e,t)=>{let n=e.getClientOffset();if(null===n)return null;if(!t.current||!t.current.getBoundingClientRect)return r(n,i(e));let a=t.current.getBoundingClientRect();return r(n,{x:a.width/2,y:a.height/2})}"}]

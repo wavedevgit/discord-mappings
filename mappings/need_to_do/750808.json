@@ -1,0 +1,1 @@
+[{"code":"class a extends r.A{static fromPath(e){return new a({id:e,path:e})}constructor(e){super(),i(this,\"id\",void 0),i(this,\"path\",void 0),this.id=e.id,this.path=e.path}}"}]

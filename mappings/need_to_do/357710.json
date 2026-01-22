@@ -1,0 +1,1 @@
+[{"code":"function c(e){let t=(0,a.useRef)({});return a.createElement(l.Provider,{value:t},e.children)}"}]

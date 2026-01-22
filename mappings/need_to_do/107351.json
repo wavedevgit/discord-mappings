@@ -1,0 +1,1 @@
+[{"code":"async function c(){let e=new Uint8Array(l().split(\"\").map(e=>e.charCodeAt(0)));return btoa(String.fromCharCode(...new Uint8Array(await window.crypto.subtle.digest({name:\"SHA-256\"},e))))}"},{"code":"function l(){let e=i.w.get(s);if(null!=e&&e.expires>=Date.now())return e.purchaseToken;let t=(0,r.A)();return i.w.set(s,{purchaseToken:t,expires:Date.now()+o}),t}"}]

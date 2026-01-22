@@ -1,0 +1,1 @@
+[{"code":"e=>{try{let t=Object.entries(e.tasks).map(e=>{let[t,n]=e;return[t,s(n)]}).filter(e=>{let[t,n]=e;return null!==n});return{tasks:Object.fromEntries(t),joinOperator:e.join_operator}}catch(e){return{tasks:{},joinOperator:i.K.OR}}}"}]

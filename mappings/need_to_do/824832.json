@@ -1,0 +1,1 @@
+[{"code":"async function _(e,t){let n=[];for(let r=0;r<e.length;r++){let i=e[r];try{let{image:e,dataURI:r}=await p(i),a=i.type===c.a.MP4?await t(r,i):await t(r,i,e);null!=a&&n.push({type:a,filename:i.name})}catch(e){n.push({type:e,filename:i.name})}}n.length>0&&h(n)}"}]
