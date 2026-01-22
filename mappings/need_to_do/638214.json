@@ -1,1 +1,1 @@
-[{"code":"function o(e){return a.useExperiment({location:e}).enableObfuscation}"}]
+[{"code":"function o(e){return a.getCurrentConfig({location:e}).enableObfuscation}"},{"code":"function s(e){return a.useExperiment({location:e}).enableObfuscation}"}]
