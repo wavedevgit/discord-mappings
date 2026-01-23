@@ -1,1 +1,1 @@
-[{"code":"function r(){return{logsUploaded:new Date().toISOString(),releaseChannel:window.GLOBAL_ENV.RELEASE_CHANNEL,buildNumber:\"488758\",versionHash:\"6af9959afa05a343912e887feada42a422af33eb\"}}"}]
+[{"code":"function r(){return{logsUploaded:new Date().toISOString(),releaseChannel:window.GLOBAL_ENV.RELEASE_CHANNEL,buildNumber:\"488786\",versionHash:\"ee65df5e2cf5209d22e6d50e03e4afb30d2987bf\"}}"}]
