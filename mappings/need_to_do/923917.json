@@ -1,1 +1,1 @@
-[{"code":"function X(e){let{withTitleBar:t,isFullScreen:n}=e;return t&&k.isPlatformEmbedded&&!n}"}]
+[{"code":"function Z(e){let{withTitleBar:t,isFullScreen:n}=e;return t&&k.isPlatformEmbedded&&!n}"}]
