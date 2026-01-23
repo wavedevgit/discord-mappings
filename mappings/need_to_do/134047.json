@@ -1,0 +1,1 @@
+[{"code":"function i(e){let{channel:t,location:n}=e,{autoOpenTIV:i}=r.useConfig({location:n});return null!=t&&!!t.isGuildVocal()&&i}"}]
