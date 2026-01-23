@@ -1,1 +1,1 @@
-[{"code":"function b(e){return\"\".concat(e.author_id,\":\").concat(e.id)}"}]
+[{"code":"function y(e){return\"\".concat(e.author_id,\":\").concat(e.id)}"}]

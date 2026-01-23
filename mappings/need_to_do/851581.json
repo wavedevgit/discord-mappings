@@ -1,1 +1,1 @@
-[{"code":"function y(){return b.info()}"}]
+[{"code":"function b(){return y.info()}"}]

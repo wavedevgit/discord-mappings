@@ -1,1 +1,1 @@
-[{"code":"async function A(){var e;let t=new E((null!=(e=await m.getAvailableDictionaries())?e:[]).map(g).filter(u.Vq));return y(t),t}"}]
+[{"code":"async function v(){var e;let t=new E((null!=(e=await m.getAvailableDictionaries())?e:[]).map(g).filter(u.Vq));return b(t),t}"}]

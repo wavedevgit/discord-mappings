@@ -1,1 +1,1 @@
-[{"code":"function N(e){return null==e.emojiId&&null==e.emojiName&&null==e.src?null:e.animated&&void 0===e.shouldAnimate?(0,r.jsx)(C,y({},e)):(0,r.jsx)(T,y({},e))}"}]
+[{"code":"function N(e){return null==e.emojiId&&null==e.emojiName&&null==e.src?null:e.animated&&void 0===e.shouldAnimate?(0,r.jsx)(C,b({},e)):(0,r.jsx)(T,b({},e))}"}]

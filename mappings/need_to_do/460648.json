@@ -1,1 +1,1 @@
-[{"code":"async function v(e){return A(await navigator.credentials.get(O(e)))}"},{"code":"async function y(e){return b(await navigator.credentials.create(E(e)))}"}]
+[{"code":"async function A(e){return v(await navigator.credentials.get(O(e)))}"},{"code":"async function b(e){return y(await navigator.credentials.create(E(e)))}"}]

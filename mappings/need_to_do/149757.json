@@ -1,1 +1,1 @@
-[{"code":"function A(e){let{ambient:t=!1}=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=y[e];return t?n.ambient:n.standard}"},{"code":"function(e){let{ambient:t=!1}=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return null!=e?A(e,{ambient:t}):null}"}]
+[{"code":"function v(e){let{ambient:t=!1}=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=b[e];return t?n.ambient:n.standard}"},{"code":"function(e){let{ambient:t=!1}=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};return null!=e?v(e,{ambient:t}):null}"}]

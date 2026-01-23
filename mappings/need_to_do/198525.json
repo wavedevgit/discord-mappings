@@ -1,1 +1,1 @@
-[{"code":"function G(e){return(0,r.jsx)(S.R,{questOrQuests:e.quest,questContent:b.uF.MEMBERS_LIST,trackGuildAndChannelMetadata:!0,sourceQuestContent:b.uF.MEMBERS_LIST,children:t=>(0,r.jsx)(U,L({impressionRef:t},e))})}"}]
+[{"code":"function G(e){return(0,r.jsx)(I.R,{questOrQuests:e.quest,questContent:y.uF.MEMBERS_LIST,trackGuildAndChannelMetadata:!0,sourceQuestContent:y.uF.MEMBERS_LIST,children:t=>(0,r.jsx)(U,L({impressionRef:t},e))})}"}]

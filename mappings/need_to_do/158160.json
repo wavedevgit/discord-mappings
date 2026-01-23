@@ -1,1 +1,1 @@
-[{"code":"function E(e){return g()||Array.from(e).every(e=>b(e,!0))}"}]
+[{"code":"function E(e){return g()||Array.from(e).every(e=>y(e,!0))}"}]

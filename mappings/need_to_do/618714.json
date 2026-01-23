@@ -1,1 +1,1 @@
-[{"code":"function T(e){return _++,l.push(e),S(),_}"},{"code":"function C(e){var t=e-1-m;l[t]&&(l[t]=null)}"}]
+[{"code":"function T(e){return _++,l.push(e),I(),_}"},{"code":"function C(e){var t=e-1-m;l[t]&&(l[t]=null)}"}]

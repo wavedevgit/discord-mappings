@@ -1,1 +1,1 @@
-[{"code":"function P(e){let t=(0,c.bG)([h.A],()=>h.A.getTrendingCategories()),n=(0,g.rM)(),i=(0,y.d5)();return(0,r.jsx)(w,C(I({},e,i),{trendingCategories:t,favorites:n}))}"}]
+[{"code":"function P(e){let t=(0,c.bG)([h.A],()=>h.A.getTrendingCategories()),n=(0,g.rM)(),i=(0,b.d5)();return(0,r.jsx)(w,C(S({},e,i),{trendingCategories:t,favorites:n}))}"}]

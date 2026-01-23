@@ -1,1 +1,1 @@
-[{"code":"function N(e){return e.upload.item.platform!==d.xz.WEB?null:(0,r.jsx)(C,A(y({},e),{file:e.upload.item.file}))}"}]
+[{"code":"function N(e){return e.upload.item.platform!==d.xz.WEB?null:(0,r.jsx)(C,v(b({},e),{file:e.upload.item.file}))}"}]

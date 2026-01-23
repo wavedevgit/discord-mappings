@@ -1,1 +1,1 @@
-[{"code":"function I(){return(0,i.getLanguages)().filter(e=>!S.includes(e.code)).map(e=>\"en-US\"===e.code?l(s({},e),{name:i.intl.string(i.t.LQLMGP)}):e)}"}]
+[{"code":"function S(){return(0,i.getLanguages)().filter(e=>!I.includes(e.code)).map(e=>\"en-US\"===e.code?l(s({},e),{name:i.intl.string(i.t.LQLMGP)}):e)}"}]
