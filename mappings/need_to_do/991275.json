@@ -1,1 +1,1 @@
-[{"code":"function ed(e){let{channel:t,className:n}=e,a=i.useDeferredValue(t);return i.useMemo(()=>(0,r.jsx)(eu,{channel:a,className:n}),[a,n])}"}]
+[{"code":"function ep(e){let{channel:t,className:n}=e,a=i.useDeferredValue(t),s=(0,v.p)({location:y.A.MEMBER_LIST});return i.useMemo(()=>s?(0,r.jsx)(A.r$,{children:(0,r.jsx)(ef,{channel:a,className:n})}):(0,r.jsx)(ef,{channel:a,className:n}),[s,a,n])}"}]
