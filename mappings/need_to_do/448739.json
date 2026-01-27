@@ -1,0 +1,1 @@
+[{"code":"function a(){let e=r.A.getConnectedFrame();null!=e&&(0,i.A)().leaveFrame({applicationId:e.applicationId})}"}]

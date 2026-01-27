@@ -1,0 +1,1 @@
+[{"code":"function a(){let e=r.Ay.getCurrentEmbeddedActivity();null!=e&&(0,i.A)().leaveActivity({location:e.location,applicationId:e.applicationId,showFeedback:!1})}"}]
