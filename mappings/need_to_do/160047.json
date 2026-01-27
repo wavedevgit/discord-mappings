@@ -1,1 +1,1 @@
-[{"code":"function o(e,t,n={}){if(null==e)return null;if(\"number\"==typeof e)return e;let r=n[e]??i[e];return null==r?null:\"number\"==typeof r?r:null==t?null:t>r.dstStart(t.getFullYear())&&!(t>r.dstEnd(t.getFullYear()))?r.timezoneOffsetDuringDst:r.timezoneOffsetNonDst}"}]
+[{"code":"function s(e,t,n={}){if(null==e)return null;if(\"number\"==typeof e)return e;let r=n[e]??i[e];return null==r?null:\"number\"==typeof r?r:null==t?null:t>r.dstStart(t.getFullYear())&&!(t>r.dstEnd(t.getFullYear()))?r.timezoneOffsetDuringDst:r.timezoneOffsetNonDst}"}]

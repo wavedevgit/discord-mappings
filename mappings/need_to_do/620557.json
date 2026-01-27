@@ -1,1 +1,1 @@
-[{"code":"function a(e,t=\"assertive\",n=r){i||(i=new l),i.announce(e,t,n)}"},{"code":"function s(e){i&&i.clear(e)}"},{"code":"function o(){i&&(i.destroy(),i=null)}"}]
+[{"code":"function a(e,t=\"assertive\",n=r){i||(i=new l),i.announce(e,t,n)}"},{"code":"function o(e){i&&i.clear(e)}"},{"code":"function s(){i&&(i.destroy(),i=null)}"}]

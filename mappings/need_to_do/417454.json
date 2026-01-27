@@ -1,1 +1,1 @@
-[{"code":"function $(e){return(0,p.bG)([D.A],()=>{var t;return D.A.getGuildVersion(null==(t=e.guild)?void 0:t.id)}),!1===e.wrap?(0,r.jsx)(J,G({},e)):(0,r.jsx)(Q,G({},e))}"}]
+[{"code":"function z(e){return(0,f.bG)([G.A],()=>{var t;return G.A.getGuildVersion(null==(t=e.guild)?void 0:t.id)}),!1===e.wrap?(0,n.jsx)(J,L({},e)):(0,n.jsx)(B,L({},e))}"}]

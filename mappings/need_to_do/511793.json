@@ -1,1 +1,1 @@
-[{"code":"e=>(0,r.jsx)(i.Suspense,{fallback:null!=s?s():l()(),children:(0,r.jsx)(d,o({},e))})"}]
+[{"code":"e=>(0,r.jsx)(i.Suspense,{fallback:null!=o?o():l()(),children:(0,r.jsx)(d,s({},e))})"}]

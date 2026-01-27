@@ -1,1 +1,1 @@
-[{"code":"function e(t,n){o(this,e),this.store=t,this.registry=n}"}]
+[{"code":"function e(t,n){s(this,e),this.store=t,this.registry=n}"}]

@@ -1,1 +1,1 @@
-[{"code":"function c(e,t){return t&&i.B.getGlobalDictionaryForPackage(t)||l(e)}"},{"code":"function u(e,t){let{locale:n}=(0,r.Y)(),i=c(e,t);return(0,s.useMemo)(()=>new(0,a.J)(n,i),[n,i])}"}]
+[{"code":"function c(e,t){return t&&i.B.getGlobalDictionaryForPackage(t)||l(e)}"},{"code":"function u(e,t){let{locale:n}=(0,r.Y)(),i=c(e,t);return(0,o.useMemo)(()=>new(0,a.J)(n,i),[n,i])}"}]

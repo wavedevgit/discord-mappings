@@ -1,1 +1,1 @@
-[{"code":"function o(e){let t=a.j0.useSetting(),{isBlocked:n,isIgnored:o}=(0,i.cf)([s.A],()=>({isBlocked:s.A.isBlocked(e),isIgnored:s.A.isIgnored(e)})),[l,c]=(0,r.useState)(n||o);return(0,r.useEffect)(()=>c(n||o),[n,o]),[l&&!(o&&t),(0,r.useCallback)(()=>{c(!1)},[])]}"}]
+[{"code":"function s(e){let t=a.j0.useSetting(),{isBlocked:n,isIgnored:s}=(0,i.cf)([o.A],()=>({isBlocked:o.A.isBlocked(e),isIgnored:o.A.isIgnored(e)})),[l,c]=(0,r.useState)(n||s);return(0,r.useEffect)(()=>c(n||s),[n,s]),[l&&!(s&&t),(0,r.useCallback)(()=>{c(!1)},[])]}"}]

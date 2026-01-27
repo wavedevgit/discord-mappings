@@ -1,1 +1,1 @@
-[{"code":"class o extends a.c{constructor(){super()}innerPattern(){return RegExp(`il y a\\\\s*(${r.Pl})(?=(?:\\\\W|$))`,\"i\")}innerExtract(e,t){let n=(0,r.E9)(t[1]),a=(0,s.x4)(n);return i.BP.createRelativeFromReference(e.reference,a)}}"}]
+[{"code":"class s extends a.c{constructor(){super()}innerPattern(){return RegExp(`il y a\\\\s*(${r.Pl})(?=(?:\\\\W|$))`,\"i\")}innerExtract(e,t){let n=(0,r.E9)(t[1]),a=(0,o.x4)(n);return i.BP.createRelativeFromReference(e.reference,a)}}"}]

@@ -1,1 +1,1 @@
-[{"code":"function c(e){a.default.track(s.HAw.OPEN_MODAL,{type:s.JJy.STICKER_PREMIUM_TIER_2_UPSELL_MODAL,location:e}),(0,i.mMO)(async()=>{let{default:e}=await n.e(\"53274\").then(n.bind(n,397313));return t=>(0,r.jsx)(e,l({},t))})}"}]
+[{"code":"function c(e){a.default.track(o.HAw.OPEN_MODAL,{type:o.JJy.STICKER_PREMIUM_TIER_2_UPSELL_MODAL,location:e}),(0,i.mMO)(async()=>{let{default:e}=await n.e(\"53274\").then(n.bind(n,397313));return t=>(0,r.jsx)(e,l({},t))})}"}]

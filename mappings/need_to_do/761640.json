@@ -1,1 +1,1 @@
-[{"code":"function L(e){return[c.PE.VIEW_CHANNEL,c.PE.VIEW_THREAD,c.PE.VIEW_MESSAGE_REQUEST,c.PE.VIEW_MOD_REPORT].includes(e.type)}"}]
+[{"code":"function x(e){return[c.PE.VIEW_CHANNEL,c.PE.VIEW_THREAD,c.PE.VIEW_MESSAGE_REQUEST,c.PE.VIEW_MOD_REPORT].includes(e.type)}"}]

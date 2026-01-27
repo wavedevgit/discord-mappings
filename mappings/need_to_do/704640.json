@@ -1,1 +1,1 @@
-[{"code":"function o(e){var t;let n=null!=(t=s[null!=e?e:a])?t:s[a];return{type:\"custom\",start:r.A.colors[n.start],end:r.A.colors[n.end]}}"}]
+[{"code":"function s(e){var t;let n=null!=(t=o[null!=e?e:a])?t:o[a];return{type:\"custom\",start:r.A.colors[n.start],end:r.A.colors[n.end]}}"}]

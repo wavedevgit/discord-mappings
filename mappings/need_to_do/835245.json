@@ -1,1 +1,1 @@
-[{"code":"function(e,t,n){if(r.A.randomUUID&&!t&&!e)return r.A.randomUUID();let s=(e=e||{}).random||(e.rng||i.A)();if(s[6]=15&s[6]|64,s[8]=63&s[8]|128,t){n=n||0;for(let e=0;e<16;++e)t[n+e]=s[e];return t}return(0,a.k)(s)}"}]
+[{"code":"function(e,t,n){if(r.A.randomUUID&&!t&&!e)return r.A.randomUUID();let o=(e=e||{}).random||(e.rng||i.A)();if(o[6]=15&o[6]|64,o[8]=63&o[8]|128,t){n=n||0;for(let e=0;e<16;++e)t[n+e]=o[e];return t}return(0,a.k)(o)}"}]

@@ -1,1 +1,1 @@
-[{"code":"e=>{let{open:t,className:n}=e,a=o(e,[\"open\",\"className\"]),l=t?i.PGe:i.abt;return(0,r.jsx)(l,s({className:n,size:\"sm\",color:\"currentColor\"},a))}"}]
+[{"code":"e=>{let{open:t,className:n}=e,a=s(e,[\"open\",\"className\"]),l=t?i.PGe:i.abt;return(0,r.jsx)(l,o({className:n,size:\"sm\",color:\"currentColor\"},a))}"}]

@@ -1,1 +1,1 @@
-[{"code":"function s(e,t){let n=(0,i.bG)([a.A],()=>a.A.useReducedMotion);r.useEffect(()=>{if(!t)return;let r=e.current;if(null==r)return;let i=requestAnimationFrame(()=>{r.scrollIntoView({behavior:n?\"auto\":\"smooth\"})});return()=>cancelAnimationFrame(i)},[e,t,n])}"}]
+[{"code":"function o(e,t){let n=(0,i.bG)([a.A],()=>a.A.useReducedMotion);r.useEffect(()=>{if(!t)return;let r=e.current;if(null==r)return;let i=requestAnimationFrame(()=>{r.scrollIntoView({behavior:n?\"auto\":\"smooth\"})});return()=>cancelAnimationFrame(i)},[e,t,n])}"}]

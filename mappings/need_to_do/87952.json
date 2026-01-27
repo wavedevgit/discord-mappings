@@ -1,1 +1,1 @@
-[{"code":"function s(){let[e,t]=r.useState(null);return r.useEffect(()=>{(0,a.Cv)().then(e=>t(e)).catch(e=>{(0,i.pM)(e)})},[]),e}"}]
+[{"code":"function o(){let[e,t]=r.useState(null);return r.useEffect(()=>{(0,a.Cv)().then(e=>t(e)).catch(e=>{(0,i.pM)(e)})},[]),e}"}]

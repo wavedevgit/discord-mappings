@@ -1,1 +1,1 @@
-[{"code":"e=>{let{className:t,children:n,\"aria-label\":i,id:l}=e;return(0,r.jsx)(s.H,{className:a()(t,o.kL,o.wx),\"aria-label\":i,id:l,children:n})}"}]
+[{"code":"e=>{let{className:t,children:n,\"aria-label\":i,id:l}=e;return(0,r.jsx)(o.H,{className:a()(t,s.kL,s.wx),\"aria-label\":i,id:l,children:n})}"}]

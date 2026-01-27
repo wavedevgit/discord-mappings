@@ -1,1 +1,1 @@
-[{"code":"class o extends a.d{innerPatternString(e){return`(${r.Pl})\\\\s{0,5}назад(?=(?:\\\\W|$))`}innerExtract(e,t){let n=(0,r.E9)(t[1]),a=(0,s.x4)(n);return i.BP.createRelativeFromReference(e.reference,a)}}"}]
+[{"code":"class s extends a.d{innerPatternString(e){return`(${r.Pl})\\\\s{0,5}назад(?=(?:\\\\W|$))`}innerExtract(e,t){let n=(0,r.E9)(t[1]),a=(0,o.x4)(n);return i.BP.createRelativeFromReference(e.reference,a)}}"}]

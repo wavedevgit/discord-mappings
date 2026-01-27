@@ -1,1 +1,1 @@
-[{"code":"function a(e){(0,i.A)(1,arguments);var t=1,n=(0,r.default)(e),a=n.getUTCDay(),s=7*(a<t)+a-t;return n.setUTCDate(n.getUTCDate()-s),n.setUTCHours(0,0,0,0),n}"}]
+[{"code":"function a(e){(0,i.A)(1,arguments);var t=1,n=(0,r.default)(e),a=n.getUTCDay(),o=7*(a<t)+a-t;return n.setUTCDate(n.getUTCDate()-o),n.setUTCHours(0,0,0,0),n}"}]

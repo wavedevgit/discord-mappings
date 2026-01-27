@@ -1,1 +1,1 @@
-[{"code":"function s(e){return a.useConfig({location:e}).enableDesktopJSONGatewayEncoding}"},{"code":"function a(){return r.w.get(i)}"}]
+[{"code":"function o(e){return a.useConfig({location:e}).enableDesktopJSONGatewayEncoding}"},{"code":"function a(){return r.w.get(i)}"}]

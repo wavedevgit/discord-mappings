@@ -1,1 +1,1 @@
-[{"code":"function o(e){return Object.values(i.xBc).some(t=>r.zy(e,t)&&!s.includes(t))}"},{"code":"function c(e){let t=l[e.toString()];if(null==t)throw Error(\"Unknown permission. Did you provide a _single_ bit flag? Perm: \".concat(e));return t()}"}]
+[{"code":"function s(e){return Object.values(i.xBc).some(t=>r.zy(e,t)&&!o.includes(t))}"},{"code":"function c(e){let t=l[e.toString()];if(null==t)throw Error(\"Unknown permission. Did you provide a _single_ bit flag? Perm: \".concat(e));return t()}"}]

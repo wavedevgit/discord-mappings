@@ -1,1 +1,1 @@
-[{"code":"function o(e,t){let n=(0,a.Ay)(),o=(0,r.bG)([s.A],()=>s.A.useReducedMotion);return null==e?null:(0,i.M)(n)||t?o?e.darkStaticUrl:e.darkUrl:o?e.lightStaticUrl:e.lightUrl}"}]
+[{"code":"function s(e,t){let n=(0,a.Ay)(),s=(0,r.bG)([o.A],()=>o.A.useReducedMotion);return null==e?null:(0,i.M)(n)||t?s?e.darkStaticUrl:e.darkUrl:s?e.lightStaticUrl:e.lightUrl}"}]

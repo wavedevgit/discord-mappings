@@ -1,1 +1,1 @@
-[{"code":"function o(e,t){var n;i()(e.item.platform===a.xz.WEB,\"Upload must be in the Web format\");let r=(0,s.OW)(e,t);return Promise.resolve({file:e.item.file,name:null!=(n=r.filename)?n:\"\"})}"},{"code":"function c(e){return!1}"},{"code":"async function l(e){}"}]
+[{"code":"function s(e,t){var n;i()(e.item.platform===a.xz.WEB,\"Upload must be in the Web format\");let r=(0,o.OW)(e,t);return Promise.resolve({file:e.item.file,name:null!=(n=r.filename)?n:\"\"})}"},{"code":"function c(e){return!1}"},{"code":"async function l(e){}"}]

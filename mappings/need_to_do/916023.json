@@ -1,1 +1,1 @@
-[{"code":"function s(e){let{location:t}=e;return r.useConfig({location:t}).wishlistRetargetingEnabled}"},{"code":"function i(e){let{location:t}=e;return r.useConfig({location:t}).enabled}"},{"code":"function a(e){let{location:t}=e;return r.getConfig({location:t}).enabled}"}]
+[{"code":"function o(e){let{location:t}=e;return r.useConfig({location:t}).wishlistRetargetingEnabled}"},{"code":"function i(e){let{location:t}=e;return r.useConfig({location:t}).enabled}"},{"code":"function a(e){let{location:t}=e;return r.getConfig({location:t}).enabled}"}]

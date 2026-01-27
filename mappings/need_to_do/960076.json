@@ -1,1 +1,1 @@
-[{"code":"function s(e){return null!=e&&(Array.isArray(e)?e.some(a):a(e))}"}]
+[{"code":"function o(e){return null!=e&&(Array.isArray(e)?e.some(a):a(e))}"}]

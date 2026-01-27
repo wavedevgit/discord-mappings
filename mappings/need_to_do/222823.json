@@ -1,1 +1,1 @@
-[{"code":"function ew(e,t){let n=B.A.getChannel(e.channel_id);return!(null==n||Z.A.isBlockedOrIgnoredForMessage(e))&&!!((0,S.Ay)({message:e,userId:t.id,suppressEveryone:Q.Ay.isSuppressEveryoneEnabled(n.guild_id),suppressRoles:Q.Ay.isSuppressRolesEnabled(n.guild_id)})||eR(n))}"}]
+[{"code":"function ew(e,t){let n=B.A.getChannel(e.channel_id);return!(null==n||Z.A.isBlockedOrIgnoredForMessage(e))&&!!((0,S.Ay)({message:e,userId:t.id,suppressEveryone:X.Ay.isSuppressEveryoneEnabled(n.guild_id),suppressRoles:X.Ay.isSuppressRolesEnabled(n.guild_id)})||eR(n))}"}]

@@ -1,1 +1,1 @@
-[{"code":"function c(e){let{location:t,disable:n=!1}=e;u({location:t,disable:n});let{isInHoldout:r}=i.p.getCurrentConfig({location:t},{disable:n,autoTrackExposure:!0});return r||n?s.definition.defaultConfig:s.getConfig({location:t})}"}]
+[{"code":"function c(e){let{location:t,disable:n=!1}=e;u({location:t,disable:n});let{isInHoldout:r}=i.p.getCurrentConfig({location:t},{disable:n,autoTrackExposure:!0});return r||n?o.definition.defaultConfig:o.getConfig({location:t})}"}]

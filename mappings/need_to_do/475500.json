@@ -1,1 +1,1 @@
-[{"code":"class s extends a.c{innerPattern(){return RegExp(`(?:in|f\\xfcr|w\\xe4hrend)\\\\s*(${r.Pl})(?=\\\\W|$)`,\"i\")}innerExtract(e,t){let n=(0,r.E9)(t[1]);return i.BP.createRelativeFromReference(e.reference,n)}}"}]
+[{"code":"class o extends a.c{innerPattern(){return RegExp(`(?:in|f\\xfcr|w\\xe4hrend)\\\\s*(${r.Pl})(?=\\\\W|$)`,\"i\")}innerExtract(e,t){let n=(0,r.E9)(t[1]);return i.BP.createRelativeFromReference(e.reference,n)}}"}]

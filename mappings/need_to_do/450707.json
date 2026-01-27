@@ -1,1 +1,1 @@
-[{"code":"e=>{let t=d(e),n=u(e);return l(s({},f(e)),{emojiDescription:t,analyticsType:n})}"}]
+[{"code":"e=>{let t=d(e),n=u(e);return l(o({},f(e)),{emojiDescription:t,analyticsType:n})}"}]

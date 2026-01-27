@@ -1,1 +1,1 @@
-[{"code":"function d(e){let{width:t=24,height:n=24,color:a=\"currentColor\"}=e,o=c(e,[\"width\",\"height\",\"color\"]);return(0,r.jsx)(\"svg\",l(s({},(0,i.A)(o)),{width:t,height:n,viewBox:\"0 0 4 4\",children:(0,r.jsx)(\"circle\",{cx:\"2\",cy:\"2\",r:\"2\",fill:a})}))}"}]
+[{"code":"function d(e){let{width:t=24,height:n=24,color:a=\"currentColor\"}=e,s=c(e,[\"width\",\"height\",\"color\"]);return(0,r.jsx)(\"svg\",l(o({},(0,i.A)(s)),{width:t,height:n,viewBox:\"0 0 4 4\",children:(0,r.jsx)(\"circle\",{cx:\"2\",cy:\"2\",r:\"2\",fill:a})}))}"}]

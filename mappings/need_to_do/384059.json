@@ -1,1 +1,1 @@
-[{"code":"function l(e,t,n){var o;let l=i.A.getChannelId(),c=i.A.getGuildId(),u=null==(o=r.A.getChannel(l))?void 0:o.type;a.default.track(s.HAw.CALL_BUTTON_CLICKED,{location:e,button_name:t,toggled_active:n,guild_id:c,channel_id:l,channel_type:u})}"}]
+[{"code":"function l(e,t,n){var s;let l=i.A.getChannelId(),c=i.A.getGuildId(),u=null==(s=r.A.getChannel(l))?void 0:s.type;a.default.track(o.HAw.CALL_BUTTON_CLICKED,{location:e,button_name:t,toggled_active:n,guild_id:c,channel_id:l,channel_type:u})}"}]

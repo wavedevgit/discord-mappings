@@ -1,1 +1,1 @@
-[{"code":"function(e){var t=e.portal,n=p(e,[\"portal\"]),l=o((0,r.useState)(null),2),c=l[0],u=l[1];return r.createElement(h.Provider,{value:null!=t?t:c},r.createElement(i.Q,s({backend:a.e},n)),t?null:r.createElement(\"div\",{ref:u}))}"}]
+[{"code":"function(e){var t=e.portal,n=p(e,[\"portal\"]),l=s((0,r.useState)(null),2),c=l[0],u=l[1];return r.createElement(h.Provider,{value:null!=t?t:c},r.createElement(i.Q,o({backend:a.e},n)),t?null:r.createElement(\"div\",{ref:u}))}"}]

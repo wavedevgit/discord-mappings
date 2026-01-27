@@ -1,1 +1,1 @@
-[{"code":"e=>{let{children:t,className:n,containerRef:i}=e;return(0,r.jsx)(\"div\",{ref:i,className:s()(y.wrapper,n),children:t})}"}]
+[{"code":"e=>{let{children:t,className:n,containerRef:r}=e;return(0,l.jsx)(\"div\",{ref:r,className:s()(N.wrapper,n),children:t})}"}]

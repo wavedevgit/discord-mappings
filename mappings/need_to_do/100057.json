@@ -1,1 +1,1 @@
-[{"code":"e=>{let{sessionId:t,checkpoint:n,tab:a,unpublishedCategoriesShown:s,cacheDisabled:o}=e;r.default.track(i.HAw.COLLECTIBLES_SHOP_PERF_TRACKED,{page_session_id:t,checkpoint:n,tab:a,unpublished_categories_shown:s,cache_disabled:o})}"}]
+[{"code":"e=>{let{sessionId:t,checkpoint:n,tab:a,unpublishedCategoriesShown:o,cacheDisabled:s}=e;r.default.track(i.HAw.COLLECTIBLES_SHOP_PERF_TRACKED,{page_session_id:t,checkpoint:n,tab:a,unpublished_categories_shown:o,cache_disabled:s})}"}]

@@ -1,1 +1,1 @@
-[{"code":"function o(e){(0,i.mMO)(async()=>{let{default:t}=await Promise.all([n.e(\"89479\"),n.e(\"36456\")]).then(n.bind(n,24987));return n=>(0,r.jsx)(t,s({analyticsLocation:e},n))})}"}]
+[{"code":"function s(e){(0,i.mMO)(async()=>{let{default:t}=await Promise.all([n.e(\"89479\"),n.e(\"36456\")]).then(n.bind(n,24987));return n=>(0,r.jsx)(t,o({analyticsLocation:e},n))})}"}]

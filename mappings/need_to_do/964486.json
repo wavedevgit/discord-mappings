@@ -1,1 +1,1 @@
-[{"code":"function i(e){let t=r.useRef(e);r.useEffect(()=>t.current(),[])}"},{"code":"function s(e){let t=r.useRef(e);r.useEffect(()=>{t.current=e}),r.useEffect(()=>()=>{t.current()},[])}"},{"code":"function a(e){let t=r.useRef(e);r.useLayoutEffect(()=>t.current(),[])}"}]
+[{"code":"function i(e){let t=r.useRef(e);r.useEffect(()=>t.current(),[])}"},{"code":"function o(e){let t=r.useRef(e);r.useEffect(()=>{t.current=e}),r.useEffect(()=>()=>{t.current()},[])}"},{"code":"function a(e){let t=r.useRef(e);r.useLayoutEffect(()=>t.current(),[])}"}]

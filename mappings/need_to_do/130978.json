@@ -1,1 +1,1 @@
-[{"code":"function s(e,t){let{enabled:n}=r.l.getCurrentConfig({guildId:null!=e?e:i.dJq,location:t});return n}"},{"code":"function a(e,t){let{enabled:n}=r.l.useExperiment({guildId:null!=e?e:i.dJq,location:t});return n}"}]
+[{"code":"function o(e,t){let{enabled:n}=r.l.getCurrentConfig({guildId:null!=e?e:i.dJq,location:t});return n}"},{"code":"function a(e,t){let{enabled:n}=r.l.useExperiment({guildId:null!=e?e:i.dJq,location:t});return n}"}]

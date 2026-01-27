@@ -1,1 +1,1 @@
-[{"code":"e=>{let{className:t,onClick:n}=e;return(0,r.jsx)(c,{className:t,onClick:n,children:o.intl.string(o.t[\"13/7kX\"])})}"},{"code":"e=>{let{className:t,onClick:n,children:i}=e;return(0,r.jsx)(s.MzZ,{onClick:n,className:a()(l.n,t),children:i})}"}]
+[{"code":"e=>{let{className:t,onClick:n}=e;return(0,r.jsx)(c,{className:t,onClick:n,children:s.intl.string(s.t[\"13/7kX\"])})}"},{"code":"e=>{let{className:t,onClick:n,children:i}=e;return(0,r.jsx)(o.MzZ,{onClick:n,className:a()(l.n,t),children:i})}"}]

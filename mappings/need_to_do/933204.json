@@ -1,1 +1,1 @@
-[{"code":"function c(){return o(a.A.getGuildIds(),s.A.getSounds())}"},{"code":"function l(){let e=(0,i.yK)([a.A],()=>a.A.getGuildIds()),t=(0,i.bG)([s.A],()=>s.A.getSounds());return(0,r.useMemo)(()=>o(e,t),[e,t])}"}]
+[{"code":"function c(){return s(a.A.getGuildIds(),o.A.getSounds())}"},{"code":"function l(){let e=(0,i.yK)([a.A],()=>a.A.getGuildIds()),t=(0,i.bG)([o.A],()=>o.A.getSounds());return(0,r.useMemo)(()=>s(e,t),[e,t])}"}]

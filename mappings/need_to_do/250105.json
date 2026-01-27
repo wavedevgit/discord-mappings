@@ -1,1 +1,1 @@
-[{"code":"function l(e){return(0,r.A)(e,o.A,c,u)}"},{"code":"function c(e,t){switch(e){case\"guild\":return t.guildId;case\"user\":return a.default.getId();case\"installation\":var n;return null!=(n=a.default.getInstallationForTracking())?n:\"\";default:(0,s.xb)(e)}}"}]
+[{"code":"function l(e){return(0,r.A)(e,s.A,c,u)}"},{"code":"function c(e,t){switch(e){case\"guild\":return t.guildId;case\"user\":return a.default.getId();case\"installation\":var n;return null!=(n=a.default.getInstallationForTracking())?n:\"\";default:(0,o.xb)(e)}}"}]

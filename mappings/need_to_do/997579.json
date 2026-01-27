@@ -1,1 +1,1 @@
-[{"code":"function o(e){if(!__OVERLAY__&&s.isPlatformEmbedded)try{let t=r.A.colors.BACKGROUND_BASE_LOWEST.resolve({theme:e,saturation:i.A.saturation}).hex();a.A.setApplicationBackgroundColor(t)}catch(e){}}"}]
+[{"code":"function s(e){if(!__OVERLAY__&&o.isPlatformEmbedded)try{let t=r.A.colors.BACKGROUND_BASE_LOWEST.resolve({theme:e,saturation:i.A.saturation}).hex();a.A.setApplicationBackgroundColor(t)}catch(e){}}"}]

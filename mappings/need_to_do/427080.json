@@ -1,1 +1,1 @@
-[{"code":"(e,t)=>{switch(null==e?void 0:e.entity_type){case N.Ps.STAGE_INSTANCE:return D(e,t);case N.Ps.VOICE:return P(e,t)}return()=>{}}"}]
+[{"code":"(e,t)=>{switch(null==e?void 0:e.entity_type){case T.Ps.STAGE_INSTANCE:return n=>{let l=p.A.getChannel(e.channel_id);null!=l&&(n.stopPropagation(),(0,v.av)(l),null==t||t(n))};case T.Ps.VOICE:return n=>{n.stopPropagation(),u.default.selectVoiceChannel(e.channel_id,!1),null==t||t(n)}}return()=>{}}"}]

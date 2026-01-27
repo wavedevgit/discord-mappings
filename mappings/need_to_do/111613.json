@@ -1,1 +1,1 @@
-[{"code":"function o(e,t,n){let r=e[t],i=[...e];return i.splice(t,1),i.splice(n,0,r),i}"}]
+[{"code":"function s(e,t,n){let r=e[t],i=[...e];return i.splice(t,1),i.splice(n,0,r),i}"}]

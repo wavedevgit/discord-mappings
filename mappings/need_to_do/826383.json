@@ -1,1 +1,1 @@
-[{"code":"function o(e,t,n){let o=(0,i.bG)([s.Ay],()=>s.Ay.getUserCount(t,n));return(0,r.useEffect)(()=>{null!=e&&null!=t&&a.A.getGuildEventUserCounts(e,t,null!=n?[n]:[])},[t,e,n]),o}"}]
+[{"code":"function a(e,t,n){let a=(0,r.bG)([s.Ay],()=>s.Ay.getUserCount(t,n));return(0,l.useEffect)(()=>{null!=e&&null!=t&&i.A.getGuildEventUserCounts(e,t,null!=n?[n]:[])},[t,e,n]),a}"}]

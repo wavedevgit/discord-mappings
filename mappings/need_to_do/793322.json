@@ -1,1 +1,1 @@
-[{"code":"function B(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:\"KEYBIND\";T.A.isOpen()?F():V(e)}"},{"code":"function M(e){let[t,n]=j(e);return{query:t,queryMode:n}}"},{"code":"function F(){U(C.HAw.QUICKSWITCHER_CLOSED),G()}"}]
+[{"code":"function B(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:\"KEYBIND\";T.A.isOpen()?V():F(e)}"},{"code":"function j(e){let[t,n]=M(e);return{query:t,queryMode:n}}"},{"code":"function V(){U(C.HAw.QUICKSWITCHER_CLOSED),G()}"}]

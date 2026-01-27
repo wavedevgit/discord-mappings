@@ -1,1 +1,1 @@
-[{"code":"function s(e){return e===r.np.FRIEND_ANNIVERSARY?{chat:i.ThZ.FRIEND_ANNIVERSARIES_CHAT,actionButton:i.ThZ.FRIEND_ANNIVERSARIES_ACTION_BUTTON,actionButtonCoachmark:i.ThZ.FRIEND_ANNIVERSARIES_ACTION_BUTTON_COACHMARK}:{}}"},{"code":"function o(e){return a.has(e)}"}]
+[{"code":"function o(e){return e===r.np.FRIEND_ANNIVERSARY?{chat:i.ThZ.FRIEND_ANNIVERSARIES_CHAT,actionButton:i.ThZ.FRIEND_ANNIVERSARIES_ACTION_BUTTON,actionButtonCoachmark:i.ThZ.FRIEND_ANNIVERSARIES_ACTION_BUTTON_COACHMARK}:{}}"},{"code":"function s(e){return a.has(e)}"}]

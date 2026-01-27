@@ -1,1 +1,1 @@
-[{"code":"function _(e){let{location:t}=e;return(0,r.bG)([a.A],()=>p({location:t}))}"},{"code":"function p(e){let{location:t}=e,{isInHoldout:n}=s.p.getCurrentConfig({location:t},{autoTrackExposure:!0});return n?f.definition.defaultConfig:f.getConfig({location:t})}"}]
+[{"code":"function _(e){let{location:t}=e;return(0,r.bG)([a.A],()=>p({location:t}))}"},{"code":"function p(e){let{location:t}=e,{isInHoldout:n}=o.p.getCurrentConfig({location:t},{autoTrackExposure:!0});return n?f.definition.defaultConfig:f.getConfig({location:t})}"}]

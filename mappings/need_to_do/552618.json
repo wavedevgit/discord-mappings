@@ -1,1 +1,1 @@
-[{"code":"function c(e){return null!=e&&l(i.A.getBasicChannel(e))}"},{"code":"function l(e){return null!=e&&(e.type===s.rbe.DM||e.type===s.rbe.GROUP_DM||(0,r.pQ)(e.type)&&a.A.canBasicChannel(o,e))}"}]
+[{"code":"function c(e){return null!=e&&l(i.A.getBasicChannel(e))}"},{"code":"function l(e){return null!=e&&(e.type===o.rbe.DM||e.type===o.rbe.GROUP_DM||(0,r.pQ)(e.type)&&a.A.canBasicChannel(s,e))}"}]

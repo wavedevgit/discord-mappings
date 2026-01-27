@@ -1,1 +1,1 @@
-[{"code":"function o(e){if(null==e)return!1;let{type:t}=e;if(null==e.guild_id||!i.JT.has(t))return!1;if(e.isGuildVocal()&&!a.MJ(s.xB.CONNECT,e))return!0;let n=e.permissionOverwrites[e.guild_id];return null!=n&&r.zy(n.deny,s.xB.VIEW_CHANNEL)}"}]
+[{"code":"function s(e){if(null==e)return!1;let{type:t}=e;if(null==e.guild_id||!i.JT.has(t))return!1;if(e.isGuildVocal()&&!a.MJ(o.xB.CONNECT,e))return!0;let n=e.permissionOverwrites[e.guild_id];return null!=n&&r.zy(n.deny,o.xB.VIEW_CHANNEL)}"}]

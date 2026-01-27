@@ -1,1 +1,1 @@
-[{"code":"function s(){return a.isPlatformEmbedded}"},{"code":"function l(){return o((0,r.bG)([i.A],()=>i.A.isSupported))}"}]
+[{"code":"function o(){return a.isPlatformEmbedded}"},{"code":"function l(){return s((0,r.bG)([i.A],()=>i.A.isSupported))}"}]

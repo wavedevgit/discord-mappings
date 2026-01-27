@@ -1,1 +1,1 @@
-[{"code":"function s(e){let t=null;(0,i.isDesktop)()||(t=window.open(\"\",\"_blank\")),null!=t?t.location.href=e:window.open(e)}"},{"code":"function o(e,t){s(r.A.isProtocolRegistered()?a.RQ.PLAYER_OPEN(e,t):a.RQ.WEB_OPEN(e,t))}"}]
+[{"code":"function o(e){let t=null;(0,i.isDesktop)()||(t=window.open(\"\",\"_blank\")),null!=t?t.location.href=e:window.open(e)}"},{"code":"function s(e,t){o(r.A.isProtocolRegistered()?a.RQ.PLAYER_OPEN(e,t):a.RQ.WEB_OPEN(e,t))}"}]

@@ -1,1 +1,1 @@
-[{"code":"function a(e){return r.useExperiment({location:e}).darkerGuildListBackground}"},{"code":"function s(e){return r.useExperiment({location:e}).distinctBorders}"},{"code":"function i(e){return!1}"}]
+[{"code":"function a(e){return r.useExperiment({location:e}).darkerGuildListBackground}"},{"code":"function o(e){return r.useExperiment({location:e}).distinctBorders}"},{"code":"function i(e){return!1}"}]

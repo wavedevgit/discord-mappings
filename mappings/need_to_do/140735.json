@@ -1,1 +1,1 @@
-[{"code":"function d(e){let{tag:t=\"span\",showOnFocus:n,className:i}=e;return(0,r.jsx)(t,u(l({},e),{className:a()({[s.k]:!n,[s.f]:n},i)}))}"}]
+[{"code":"function d(e){let{tag:t=\"span\",showOnFocus:n,className:i}=e;return(0,r.jsx)(t,u(l({},e),{className:a()({[o.k]:!n,[o.f]:n},i)}))}"}]

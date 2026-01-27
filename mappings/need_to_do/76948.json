@@ -1,1 +1,1 @@
-[{"code":"class O extends(i=s.PureComponent){render(){let{className:e,children:t}=this.props;return(0,a.jsx)(u.l,{className:l()(p.qE,e),\"aria-label\":this.props[\"aria-label\"],children:t})}}"}]
+[{"code":"class O extends(i=o.PureComponent){render(){let{className:e,children:t}=this.props;return(0,a.jsx)(u.l,{className:l()(p.qE,e),\"aria-label\":this.props[\"aria-label\"],children:t})}}"}]

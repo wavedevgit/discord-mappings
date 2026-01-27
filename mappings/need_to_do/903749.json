@@ -1,1 +1,1 @@
-[{"code":"function l(e){return{format:o,builder:s(e)}}"}]
+[{"code":"function l(e){return{format:s,builder:o(e)}}"}]

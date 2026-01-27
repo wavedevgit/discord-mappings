@@ -1,1 +1,1 @@
-[{"code":"function s(e){let{context:t,application:n,botUserId:s}=e,o=(0,i.e)(n),l=(0,r.Vr)({context:t,applicationId:n.id,botUserId:s}),c=(0,a.A)(\"channel\"===t.type?t.channel:void 0);return!o&&l&&null!=s&&!c}"}]
+[{"code":"function o(e){let{context:t,application:n,botUserId:o}=e,s=(0,i.e)(n),l=(0,r.Vr)({context:t,applicationId:n.id,botUserId:o}),c=(0,a.A)(\"channel\"===t.type?t.channel:void 0);return!s&&l&&null!=o&&!c}"}]

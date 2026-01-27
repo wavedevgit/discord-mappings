@@ -1,1 +1,1 @@
-[{"code":"(e,t)=>e?c(e,t):c"},{"code":"function l(e,t=o,n){let i=s(e.subscribe,e.getState,e.getInitialState,t,n);return r.useDebugValue(i),i}"}]
+[{"code":"(e,t)=>e?c(e,t):c"},{"code":"function l(e,t=s,n){let i=o(e.subscribe,e.getState,e.getInitialState,t,n);return r.useDebugValue(i),i}"}]

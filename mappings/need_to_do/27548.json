@@ -1,1 +1,1 @@
-[{"code":"function s(e){var t;let n=null!=(t=r.A.getMemberCount(null==e?void 0:e.guild_id))?t:0;return null!=e&&e.type!==i.rbe.DM&&e.type!==i.rbe.GROUP_DM&&n>=a}"}]
+[{"code":"function o(e){var t;let n=null!=(t=r.A.getMemberCount(null==e?void 0:e.guild_id))?t:0;return null!=e&&e.type!==i.rbe.DM&&e.type!==i.rbe.GROUP_DM&&n>=a}"}]

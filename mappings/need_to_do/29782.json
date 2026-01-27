@@ -1,1 +1,1 @@
-[{"code":"class c extends a.c{strictMode;constructor(e){super(),this.strictMode=e}innerPattern(){return this.strictMode?l:o}innerExtract(e,t){let n=(0,r.E9)(t[1]);return n?i.BP.createRelativeFromReference(e.reference,(0,s.x4)(n)):null}}"}]
+[{"code":"class c extends a.c{strictMode;constructor(e){super(),this.strictMode=e}innerPattern(){return this.strictMode?l:s}innerExtract(e,t){let n=(0,r.E9)(t[1]);return n?i.BP.createRelativeFromReference(e.reference,(0,o.x4)(n)):null}}"}]

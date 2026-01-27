@@ -1,1 +1,1 @@
-[{"code":"function o(e){let t=(0,i.bG)([s.default],()=>s.default.getUser(null==e?void 0:e.creator_id),[e]);return r.useEffect(()=>{null==t&&(null==e?void 0:e.creator_id)!=null&&a.A.requestMembersById(e.guild_id,e.creator_id)},[e,t]),t}"}]
+[{"code":"function a(e){let t=(0,r.bG)([s.default],()=>s.default.getUser(null==e?void 0:e.creator_id),[e]);return l.useEffect(()=>{null==t&&(null==e?void 0:e.creator_id)!=null&&i.A.requestMembersById(e.guild_id,e.creator_id)},[e,t]),t}"}]

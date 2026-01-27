@@ -1,1 +1,1 @@
-[{"code":"function x(){return(0,a.useEffect)(()=>(T++,P(),()=>{--T,P()}),[])}"},{"code":"function D(){return(0,a.useEffect)(()=>(S++,P(),()=>{0==--S&&P()}),[])}"}]
+[{"code":"function L(){return(0,a.useEffect)(()=>(T++,P(),()=>{--T,P()}),[])}"},{"code":"function D(){return(0,a.useEffect)(()=>(S++,P(),()=>{0==--S&&P()}),[])}"}]

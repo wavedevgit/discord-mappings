@@ -1,1 +1,1 @@
-[{"code":"function o(e,t,n){let i=n&&1===t&&null!=e,[a,o]=r.useState(void 0);return r.useEffect(()=>{let t=!1;return i&&s(e).then(e=>{t||o(e)}),()=>{t=!0}},[e,i]),a}"}]
+[{"code":"function s(e,t,n){let i=n&&1===t&&null!=e,[a,s]=r.useState(void 0);return r.useEffect(()=>{let t=!1;return i&&o(e).then(e=>{t||s(e)}),()=>{t=!0}},[e,i]),a}"}]

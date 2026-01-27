@@ -1,1 +1,1 @@
-[{"code":"function o(){let e=a.Xi.useSetting(),t=s();switch(e){case i.NS.RESPONSIVE:return t;case i.NS.COZY:return\"cozy\";case i.NS.DEFAULT:return\"default\";case i.NS.COMPACT:return\"compact\";default:return\"default\"}}"}]
+[{"code":"function s(){let e=a.Xi.useSetting(),t=o();switch(e){case i.NS.RESPONSIVE:return t;case i.NS.COZY:return\"cozy\";case i.NS.DEFAULT:return\"default\";case i.NS.COMPACT:return\"compact\";default:return\"default\"}}"}]

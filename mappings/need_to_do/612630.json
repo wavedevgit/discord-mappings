@@ -1,1 +1,1 @@
-[{"code":"function c(e){let t=(0,i.bG)([o.A],()=>o.A.getNote(e));return r.useEffect(()=>{null==t&&u(e)},[t,e]),null!=t?t:{loading:!0,note:null}}"}]
+[{"code":"function c(e){let t=(0,i.bG)([s.A],()=>s.A.getNote(e));return r.useEffect(()=>{null==t&&u(e)},[t,e]),null!=t?t:{loading:!0,note:null}}"}]

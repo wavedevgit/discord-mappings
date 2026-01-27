@@ -1,1 +1,1 @@
-[{"code":"function v(){(0,s.pX)(u.BVt.APPLICATION_STORE)}"},{"code":"function I(e,t){let n=(0,c.vy)(e,t),{pathname:r}=n,i=h(n,[\"pathname\"]);(0,s.pX)(r,i)}"}]
+[{"code":"function v(){(0,o.pX)(u.BVt.APPLICATION_STORE)}"},{"code":"function I(e,t){let n=(0,c.vy)(e,t),{pathname:r}=n,i=h(n,[\"pathname\"]);(0,o.pX)(r,i)}"}]

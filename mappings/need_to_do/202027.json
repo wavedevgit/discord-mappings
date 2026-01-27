@@ -1,1 +1,1 @@
-[{"code":"function s(e,t){return{customEmoji:(0,r.bG)([i.Ay],()=>null!=e?i.Ay.getCustomEmojiById(e):null,[e]),unicodeEmoji:null!=t?a.Ay.getByName(a.Ay.convertSurrogateToName(t,!1)):null}}"}]
+[{"code":"function o(e,t){return{customEmoji:(0,r.bG)([i.Ay],()=>null!=e?i.Ay.getCustomEmojiById(e):null,[e]),unicodeEmoji:null!=t?a.Ay.getByName(a.Ay.convertSurrogateToName(t,!1)):null}}"}]

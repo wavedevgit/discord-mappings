@@ -1,1 +1,1 @@
-[{"code":"function n(){var e;o(this,n);for(var r=arguments.length,i=Array(r),a=0;a<r;a++)i[a]=arguments[a];return g(_(e=t.call.apply(t,[this].concat(i))),\"priority\",70),g(_(e),\"incompatibleTokens\",[\"h\",\"H\",\"k\",\"t\",\"T\"]),e}"}]
+[{"code":"function n(){var e;s(this,n);for(var r=arguments.length,i=Array(r),a=0;a<r;a++)i[a]=arguments[a];return g(_(e=t.call.apply(t,[this].concat(i))),\"priority\",70),g(_(e),\"incompatibleTokens\",[\"h\",\"H\",\"k\",\"t\",\"T\"]),e}"}]

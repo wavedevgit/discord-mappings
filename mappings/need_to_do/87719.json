@@ -1,1 +1,1 @@
-[{"code":"()=>{{let{openUserSettings:e}=n(840065);e(a.X.NITRO_PANEL,{section:s.nc_.PREMIUM})}}"},{"code":"e=>{null==e||e(),(0,r.jH)(),(0,i.pX)(s.BVt.APPLICATION_STORE)}"}]
+[{"code":"()=>{{let{openUserSettings:e}=n(840065);e(a.X.NITRO_PANEL,{section:o.nc_.PREMIUM})}}"},{"code":"e=>{null==e||e(),(0,r.jH)(),(0,i.pX)(o.BVt.APPLICATION_STORE)}"}]

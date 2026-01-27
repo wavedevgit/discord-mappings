@@ -1,1 +1,1 @@
-[{"code":"function a(e,t){return\"phone\"===e?!t.startsWith(\"+\"):\"email\"!==e&&!(t.length<3)&&i.test(t)}"}]
+[{"code":"function l(e,t){return\"phone\"===e?!t.startsWith(\"+\"):\"email\"!==e&&!(t.length<3)&&i.test(t)}"}]

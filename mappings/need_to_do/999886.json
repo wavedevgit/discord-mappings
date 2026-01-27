@@ -1,1 +1,1 @@
-[{"code":"function o(){return r.useEffect(()=>{a.bW.loadIfNecessary()},[]),(0,i.bG)([s.A],()=>s.A.frecencyWithoutFetchingLatest)}"}]
+[{"code":"function s(){return r.useEffect(()=>{a.bW.loadIfNecessary()},[]),(0,i.bG)([o.A],()=>o.A.frecencyWithoutFetchingLatest)}"}]

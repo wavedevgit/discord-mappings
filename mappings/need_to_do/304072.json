@@ -1,1 +1,1 @@
-[{"code":"function s(e,t){let[n,s]=(0,r.useState)(e),o=(0,a.A)(()=>new i.Ep);return(0,r.useEffect)(()=>()=>o.stop(),[o]),[n,(0,r.useCallback)(n=>{s(n),n!==e&&o.start(t,()=>s(e))},[t,e,o])]}"}]
+[{"code":"function o(e,t){let[n,o]=(0,r.useState)(e),s=(0,a.A)(()=>new i.Ep);return(0,r.useEffect)(()=>()=>s.stop(),[s]),[n,(0,r.useCallback)(n=>{o(n),n!==e&&s.start(t,()=>o(e))},[t,e,s])]}"}]

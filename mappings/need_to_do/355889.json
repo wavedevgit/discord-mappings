@@ -1,1 +1,1 @@
-[{"code":"class s{static fromServer(e){return new s(e)}constructor(e){var t;a(this,\"categories\",void 0),a(this,\"userDiscounts\",void 0),this.categories=e.categories.map(e=>r.A.fromServer(e)),this.userDiscounts=null==(t=e.user_discounts)?void 0:t.map(e=>i.T.fromServer(e))}}"}]
+[{"code":"class o{static fromServer(e){return new o(e)}constructor(e){var t;a(this,\"categories\",void 0),a(this,\"userDiscounts\",void 0),this.categories=e.categories.map(e=>r.A.fromServer(e)),this.userDiscounts=null==(t=e.user_discounts)?void 0:t.map(e=>i.T.fromServer(e))}}"}]

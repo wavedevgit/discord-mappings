@@ -1,1 +1,1 @@
-[{"code":"function a(e){return e?Object.assign(Object.assign({},i),e):i}"},{"code":"function s(e){return e?Object.assign(Object.assign({},r),e):r}"}]
+[{"code":"function a(e){return e?Object.assign(Object.assign({},i),e):i}"},{"code":"function o(e){return e?Object.assign(Object.assign({},r),e):r}"}]

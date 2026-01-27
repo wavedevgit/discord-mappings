@@ -1,1 +1,1 @@
-[{"code":"function u(e){let{tier:t}=e,n=l(e,[\"tier\"]);switch(t){case a.TVA.NONE:case a.TVA.TIER_1:return(0,r.jsx)(i.EX7,o({},n));case a.TVA.TIER_2:return(0,r.jsx)(i.vRF,o({},n));case a.TVA.TIER_3:return(0,r.jsx)(i.q1I,o({},n));default:throw Error(\"Not a valid tier type\")}}"}]
+[{"code":"function u(e){let{tier:t}=e,n=l(e,[\"tier\"]);switch(t){case a.TVA.NONE:case a.TVA.TIER_1:return(0,r.jsx)(i.EX7,s({},n));case a.TVA.TIER_2:return(0,r.jsx)(i.vRF,s({},n));case a.TVA.TIER_3:return(0,r.jsx)(i.q1I,s({},n));default:throw Error(\"Not a valid tier type\")}}"}]

@@ -1,1 +1,1 @@
-[{"code":"class o{static fromServer(e){return new o(e)}constructor(e){s(this,\"subblocks\",void 0),this.type=i.g.FEATURED,this.subblocks=e.subblocks.map(e=>e.type===r.u.CATEGORY?a.j.fromServer(e):e)}}"}]
+[{"code":"class s{static fromServer(e){return new s(e)}constructor(e){o(this,\"subblocks\",void 0),this.type=i.g.FEATURED,this.subblocks=e.subblocks.map(e=>e.type===r.u.CATEGORY?a.j.fromServer(e):e)}}"}]

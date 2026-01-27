@@ -1,1 +1,1 @@
-[{"code":"function d(e){let{className:t}=e,n=c(e,[\"className\"]);return(0,r.jsx)(\"div\",l({className:a()(s.p,t)},n))}"}]
+[{"code":"function d(e){let{className:t}=e,n=c(e,[\"className\"]);return(0,r.jsx)(\"div\",l({className:a()(o.p,t)},n))}"}]

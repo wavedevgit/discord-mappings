@@ -1,1 +1,1 @@
-[{"code":"function y(e,t,n,i){let a=(e,t)=>{(0,s.mMO)(()=>Promise.resolve(a=>(0,r.jsx)(E,h(p({},a),{event:e,recurrenceId:t,guildId:n,onRsvp:i}))))};(0,l.QC)({eventId:e,recurrenceId:t,guildId:n,updateRsvp:(t,r,i,a)=>o.A.updateRsvp(e,r,n,a),openRsvpPicker:a,onRsvp:i})}"}]
+[{"code":"function x(e,t,n,r){(0,c.QC)({eventId:e,recurrenceId:t,guildId:n,updateRsvp:(t,l,r,i)=>a.A.updateRsvp(e,l,n,i),openRsvpPicker:(e,t)=>{(0,s.mMO)(()=>Promise.resolve(i=>(0,l.jsx)(p,v(m({},i),{event:e,recurrenceId:t,guildId:n,onRsvp:r}))))},onRsvp:r})}"}]

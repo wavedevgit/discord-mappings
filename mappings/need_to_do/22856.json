@@ -1,1 +1,1 @@
-[{"code":"function a(){let e=r.useContext(s);if(null==e)throw Error(\"useModalContext must be used within a ModalContext.Provider\");return e}"}]
+[{"code":"function a(){let e=r.useContext(o);if(null==e)throw Error(\"useModalContext must be used within a ModalContext.Provider\");return e}"}]

@@ -1,1 +1,1 @@
-[{"code":"function l(e){let{children:t}=e,n=i(e,[\"children\"]);return(0,r.jsx)(s.Provider,{value:n,children:t})}"},{"code":"function t(){let t=i.useContext(e);if(null==t)throw Error(\"Context was used outside of defined provider.\");return t}"}]
+[{"code":"function l(e){let{children:t}=e,n=i(e,[\"children\"]);return(0,r.jsx)(o.Provider,{value:n,children:t})}"},{"code":"function t(){let t=i.useContext(e);if(null==t)throw Error(\"Context was used outside of defined provider.\");return t}"}]

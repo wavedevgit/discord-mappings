@@ -1,1 +1,1 @@
-[{"code":"function l(){let e=(0,i.bG)([s.A],()=>s.A.initialState(),[]),t=(0,a.h)(null==e?void 0:e.applicationId);return r.useMemo(()=>{if(null==e)return;let n=[{type:o.Wy.HOME}];return null!=e.applicationId&&null!=t&&n.push({type:o.Wy.APPLICATION,application:t}),n},[e,t])}"}]
+[{"code":"function l(){let e=(0,i.bG)([o.A],()=>o.A.initialState(),[]),t=(0,a.h)(null==e?void 0:e.applicationId);return r.useMemo(()=>{if(null==e)return;let n=[{type:s.Wy.HOME}];return null!=e.applicationId&&null!=t&&n.push({type:s.Wy.APPLICATION,application:t}),n},[e,t])}"}]

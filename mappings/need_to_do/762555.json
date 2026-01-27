@@ -1,1 +1,1 @@
-[{"code":"function a(e){return new Date(r.default.extractTimestamp(e)).toISOString()}"},{"code":"function s(e){return e.slice(0,i.GU)}"}]
+[{"code":"function a(e){return new Date(r.default.extractTimestamp(e)).toISOString()}"},{"code":"function o(e){return e.slice(0,i.GU)}"}]

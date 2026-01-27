@@ -1,1 +1,1 @@
-[{"code":"function u(e){let{children:t}=e,n=s(e,[\"children\"]);return(0,r.jsx)(l.Provider,{\"data-migration-pending\":!0,value:n,children:t})}"},{"code":"function c(){return i.useContext(l)}"}]
+[{"code":"function u(e){let{children:t}=e,n=o(e,[\"children\"]);return(0,r.jsx)(l.Provider,{\"data-migration-pending\":!0,value:n,children:t})}"},{"code":"function c(){return i.useContext(l)}"}]

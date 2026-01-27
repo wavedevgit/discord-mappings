@@ -1,1 +1,1 @@
-[{"code":"function s(e,t,n){r.useEffect(()=>{null!=e&&e!==i.pn.AWAITING_PURCHASE_TOKEN_AUTH&&t===a.C.PENDING?n(i.pn.AWAITING_PURCHASE_TOKEN_AUTH):e===i.pn.AWAITING_PURCHASE_TOKEN_AUTH&&t===a.C.SUCCESS&&n(i.pn.REVIEW)},[e,t,n])}"}]
+[{"code":"function o(e,t,n){r.useEffect(()=>{null!=e&&e!==i.pn.AWAITING_PURCHASE_TOKEN_AUTH&&t===a.C.PENDING?n(i.pn.AWAITING_PURCHASE_TOKEN_AUTH):e===i.pn.AWAITING_PURCHASE_TOKEN_AUTH&&t===a.C.SUCCESS&&n(i.pn.REVIEW)},[e,t,n])}"}]

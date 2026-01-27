@@ -1,1 +1,1 @@
-[{"code":"function s(e){return(0,i.jG)(e),r.Bo.post({url:a.Rsh.CHANNEL_BLOCKED_USER_WARNING_ACK(e),rejectWithError:!1})}"}]
+[{"code":"function o(e){return(0,i.jG)(e),r.Bo.post({url:a.Rsh.CHANNEL_BLOCKED_USER_WARNING_ACK(e),rejectWithError:!1})}"}]

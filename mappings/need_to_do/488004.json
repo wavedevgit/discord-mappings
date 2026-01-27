@@ -1,1 +1,1 @@
-[{"code":"function a(e){var t,n;let a=null!=e.fileItems?s(e.fileItems):[],o=null!=(t=e.errorMessage)?t:void 0,l=null!=(n=e.failureCode)?n:void 0;(0,r.zV)(i.HAw.SEND_MESSAGE_FAILURE,{failure_code:l,error_message:o,attachment_mimetypes:a})}"}]
+[{"code":"function a(e){var t,n;let a=null!=e.fileItems?o(e.fileItems):[],s=null!=(t=e.errorMessage)?t:void 0,l=null!=(n=e.failureCode)?n:void 0;(0,r.zV)(i.HAw.SEND_MESSAGE_FAILURE,{failure_code:l,error_message:s,attachment_mimetypes:a})}"}]

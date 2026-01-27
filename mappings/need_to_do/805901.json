@@ -1,1 +1,1 @@
-[{"code":"function p(e){let{shouldAnimate:t=\"respect-motion-settings\"}=e,n=d(e,[\"shouldAnimate\"]),o=i.useContext(s.CZY).reducedMotion.enabled,c=\"animate-always\"===t||\"respect-motion-settings\"===t&&!o;return(0,r.jsx)(a.Spring,u(l({},n),{immediate:!c}))}"}]
+[{"code":"function p(e){let{shouldAnimate:t=\"respect-motion-settings\"}=e,n=d(e,[\"shouldAnimate\"]),s=i.useContext(o.CZY).reducedMotion.enabled,c=\"animate-always\"===t||\"respect-motion-settings\"===t&&!s;return(0,r.jsx)(a.Spring,u(l({},n),{immediate:!c}))}"}]

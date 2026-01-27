@@ -1,1 +1,1 @@
-[{"code":"()=>{let e=(0,r.bG)([s.default],()=>s.default.getCurrentUser()),t=(0,i.QQ)();return(0,a.RM)(a.Uc,e,t)}"}]
+[{"code":"()=>{let e=(0,r.bG)([o.default],()=>o.default.getCurrentUser()),t=(0,i.QQ)();return(0,a.RM)(a.Uc,e,t)}"}]

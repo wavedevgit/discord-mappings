@@ -1,1 +1,1 @@
-[{"code":"function s(e){return r.useMemo(()=>a(e),[e])}"}]
+[{"code":"function o(e){return r.useMemo(()=>a(e),[e])}"}]

@@ -1,1 +1,1 @@
-[{"code":"function s(e){if(e!==i.E)return null;let t=a.A.getChannel(e);return null==t?null:r.A.ensurePrivateChannel(t.recipients)}"}]
+[{"code":"function o(e){if(e!==i.E)return null;let t=a.A.getChannel(e);return null==t?null:r.A.ensurePrivateChannel(t.recipients)}"}]

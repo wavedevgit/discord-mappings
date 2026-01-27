@@ -1,1 +1,1 @@
-[{"code":"function m(e){return(0,r.bG)([o.A],()=>g(e),[e])}"},{"code":"function _(e){return 0!==p(e)}"},{"code":"function g(e){return null!=e&&o.A.can(u.xBc.ADMINISTRATOR,e)}"}]
+[{"code":"function m(e){return(0,r.bG)([s.A],()=>g(e),[e])}"},{"code":"function _(e){return 0!==p(e)}"},{"code":"function g(e){return null!=e&&s.A.can(u.xBc.ADMINISTRATOR,e)}"}]

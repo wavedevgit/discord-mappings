@@ -1,1 +1,1 @@
-[{"code":"function o(){return!1}"},{"code":"async function l(e,t){let n,o=i.A.getWindowOpen(s.MLl.ACTIVITY_POPOUT);e&&!o&&r.h.wait(()=>{r.h.dispatch({type:\"ACTIVITY_POPOUT_WINDOW_OPEN\"})});try{n=await t()}catch(e){n=!1}return!n&&e&&a.close(s.MLl.ACTIVITY_POPOUT),n}"}]
+[{"code":"function s(){return!1}"},{"code":"async function l(e,t){let n,s=i.A.getWindowOpen(o.MLl.ACTIVITY_POPOUT);e&&!s&&r.h.wait(()=>{r.h.dispatch({type:\"ACTIVITY_POPOUT_WINDOW_OPEN\"})});try{n=await t()}catch(e){n=!1}return!n&&e&&a.close(o.MLl.ACTIVITY_POPOUT),n}"}]

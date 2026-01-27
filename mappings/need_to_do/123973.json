@@ -1,1 +1,1 @@
-[{"code":"function l(e){if(null==e)return!1;if(s.kvI.CALLABLE.has(e.type))return!0;let t=i.A.can(s.xBc.USE_SOUNDBOARD,e),n=i.A.can(s.xBc.SPEAK,e);return e.isGuildVoiceOrThread()&&t&&n}"},{"code":"function o(){let e=a.A.getVoiceChannelId();return l(r.A.getChannel(e))}"}]
+[{"code":"function l(e){if(null==e)return!1;if(o.kvI.CALLABLE.has(e.type))return!0;let t=i.A.can(o.xBc.USE_SOUNDBOARD,e),n=i.A.can(o.xBc.SPEAK,e);return e.isGuildVoiceOrThread()&&t&&n}"},{"code":"function s(){let e=a.A.getVoiceChannelId();return l(r.A.getChannel(e))}"}]

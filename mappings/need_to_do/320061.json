@@ -1,1 +1,1 @@
-[{"code":"function o(e){let{analyticsSection:t,buttonText:n}=e;return(0,r.jsx)(i.Button,{variant:\"expressive\",icon:i.tvc,text:null!=n?n:s.intl.string(s.t[\"8Sh5fg\"]),onClick:()=>(0,a.A)({section:t})})}"}]
+[{"code":"function s(e){let{analyticsSection:t,buttonText:n}=e;return(0,r.jsx)(i.Button,{variant:\"expressive\",icon:i.tvc,text:null!=n?n:o.intl.string(o.t[\"8Sh5fg\"]),onClick:()=>(0,a.A)({section:t})})}"}]

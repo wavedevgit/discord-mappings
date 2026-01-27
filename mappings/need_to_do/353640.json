@@ -1,1 +1,1 @@
-[{"code":"function s(e,t=a){let n=r.useSyncExternalStore(e.subscribe,r.useCallback(()=>t(e.getState()),[e,t]),r.useCallback(()=>t(e.getInitialState()),[e,t]));return r.useDebugValue(n),n}"},{"code":"e=>e?o(e):o"}]
+[{"code":"function o(e,t=a){let n=r.useSyncExternalStore(e.subscribe,r.useCallback(()=>t(e.getState()),[e,t]),r.useCallback(()=>t(e.getInitialState()),[e,t]));return r.useDebugValue(n),n}"},{"code":"e=>e?s(e):s"}]

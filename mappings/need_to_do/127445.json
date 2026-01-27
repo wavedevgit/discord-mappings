@@ -1,1 +1,1 @@
-[{"code":"e=>{(0,r.useEffect)(()=>{e&&o.default.track(c.HAw.PREMIUM_BRAND_REFRESH_WOW_MOMENT_ASSETS_PREFETCHING)},[e]);let{mediaUrls:t,isSuccess:n,isLoading:a}=m(e),{status:l}=(0,s.CEU)(e?i.A:null);return{mediaUrls:t,isSuccess:n&&l===s.BWP.Loaded,isLoading:a||l===s.BWP.Loading}}"}]
+[{"code":"e=>{(0,r.useEffect)(()=>{e&&s.default.track(c.HAw.PREMIUM_BRAND_REFRESH_WOW_MOMENT_ASSETS_PREFETCHING)},[e]);let{mediaUrls:t,isSuccess:n,isLoading:a}=m(e),{status:l}=(0,o.CEU)(e?i.A:null);return{mediaUrls:t,isSuccess:n&&l===o.BWP.Loaded,isLoading:a||l===o.BWP.Loading}}"}]

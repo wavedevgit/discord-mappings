@@ -1,1 +1,1 @@
-[{"code":"class u extends a.c{innerPattern(){return o}innerExtract(e,t){let n=t[l].toLowerCase(),i=r.CV[n];if(void 0===i)return null;let a=t[c];a=(a=a||\"\").toLowerCase();let o=null;return\"dernier\"==a?o=\"last\":\"prochain\"==a&&(o=\"next\"),(0,s.Y5)(e.reference,i,o)}}"}]
+[{"code":"class u extends a.c{innerPattern(){return s}innerExtract(e,t){let n=t[l].toLowerCase(),i=r.CV[n];if(void 0===i)return null;let a=t[c];a=(a=a||\"\").toLowerCase();let s=null;return\"dernier\"==a?s=\"last\":\"prochain\"==a&&(s=\"next\"),(0,o.Y5)(e.reference,i,s)}}"}]

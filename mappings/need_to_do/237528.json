@@ -1,1 +1,1 @@
-[{"code":"function c(e){let{text:t,variant:n=\"grayLight\"}=e,i=l[n];return(0,r.jsx)(s.E,{variant:\"eyebrow\",className:a()(o.chip,o[i]),children:t})}"}]
+[{"code":"function c(e){let{text:t,variant:n=\"grayLight\"}=e,i=l[n];return(0,r.jsx)(o.E,{variant:\"eyebrow\",className:a()(s.chip,s[i]),children:t})}"}]

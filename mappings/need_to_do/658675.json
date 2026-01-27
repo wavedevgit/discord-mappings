@@ -1,1 +1,1 @@
-[{"code":"function o(e){let{checked:t,disabled:n,size:o}=e;return(0,i.y6)(\"CheckboxIndicator\")?(0,r.jsx)(a.J,{checked:t,disabled:n,displayOnly:!0,usageVariant:\"indicator\",\"aria-hidden\":!0}):(0,r.jsx)(s.Lc,{value:t,disabled:n,size:null!=o?o:20})}"}]
+[{"code":"function s(e){let{checked:t,disabled:n,size:s}=e;return(0,i.y6)(\"CheckboxIndicator\")?(0,r.jsx)(a.J,{checked:t,disabled:n,displayOnly:!0,usageVariant:\"indicator\",\"aria-hidden\":!0}):(0,r.jsx)(o.Lc,{value:t,disabled:n,size:null!=s?s:20})}"}]

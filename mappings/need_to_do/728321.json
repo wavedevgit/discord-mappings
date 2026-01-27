@@ -1,1 +1,1 @@
-[{"code":"function g(e){let{tutorialId:t}=e,n=(0,o.bG)([d.A],()=>d.A.shouldShow(t),[t]),r=(0,o.bG)([c.A],()=>c.A.isFocused()),a=(0,o.bG)([c.A],()=>c.A.windowSize(),[]);return(0,i.jsx)(m,h(p({},e),{visible:n,windowFocused:r,windowSize:a}))}"}]
+[{"code":"function g(e){let{tutorialId:t}=e,n=(0,s.bG)([d.A],()=>d.A.shouldShow(t),[t]),r=(0,s.bG)([c.A],()=>c.A.isFocused()),a=(0,s.bG)([c.A],()=>c.A.windowSize(),[]);return(0,i.jsx)(m,h(p({},e),{visible:n,windowFocused:r,windowSize:a}))}"}]

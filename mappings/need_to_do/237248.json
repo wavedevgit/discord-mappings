@@ -1,1 +1,1 @@
-[{"code":"function c(){let e=(0,l.zZ)(\"useFetchSoundboardData\");return{fetching:(0,i.bG)([o.A],()=>o.A.isFetchingAnySounds()),maybeFetchData:r.useCallback(()=>{s.E7(),a.bW.loadIfNecessary()},[e.sortingStrategy])}}"}]
+[{"code":"function c(){let e=(0,l.zZ)(\"useFetchSoundboardData\");return{fetching:(0,i.bG)([s.A],()=>s.A.isFetchingAnySounds()),maybeFetchData:r.useCallback(()=>{o.E7(),a.bW.loadIfNecessary()},[e.sortingStrategy])}}"}]

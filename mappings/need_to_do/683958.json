@@ -1,1 +1,1 @@
-[{"code":"function s(e){if(e.match(/^[0-9]{1,4}$/)){let t=parseInt(e);return t<100&&(t>50?t+=1900:t+=2e3),t}return e.match(/a\\.?\\s*c\\.?/i)?-parseInt(e=e.replace(/a\\.?\\s*c\\.?/i,\"\")):parseInt(e)}"}]
+[{"code":"function o(e){if(e.match(/^[0-9]{1,4}$/)){let t=parseInt(e);return t<100&&(t>50?t+=1900:t+=2e3),t}return e.match(/a\\.?\\s*c\\.?/i)?-parseInt(e=e.replace(/a\\.?\\s*c\\.?/i,\"\")):parseInt(e)}"}]

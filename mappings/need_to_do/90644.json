@@ -1,1 +1,1 @@
-[{"code":"function s(e){return null!=e&&e.type===i.$pd.LISTENING&&e.name===r.A.get(i.fg2.SPOTIFY).name&&null!=e.party&&null!=e.party.id&&(0,a.pH)(e.party.id)}"}]
+[{"code":"function o(e){return null!=e&&e.type===i.$pd.LISTENING&&e.name===r.A.get(i.fg2.SPOTIFY).name&&null!=e.party&&null!=e.party.id&&(0,a.pH)(e.party.id)}"}]

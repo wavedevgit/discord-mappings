@@ -1,1 +1,1 @@
-[{"code":"function o(){return a().getClient()}"},{"code":"function s(){let e=(0,i.E)();return(0,r.h)(e).getIsolationScope()}"}]
+[{"code":"function s(){return a().getClient()}"},{"code":"function o(){let e=(0,i.E)();return(0,r.h)(e).getIsolationScope()}"}]

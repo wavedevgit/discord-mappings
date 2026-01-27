@@ -1,1 +1,1 @@
-[{"code":"function o(){(0,i.openModalLazy)(async()=>{let{default:e}=await n.e(\"74575\").then(n.bind(n,218642));return t=>(0,r.jsx)(e,s({},t))})}"}]
+[{"code":"function s(){(0,i.openModalLazy)(async()=>{let{default:e}=await n.e(\"74575\").then(n.bind(n,218642));return t=>(0,r.jsx)(e,o({},t))})}"}]

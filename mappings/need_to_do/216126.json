@@ -1,1 +1,1 @@
-[{"code":"function l(e){let{contents:t,label:n,className:i,color:l=\"default\"}=e;return 0===t.length?null:(0,r.jsxs)(\"div\",{\"aria-label\":n,role:\"group\",className:i,children:[null!=n?(0,r.jsx)(\"div\",{className:a()(o.groupLabel,o.hideInteraction,s.jV[l]),children:n}):null,t]})}"}]
+[{"code":"function l(e){let{contents:t,label:n,className:i,color:l=\"default\"}=e;return 0===t.length?null:(0,r.jsxs)(\"div\",{\"aria-label\":n,role:\"group\",className:i,children:[null!=n?(0,r.jsx)(\"div\",{className:a()(s.groupLabel,s.hideInteraction,o.jV[l]),children:n}):null,t]})}"}]

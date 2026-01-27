@@ -1,1 +1,1 @@
-[{"code":"function O(e){let{icon:t,isSelected:n,disabled:i,tabIndex:a,onSelect:s,locked:o}=e;return(0,r.jsx)(b,{onSelect:i?void 0:s,isSelected:n,id:t.id,className:i?g.r9:void 0,tabIndex:a,locked:o,children:(0,r.jsx)(p.A,{id:t.id,width:_.Kl})})}"}]
+[{"code":"function O(e){let{icon:t,isSelected:n,disabled:i,tabIndex:a,onSelect:o,locked:s}=e;return(0,r.jsx)(b,{onSelect:i?void 0:o,isSelected:n,id:t.id,className:i?g.r9:void 0,tabIndex:a,locked:s,children:(0,r.jsx)(p.A,{id:t.id,width:_.Kl})})}"}]

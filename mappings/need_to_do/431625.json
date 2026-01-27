@@ -1,1 +1,1 @@
-[{"code":"function o(e,t,n){(0,a.A)(2,arguments);var o=(0,r.default)(e,n),l=(0,r.default)(t,n);return Math.round((o.getTime()-(0,i.A)(o)-(l.getTime()-(0,i.A)(l)))/s)}"}]
+[{"code":"function s(e,t,n){(0,a.A)(2,arguments);var s=(0,r.default)(e,n),l=(0,r.default)(t,n);return Math.round((s.getTime()-(0,i.A)(s)-(l.getTime()-(0,i.A)(l)))/o)}"}]

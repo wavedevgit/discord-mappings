@@ -1,1 +1,1 @@
-[{"code":"e=>({assignmentMethod:e.assignment_method,rewards:e.rewards.map(s),rewardsExpireAt:e.rewards_expire_at,platforms:e.platforms})"}]
+[{"code":"e=>({assignmentMethod:e.assignment_method,rewards:e.rewards.map(o),rewardsExpireAt:e.rewards_expire_at,platforms:e.platforms})"}]

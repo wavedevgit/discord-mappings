@@ -1,1 +1,1 @@
-[{"code":"function f(e,t,n){return o.Ay.hasSameRoleAsUsername(t,e)?\"\".concat(\"@\").concat(e.tag):\"\".concat(\"@\").concat(l.Ay.getUserTag(e,{identifiable:n?\"never\":\"always\"}))}"},{"code":"function p(e){return\"<@\".concat(e.id,\">\")}"}]
+[{"code":"function f(e,t,n){return s.Ay.hasSameRoleAsUsername(t,e)?\"\".concat(\"@\").concat(e.tag):\"\".concat(\"@\").concat(l.Ay.getUserTag(e,{identifiable:n?\"never\":\"always\"}))}"},{"code":"function p(e){return\"<@\".concat(e.id,\">\")}"}]
