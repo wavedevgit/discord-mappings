@@ -182,13 +182,6 @@
         }
     },
     {
-        "id": 256905,
-        "path": "",
-        "mappings": {
-            "R": "validateMultiAccountTokens"
-        }
-    },
-    {
         "id": 262579,
         "path": "",
         "mappings": {
@@ -788,13 +781,6 @@
             "F6": "validateMultiAccountTokens",
             "WU": "show",
             "wf": "selectResult"
-        }
-    },
-    {
-        "id": 793367,
-        "path": "",
-        "mappings": {
-            "a2": "validateMultiAccountTokens"
         }
     },
     {
