@@ -1,0 +1,1 @@
+[{"code":"function l(e){let t=s.getConfig({location:a.rE.QUEST_PRIMARY_CTA});if(t.enabled){let n=(0,i.Yh)(e);return 1===t.variant?o.intl.formatToPlainString(o.t.GNsKiW,{remainTime:(0,i.xm)(n)}):o.intl.string(o.t[\"6fpk4L\"])}return o.intl.string(o.t.umdNin)}"}]
