@@ -1,1 +1,1 @@
-[{"code":"function l(){let e=a.A.getLayers().at(-1)===s.zgK.USER_SETTINGS;return!!(0,r.OoC)(o.USER_SETTINGS_MODAL_KEY)||(e&&(0,i.jH)(),e)}"}]
+[{"code":"function a(){return(0,r.OoC)(i.USER_SETTINGS_MODAL_KEY)}"}]
