@@ -1,1 +1,1 @@
-[{"code":"function l(e){let{backForwardButtons:t}=a.getCurrentConfig(e,o());return t}"},{"code":"function s(e){return a.useExperiment(e,o())}"}]
+[{"code":"function l(e){return o.useExperiment(e,s())}"},{"code":"function u(e){if(!(0,a.isDesktop)())return!1;let{allowEnhancedNav:t}=c.getConfig(e);return t}"}]
